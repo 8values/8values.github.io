@@ -382,8 +382,17 @@ ideologies = [
         "stats": {
             "econ": 20,
             "dipl": 30,
+            "govt": 20,
+            "scty": 40
+        }
+    },
+    {
+        "name": "State Capitalism",
+        "stats": {
+            "econ": 20,
+            "dipl": 50,
             "govt": 30,
-            "scty": 30
+            "scty": 50
         }
     },
     {
