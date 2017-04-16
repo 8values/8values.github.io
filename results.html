@@ -1,5 +1,5 @@
 <head>
-<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700|Roboto:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
 <link href='style.css' rel='stylesheet' type='text/css'>
 <title>8values Results</title>
 <link rel="icon" type="x-icon" href="icon.png">
@@ -179,12 +179,12 @@
     ctx.fillStyle="#9c27b0"
     ctx.fillRect(682-5.6*progress, 494, 5.6*progress-2, 72)
     ctx.fillStyle="#222222"
-    ctx.font="600 80px Montserrat","700 80px Montserrat","80px Montserrat"
+    ctx.font="700 80px Montserrat"
     ctx.textAlign="left"
     ctx.fillText("8values", 20, 90)
     ctx.font="normal 40px Montserrat"
     ctx.textAlign="right"
-    ctx.fillText(ideology, 780, 90)
+    ctx.fillText(ideology, 780, 87.5)
 
     ctx.font="normal 50px Montserrat"
     ctx.textAlign="left"
@@ -199,7 +199,7 @@
     if (progress  > 30) {ctx.fillText(progress + "%", 670, 547.5)}
 
     ctx.font="300 30px Montserrat"
-    ctx.fillText("8values.github.io", 780, 50)
+    ctx.fillText("8values.github.io", 780, 55)
     ctx.textAlign="center"
     ctx.fillText("Economic Axis: " + document.getElementById("economic-label").innerHTML, 400, 125)
     ctx.fillText("Diplomatic Axis: " + document.getElementById("diplomatic-label").innerHTML, 400, 245)
