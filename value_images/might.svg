@@ -26,7 +26,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.5"
-     inkscape:cx="306.17838"
+     inkscape:cx="-105.82162"
      inkscape:cy="-83.649253"
      inkscape:document-units="px"
      inkscape:current-layer="g5584"
@@ -53,7 +53,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -92,17 +92,31 @@
            d="m 0.7276035,18.520835 v 4.167188 c 0,1.539081 1.2390438,2.778125 2.778125,2.778125 H 22.952604 c 1.539081,0 2.778125,-1.239044 2.778125,-2.778125 v -4.167188 z"
            id="path5244"
            inkscape:connector-curvature="0" />
-        <text
-           xml:space="preserve"
+        <g
+           aria-label="MIGHT"
            style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.23333311px;line-height:4.23333311px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Medium';text-align:center;text-anchor:middle;opacity:1;fill:#eeeeee;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.90944878;paint-order:normal"
-           x="13.045943"
-           y="23.288628"
-           id="text5248"><tspan
-             sodipodi:role="line"
-             id="tspan5246"
-             x="13.045943"
-             y="23.288628"
-             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.23333311px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Medium';fill:#eeeeee;fill-opacity:1;stroke-width:0.25">MIGHT</tspan></text>
+           id="text5248">
+          <path
+             d="m 6.2786626,20.325294 h 0.6477 l 0.9821333,1.909234 0.9736666,-1.909234 h 0.6477 v 2.963334 h -0.5207 V 21.163494 L 8.0862959,22.983828 H 7.7222292 L 6.7951293,21.163494 v 2.125134 H 6.2786626 Z"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.23333311px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Medium';fill:#eeeeee;fill-opacity:1;stroke-width:0.25"
+             id="path8461" />
+          <path
+             d="m 10.255681,20.325294 h 0.567266 v 2.963334 h -0.567266 z"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.23333311px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Medium';fill:#eeeeee;fill-opacity:1;stroke-width:0.25"
+             id="path8463" />
+          <path
+             d="m 13.564626,21.815428 h 0.4953 v 1.126066 q -0.232833,0.173567 -0.550333,0.283634 -0.3175,0.105833 -0.6223,0.105833 -0.436033,0 -0.795867,-0.2032 -0.3556,-0.2032 -0.563033,-0.550333 -0.207433,-0.351367 -0.207433,-0.7747 0,-0.423334 0.211666,-0.766234 0.211667,-0.347133 0.575734,-0.5461 0.3683,-0.2032 0.812799,-0.2032 0.3175,0 0.626534,0.1143 0.309033,0.1143 0.5334,0.313267 l -0.321734,0.4191 q -0.169333,-0.160867 -0.3937,-0.249767 -0.220133,-0.0889 -0.4445,-0.0889 -0.279399,0 -0.516466,0.135467 -0.232833,0.131233 -0.3683,0.364067 -0.135467,0.232833 -0.135467,0.508 0,0.2794 0.135467,0.512233 0.1397,0.232833 0.372533,0.3683 0.232834,0.135467 0.516467,0.135467 0.1524,0 0.3175,-0.04657 0.169333,-0.0508 0.321733,-0.1397 z"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.23333311px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Medium';fill:#eeeeee;fill-opacity:1;stroke-width:0.25"
+             id="path8465" />
+          <path
+             d="m 14.712256,20.325294 h 0.567267 v 1.265767 h 1.477433 v -1.265767 h 0.567267 v 2.963334 h -0.567267 v -1.202267 h -1.477433 v 1.202267 h -0.567267 z"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.23333311px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Medium';fill:#eeeeee;fill-opacity:1;stroke-width:0.25"
+             id="path8467" />
+          <path
+             d="m 17.722421,20.325294 h 2.417233 v 0.503767 h -0.922867 v 2.459567 h -0.5715 v -2.459567 h -0.922866 z"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.23333311px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Medium';fill:#eeeeee;fill-opacity:1;stroke-width:0.25"
+             id="path8469" />
+        </g>
         <path
            inkscape:connector-curvature="0"
            id="path5277"
