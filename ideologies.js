@@ -3,8 +3,17 @@ ideologies = [
         "name": "Anarcho-Communism",
         "stats": {
             "econ": 100,
-            "dipl": 80,
+            "dipl": 50,
             "govt": 100,
+            "scty": 90
+        }
+    },
+    {
+        "name": "Libertarian Communism",
+        "stats": {
+            "econ": 100,
+            "dipl": 70,
+            "govt": 80,
             "scty": 80
         }
     },
@@ -99,10 +108,19 @@ ideologies = [
         }
     },
     {
+        "name": "Revolutionary Socialism",
+        "stats": {
+            "econ": 80,
+            "dipl": 20,
+            "govt": 50,
+            "scty": 70
+        }
+    },
+    {
         "name": "Libertarian Socialism",
         "stats": {
             "econ": 80,
-            "dipl": 70,
+            "dipl": 80,
             "govt": 80,
             "scty": 80
         }
@@ -261,19 +279,37 @@ ideologies = [
         }
     },
     {
+        "name": "Reactionary",
+        "stats": {
+            "econ": 40,
+            "dipl": 40,
+            "govt": 40,
+            "scty": 10
+        }
+    },
+    {
+        "name": "Social Libertarianism",
+        "stats": {
+            "econ": 60,
+            "dipl": 70,
+            "govt": 80,
+            "scty": 70
+        }
+    },
+    {
         "name": "Libertarianism",
         "stats": {
             "econ": 40,
             "dipl": 60,
-            "govt": 70,
-            "scty": 50
+            "govt": 80,
+            "scty": 60
         }
     },
     {
         "name": "Anarcho-Egoism",
         "stats": {
             "econ": 40,
-            "dipl": 60,
+            "dipl": 50,
             "govt": 100,
             "scty": 50
         }
@@ -327,8 +363,8 @@ ideologies = [
         "name": "Neo-Liberalism",
         "stats": {
             "econ": 30,
-            "dipl": 40,
-            "govt": 40,
+            "dipl": 30,
+            "govt": 50,
             "scty": 60
         }
     },
@@ -354,7 +390,7 @@ ideologies = [
         "name": "Neo-Conservatism",
         "stats": {
             "econ": 20,
-            "dipl": 10,
+            "dipl": 20,
             "govt": 40,
             "scty": 20
         }
@@ -373,7 +409,7 @@ ideologies = [
         "stats": {
             "econ": 20,
             "dipl": 50,
-            "govt": 70,
+            "govt": 80,
             "scty": 60
         }
     },

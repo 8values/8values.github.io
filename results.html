@@ -112,13 +112,13 @@
     document.getElementById("society-label").innerHTML = setLabel(progress, sctyArray)
 
     ideology = ""
-    ideodist = 30000
+    ideodist = Infinity
     for (var i = 0; i < ideologies.length; i++) {
         dist = 0
-        dist += Math.pow(ideologies[i].stats.econ - equality, 2)
-        dist += Math.pow(ideologies[i].stats.govt - liberty, 2)
-        dist += Math.pow(ideologies[i].stats.dipl - peace, 2)/3
-        dist += Math.pow(ideologies[i].stats.scty - progress, 2)/2
+        dist += Math.pow(Math.abs(ideologies[i].stats.econ - equality), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.govt - liberty), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.dipl - peace), 1.73856063)
+        dist += Math.pow(Math.abs(ideologies[i].stats.scty - progress), 1.73856063)
         if (dist < ideodist) {
             ideology = ideologies[i].name
             ideodist = dist
