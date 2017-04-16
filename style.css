@@ -1,0 +1,157 @@
+html {
+    background-color: #bbbbbb;
+    padding: 0px;
+}
+body {
+    width: 80%;
+    min-height: calc(100vh - 4em);
+    margin: 0 auto;
+    padding: 2em;
+    background-color: #dddddd;
+    border-color: #eeeeee;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 20px;
+}
+* {
+    color: #444444;
+    font-family: 'Roboto', sans-serif;
+}
+p {
+    font-size: 16pt;
+    line-height: 1;
+    margin: 4pt;
+}
+p.value-description {
+    text-indent: -16pt;
+    margin-left: 20pt;
+}
+p.question {
+    margin: 16pt auto;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    width: 70%;
+    min-width: 500pt;
+    min-height: 144pt;
+    background-color: #eeeeee;
+    padding: 16pt;
+    border-radius: 16pt;
+    font-size: 36pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+h1 {
+    color: #222222;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 72pt;
+    text-align: center;
+    line-height: 72pt;
+    margin-top: 0pt;
+    margin-bottom: 0pt;
+}
+h2 {
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36pt;
+    line-height: 36pt;
+    margin-top: 12pt;
+    margin-bottom: 0pt;
+}
+li {
+    font-size: 16pt;
+    text-indent: 16pt;
+}
+a {
+    font-family: inherit;
+}
+img.center {
+    display: block;
+    margin: 1em auto;
+    width: 50%;
+    min-width: 500pt;
+}
+.button {
+    background-color: #2196f3;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 8pt;
+    color: white;
+    padding: 8pt;
+    width: 50%;
+    min-width: 500pt;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 24pt;
+    margin: 0 auto;
+    cursor: pointer;
+}
+div.axis {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.bar {
+    height: 36pt;
+    line-height: 36pt;
+    padding: 8pt;
+    margin-top: 4pt;
+    margin-bottom: 4pt;
+    border-width: 2px;
+    border-color: #222222;
+    background-color: #eeeeee;
+    display: block;
+    width: 50%;
+}
+div.text-wrapper {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36pt;
+    line-height: 36pt;
+    color: #222222;
+    display: inline-block;
+}
+div.equality {
+    background-color: #f44336;
+    text-align: left;
+    border-right-style: solid;
+}
+div.wealth {
+    background-color: #00897b;
+    text-align: right;
+    border-left-style: solid;
+}
+div.liberty {
+    background-color: #ffeb3b;
+    text-align: left;
+    border-right-style: solid;
+}
+div.authority {
+    background-color: #3f51b5;
+    text-align: right;
+    border-left-style: solid;
+}
+div.peace {
+    background-color: #03a9f4;
+    text-align: right;
+    border-left-style: solid;
+}
+div.might {
+    background-color: #ff9800;
+    text-align: left;
+    border-right-style: solid;
+}
+div.progress {
+    background-color: #9c27b0;
+    text-align: right;
+    border-left-style: solid;
+}
+div.tradition {
+    background-color: #8bc34a;
+    text-align: left;
+    border-right-style: solid;
+}
