@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var val = 29
+if (val > 100) { msg = "Unsure" } else
+if (val > 90) { msg = "Very high" } else
+if (val > 75) { msg = "High" } else
+if (val > 60) { msg = "Medium high" } else
+if (val >= 40) { msg = "Medium" } else
+if (val >= 25) { msg = "Medium low" } else
+if (val >= 10) { msg = "Low" } else
+if (val >= 0) { msg = "Very low" } else
+	{msg = "Unsure"}
+document.getElementById("demo").innerHTML = msg;
+</script>
+
+</body>
+</html>
