@@ -100,7 +100,10 @@ div.bar {
     padding: 8pt;
     margin-top: 4pt;
     margin-bottom: 4pt;
-    border-width: 2px;
+    border-width: 4px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
     border-color: #222222;
     background-color: #eeeeee;
     display: block;
@@ -155,4 +158,14 @@ div.tradition {
 }
 span.weight-300 {
     font-weight: 300;
+}
+canvas {
+    border-color: #444444;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8pt;
+    display: block;
+    margin: 8pt;
+    margin-left: auto;
+    margin-right: auto;
 }
