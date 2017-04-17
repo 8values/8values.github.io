@@ -48,7 +48,7 @@
 <p>Ideological matching is a work in progress, and is much less accurate than the values and axes.</p>
 <p>You can send these results by copying and pasting the URL at the top of the page or using the image below. Think your matched ideology was wrong? Want to help us calibrate the test? Send the results along with your political ideology to us at eightvalues@gmail.com, or send us any comments, questions, or criticism. </p>
 <hr/>
-<canvas id="banner" width=800 height=600></canvas>
+<canvas id="banner" width=800 height=600 style="font-family:Montserrat"></canvas>
 <button class="button" onclick="location.href='index.html';" style="background-color: #2196f3;">Back</button> <br>
 <script>
     function getQueryVariable(variable)
@@ -134,11 +134,13 @@
             ctx.drawImage(img, x, y, w, h)
         }
     }
-    var c = document.getElementById("banner")
-    var ctx = c.getContext("2d")
-    ctx.fillStyle = "#EEEEEE"
-    ctx.fillRect(0,0,800,600)
+
     window.onload = function() {
+        var c = document.getElementById("banner")
+        var ctx = c.getContext("2d")
+        ctx.fillStyle = "#EEEEEE"
+        ctx.fillRect(0,0,800,600)
+
         img = document.getElementById("img-equality")
         ctx.drawImage(img, 20, 120, 100, 100);
         img = document.getElementById("img-wealth")
@@ -155,55 +157,55 @@
         ctx.drawImage(img, 20, 480, 100, 100)
         img = document.getElementById("img-progress")
         ctx.drawImage(img, 680, 480, 100, 100)
+
+        ctx.fillStyle="#222222"
+        ctx.fillRect(120, 130, 560, 80)
+        ctx.fillRect(120, 250, 560, 80)
+        ctx.fillRect(120, 370, 560, 80)
+        ctx.fillRect(120, 490, 560, 80)
+        ctx.fillStyle="#f44336"
+        ctx.fillRect(120, 134, 5.6*equality-2, 72)
+        ctx.fillStyle="#00897b"
+        ctx.fillRect(682-5.6*wealth, 134, 5.6*wealth-2, 72)
+        ctx.fillStyle="#ff9800"
+        ctx.fillRect(120, 254, 5.6*might-2, 72)
+        ctx.fillStyle="#03a9f4"
+        ctx.fillRect(682-5.6*peace, 254, 5.6*peace-2, 72)
+        ctx.fillStyle="#ffeb3b"
+        ctx.fillRect(120, 374, 5.6*liberty-2, 72)
+        ctx.fillStyle="#3f51b5"
+        ctx.fillRect(682-5.6*authority, 374, 5.6*authority-2, 72)
+        ctx.fillStyle="#8bc34a"
+        ctx.fillRect(120, 494, 5.6*tradition-2, 72)
+        ctx.fillStyle="#9c27b0"
+        ctx.fillRect(682-5.6*progress, 494, 5.6*progress-2, 72)
+        ctx.fillStyle="#222222"
+        ctx.font="700 80px Montserrat"
+        ctx.textAlign="left"
+        ctx.fillText("8values", 20, 90)
+        ctx.font="40px Montserrat"
+        ctx.textAlign="right"
+        ctx.fillText(ideology, 780, 87.5)
+
+        ctx.font="50px Montserrat"
+        ctx.textAlign="left"
+        if (equality  > 30) {ctx.fillText(equality + "%", 130, 187.5)}
+        if (might     > 30) {ctx.fillText(might + "%", 130, 307.5)}
+        if (liberty   > 30) {ctx.fillText(liberty + "%", 130, 427.5)}
+        if (tradition > 30) {ctx.fillText(tradition + "%", 130, 547.5)}
+        ctx.textAlign="right"
+        if (wealth    > 30) {ctx.fillText(wealth + "%", 670, 187.5)}
+        if (peace     > 30) {ctx.fillText(peace + "%", 670, 307.5)}
+        if (authority > 30) {ctx.fillText(authority + "%", 670, 427.5)}
+        if (progress  > 30) {ctx.fillText(progress + "%", 670, 547.5)}
+
+        ctx.font="300 30px Montserrat"
+        ctx.fillText("8values.github.io", 780, 55)
+        ctx.textAlign="center"
+        ctx.fillText("Economic Axis: " + document.getElementById("economic-label").innerHTML, 400, 125)
+        ctx.fillText("Diplomatic Axis: " + document.getElementById("diplomatic-label").innerHTML, 400, 245)
+        ctx.fillText("Civil Axis: " + document.getElementById("state-label").innerHTML, 400, 365)
+        ctx.fillText("Societal Axis: " + document.getElementById("society-label").innerHTML, 400, 485)
     }
-
-    ctx.fillStyle="#222222"
-    ctx.fillRect(120, 130, 560, 80)
-    ctx.fillRect(120, 250, 560, 80)
-    ctx.fillRect(120, 370, 560, 80)
-    ctx.fillRect(120, 490, 560, 80)
-    ctx.fillStyle="#f44336"
-    ctx.fillRect(120, 134, 5.6*equality-2, 72)
-    ctx.fillStyle="#00897b"
-    ctx.fillRect(682-5.6*wealth, 134, 5.6*wealth-2, 72)
-    ctx.fillStyle="#ff9800"
-    ctx.fillRect(120, 254, 5.6*might-2, 72)
-    ctx.fillStyle="#03a9f4"
-    ctx.fillRect(682-5.6*peace, 254, 5.6*peace-2, 72)
-    ctx.fillStyle="#ffeb3b"
-    ctx.fillRect(120, 374, 5.6*liberty-2, 72)
-    ctx.fillStyle="#3f51b5"
-    ctx.fillRect(682-5.6*authority, 374, 5.6*authority-2, 72)
-    ctx.fillStyle="#8bc34a"
-    ctx.fillRect(120, 494, 5.6*tradition-2, 72)
-    ctx.fillStyle="#9c27b0"
-    ctx.fillRect(682-5.6*progress, 494, 5.6*progress-2, 72)
-    ctx.fillStyle="#222222"
-    ctx.font="700 80px Montserrat"
-    ctx.textAlign="left"
-    ctx.fillText("8values", 20, 90)
-    ctx.font="normal 40px Montserrat"
-    ctx.textAlign="right"
-    ctx.fillText(ideology, 780, 87.5)
-
-    ctx.font="normal 50px Montserrat"
-    ctx.textAlign="left"
-    if (equality  > 30) {ctx.fillText(equality + "%", 130, 187.5)}
-    if (might     > 30) {ctx.fillText(might + "%", 130, 307.5)}
-    if (liberty   > 30) {ctx.fillText(liberty + "%", 130, 427.5)}
-    if (tradition > 30) {ctx.fillText(tradition + "%", 130, 547.5)}
-    ctx.textAlign="right"
-    if (wealth    > 30) {ctx.fillText(wealth + "%", 670, 187.5)}
-    if (peace     > 30) {ctx.fillText(peace + "%", 670, 307.5)}
-    if (authority > 30) {ctx.fillText(authority + "%", 670, 427.5)}
-    if (progress  > 30) {ctx.fillText(progress + "%", 670, 547.5)}
-
-    ctx.font="300 30px Montserrat"
-    ctx.fillText("8values.github.io", 780, 55)
-    ctx.textAlign="center"
-    ctx.fillText("Economic Axis: " + document.getElementById("economic-label").innerHTML, 400, 125)
-    ctx.fillText("Diplomatic Axis: " + document.getElementById("diplomatic-label").innerHTML, 400, 245)
-    ctx.fillText("Civil Axis: " + document.getElementById("state-label").innerHTML, 400, 365)
-    ctx.fillText("Societal Axis: " + document.getElementById("society-label").innerHTML, 400, 485)
     </script>
 </body>
