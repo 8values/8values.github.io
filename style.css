@@ -88,6 +88,22 @@ img.center {
     margin: 0 auto;
     cursor: pointer;
 }
+.menubutton {
+    background-color: #bbbbbb;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 8pt;
+    color: #333333;
+    padding: 8pt;
+    width: 10%;
+    min-width: 100pt;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 18pt;
+    margin: 0 auto;
+    cursor: pointer;
+}
 div.axis {
     width: 100%;
     display: flex;
