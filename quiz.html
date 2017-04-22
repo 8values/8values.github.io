@@ -23,11 +23,12 @@
 
 <script>
     var max_econ, max_dipl, max_govt, max_scty; // Max possible scores
-    max_econ = max_dipl = max_govt = max_scty = 0
+    max_econ = max_dipl = max_govt = max_scty = 0;
     var econ, dipl, govt, scty; // User's scores
-    econ = dipl = govt = scty = 0
+    econ = dipl = govt = scty = 0;
     var qn = 0; // Question number
     var prev_answer = -20;
+    init_question();
     for (var i = 0; i < questions.length; i++) {
         max_econ += Math.abs(questions[i].effect.econ)
         max_dipl += Math.abs(questions[i].effect.dipl)
@@ -35,12 +36,12 @@
         max_scty += Math.abs(questions[i].effect.scty)
     }
     function init_question() {
-        document.getElementById("question-text").innerHTML = questions[qn].question
-        document.getElementById("question-number").innerHTML = "Question " + (qn + 1) + " of " + (questions.length)
+        document.getElementById("question-text").innerHTML = questions[qn].question;
+        document.getElementById("question-number").innerHTML = "Question " + (qn + 1) + " of " + (questions.length);
         if (prev_answer == -20) {
-            document.getElementById("back_button").style.visibility = 'hidden'
+            document.getElementById("back_button").style.visibility = 'hidden';
         } else {
-            document.getElementById("back_button").style.visibility = 'visible'
+            document.getElementById("back_button").style.visibility = 'visible';
         }
 
     }
@@ -52,22 +53,22 @@
         scty += mult*questions[qn].effect.scty
         qn++
         if (qn < questions.length) {
-            init_question()
+            init_question();
         } else {
-            results()
+            results();
         }
     }
     function prev_question() {
         if (prev_answer == -20) {
-            return
+            return;
         }
-        qn--
-        econ -= prev_answer * questions[qn].effect.econ
-        dipl -= prev_answer * questions[qn].effect.dipl
-        govt -= prev_answer * questions[qn].effect.govt
-        scty -= prev_answer * questions[qn].effect.scty
-        prev_answer = -20
-        init_question()
+        qn--;
+        econ -= prev_answer * questions[qn].effect.econ;
+        dipl -= prev_answer * questions[qn].effect.dipl;
+        govt -= prev_answer * questions[qn].effect.govt;
+        scty -= prev_answer * questions[qn].effect.scty;
+        prev_answer = -20;
+        init_question();
         
     }
     function calc_score(score,max) {
