@@ -7,11 +7,31 @@
 <meta charset="utf-8">
 </head>
 <body>
+<script src="https://unpkg.com/i18next@8.0.0/i18next.min.js"></script>
+<script src="https://unpkg.com/i18next-browser-languagedetector@1.0.1/i18nextBrowserLanguageDetector.min.js"></script>
+<script src="https://unpkg.com/i18next-xhr-backend@1.4.1/i18nextXHRBackend.min.js"></script>
 
 <h1>8values</h1>
 <hr>
-<h2 style="text-align:center;">Instructions</h2>
-<p class="question">You will be presented with a series of statements. For each one, click the button with your opinion on it.</p>
-<button class="button" onclick="location.href='quiz.html';" style="background-color: #2196f3;">Got it!</button> <br>
-<button class="button" onclick="location.href='index.html';" style="background-color: #f44336;">Wait, nevermind!</button> <br>
+<h2 id="title" style="text-align:center;"></h2>
+<p id="description" class="question"></p>
+<button id="confirm" class="button" onclick="location.href='quiz.html';" style="background-color: #2196f3;"></button> <br>
+<button id="cancel" class="button" onclick="location.href='index.html';" style="background-color: #f44336;"></button> <br>
+
+<script type="text/javascript">
+	window.i18next
+        .use(window.i18nextBrowserLanguageDetector)
+        .use(window.i18nextXHRBackend)
+        .init({
+          "fallbackLng": "en",
+          "ns": [ "instructions" ]
+        }, ready)
+
+    function ready() {
+        ins = i18next.getFixedT(null, 'instructions')
+        for (i of ["title", "description", "confirm", "cancel"]) {
+            document.getElementById(i).innerHTML=ins(i)
+        }
+    }
+</script>
 </body>

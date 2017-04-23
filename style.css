@@ -156,6 +156,30 @@ div.tradition {
     text-align: left;
     border-right-style: solid;
 }
+b.equality {
+    color:#d32f2f;
+}
+b.wealth {
+    color:#00796b;
+}
+b.might {
+    color:#f57c00;
+}
+b.peace {
+    color:#0288d1;
+}
+b.liberty {
+    color:#fbc02d;
+}
+b.authority {
+    color:#303f9f;
+}
+b.tradition {
+    color:#689f38;
+}
+b.progress {
+    color:#7b1fa2;
+}
 span.weight-300 {
     font-weight: 300;
 }
