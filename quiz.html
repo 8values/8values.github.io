@@ -17,11 +17,11 @@
 <hr>
 <h2 style="text-align:center;" id="question-number">Loading...</h2>
 <p class="question" id="question-text"></p>
-<button class="button" onclick="next_question( 1.0)" style="background-color: #1b5e20;">Strongly Agree</button> <br>
-<button class="button" onclick="next_question( 0.5)" style="background-color: #4caf50;">Agree</button> <br>
-<button class="button" onclick="next_question( 0.0)" style="background-color: #bbbbbb;">Neutral/Unsure</button> <br>
-<button class="button" onclick="next_question(-0.5)" style="background-color: #f44336;">Disagree</button> <br>
-<button class="button" onclick="next_question(-1.0)" style="background-color: #b71c1c;">Strongly Disagree</button> <br>
+<button class="button" onclick="next_question( 1.0)" style="background-color: #1b5e20;" id="strongly_agree"></button> <br>
+<button class="button" onclick="next_question( 0.5)" style="background-color: #4caf50;" id="agree"></button> <br>
+<button class="button" onclick="next_question( 0.0)" style="background-color: #bbbbbb;" id="neutral"></button> <br>
+<button class="button" onclick="next_question(-0.5)" style="background-color: #f44336;" id="disagree"></button> <br>
+<button class="button" onclick="next_question(-1.0)" style="background-color: #b71c1c;" id="strongly_disagree"></button> <br>
 
 <script>
     window.i18next
@@ -29,10 +29,10 @@
         .use(window.i18nextXHRBackend)
         .init({
           "fallbackLng": "en",
-          "ns": [ "questions" ]
+          "ns": [ "questions", "quiz" ]
         }, ready)
 
-    var qs;
+    var qs, qz;
     var max_econ, max_dipl, max_govt, max_scty; // Max possible scores
     max_econ = max_dipl = max_govt = max_scty = 0
     var econ, dipl, govt, scty; // User's scores
@@ -47,11 +47,16 @@
     }
     function ready() {
         qs = i18next.getFixedT(null, 'questions')
+        qz = i18next.getFixedT(null, 'quiz')
+
+        for (i of ["strongly_agree", "agree", "neutral", "disagree", "strongly_disagree"]) {
+            document.getElementById(i).innerHTML=qz(i)
+        }
         display_progress()
     }
     function display_progress() {
         document.getElementById("question-text").innerHTML=qs(questions[qn].question)
-        document.getElementById("question-number").innerHTML="Question " + (qn + 1) + " of " + (questions.length)
+        document.getElementById("question-number").innerHTML=qz("question_no", { current: qn + 1, total: questions.length })
     }
     function next_question(mult) {
         econ += mult*questions[qn].effect.econ
