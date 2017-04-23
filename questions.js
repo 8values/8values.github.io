@@ -1,6 +1,6 @@
 questions = [
    {
-      "question": "Oppression by corporations is as much, if not more, of a concern than oppression by governments.",
+      "question": "q1",
       "effect": {
          "econ": 10,
          "dipl": 0,
@@ -9,7 +9,7 @@ questions = [
       }
    },
    {
-      "question": "It is necessary for the government to intervene in the economy to protect citizens.",
+      "question": "q2",
       "effect": {
          "econ": 10,
          "dipl": 0,
@@ -18,7 +18,7 @@ questions = [
       }
    },
    {
-      "question": "The freer the markets, the freer the people.",
+      "question": "q3",
       "effect": {
          "econ": -10,
          "dipl": 0,
@@ -27,7 +27,7 @@ questions = [
       }
    },
    {
-      "question": "Publicly-funded research is more beneficial to the people than leaving it to the market.",
+      "question": "q4",
       "effect": {
          "econ": 10,
          "dipl": 0,
@@ -36,7 +36,7 @@ questions = [
       }
    },
    {
-      "question": "From each according to his ability, to each according to his needs.",
+      "question": "q5",
       "effect": {
          "econ": 10,
          "dipl": 0,
@@ -45,7 +45,7 @@ questions = [
       }
    },
    {
-      "question": "It would be best if social programs were abolished in favor of private charity.",
+      "question": "q6",
       "effect": {
          "econ": -10,
          "dipl": 0,
@@ -54,7 +54,7 @@ questions = [
       }
    },
    {
-      "question": "Taxes should be increased on the rich to provide for the poor.",
+      "question": "q7",
       "effect": {
          "econ": 10,
          "dipl": 0,
@@ -63,7 +63,7 @@ questions = [
       }
    },
    {
-      "question": "Inheritance and capital gains are legitimate forms of wealth.",
+      "question": "q8",
       "effect": {
          "econ": -10,
          "dipl": 0,
@@ -72,7 +72,7 @@ questions = [
       }
    },
    {
-      "question": "Public utilities like roads and electricity should be publicly owned.",
+      "question": "q9",
       "effect": {
          "econ": 10,
          "dipl": 0,
@@ -81,7 +81,7 @@ questions = [
       }
    },
    {
-      "question": "Those with a greater ability to pay should receive better healthcare.",
+      "question": "q10",
       "effect": {
          "econ": -10,
          "dipl": 0,
@@ -90,7 +90,7 @@ questions = [
       }
    },
    {
-      "question": "Adequate education is a right of all people.",
+      "question": "q11",
       "effect": {
          "econ": 10,
          "dipl": 0,
@@ -99,7 +99,7 @@ questions = [
       }
    },
    {
-      "question": "The means of production should belong to the workers who use them.",
+      "question": "q12",
       "effect": {
          "econ": 10,
          "dipl": 0,
@@ -108,7 +108,7 @@ questions = [
       }
    },
    {
-      "question": "The United Nations should be abolished.",
+      "question": "q13",
       "effect": {
          "econ": 0,
          "dipl": -10,
@@ -117,7 +117,7 @@ questions = [
       }
    },
    {
-      "question": "Military intervention is often necessary to protect the nation.",
+      "question": "q14",
       "effect": {
          "econ": 0,
          "dipl": -10,
@@ -126,7 +126,7 @@ questions = [
       }
    },
    {
-      "question": "It is more important to retain peaceful relations than to further our strength.",
+      "question": "q15",
       "effect": {
          "econ": 0,
          "dipl": 10,
@@ -135,7 +135,7 @@ questions = [
       }
    },
    {
-      "question": "Wars do not need to be justified to other countries.",
+      "question": "q16",
       "effect": {
          "econ": 0,
          "dipl": -10,
@@ -144,7 +144,7 @@ questions = [
       }
    },
    {
-      "question": "Military spending is a waste of money.",
+      "question": "q17",
       "effect": {
          "econ": 0,
          "dipl": 10,
@@ -153,7 +153,7 @@ questions = [
       }
    },
    {
-      "question": "International aid is a waste of money.",
+      "question": "q18",
       "effect": {
          "econ": -5,
          "dipl": 10,
@@ -162,7 +162,7 @@ questions = [
       }
    },
    {
-      "question": "My nation is the best in the world.",
+      "question": "q19",
       "effect": {
          "econ": 0,
          "dipl": -10,
@@ -171,7 +171,7 @@ questions = [
       }
    },
    {
-      "question": "Research should be conducted on an international scale.",
+      "question": "q20",
       "effect": {
          "econ": 0,
          "dipl": -10,
@@ -180,7 +180,7 @@ questions = [
       }
    },
    {
-      "question": "Governments should be accountable to the international community.",
+      "question": "q21",
       "effect": {
          "econ": 0,
          "dipl": 10,
@@ -189,7 +189,7 @@ questions = [
       }
    },
    {
-      "question": "Even when protesting an authoritarian government, violence is not acceptable.",
+      "question": "q22",
       "effect": {
          "econ": 0,
          "dipl": 10,
@@ -198,7 +198,7 @@ questions = [
       }
    },
    {
-      "question": "My religion should be spread by force if necessary.",
+      "question": "q23",
       "effect": {
          "econ": 0,
          "dipl": -10,
@@ -207,7 +207,7 @@ questions = [
       }
    },
    {
-      "question": "My political ideology should be spread by force if necessary.",
+      "question": "q24",
       "effect": {
          "econ": 0,
          "dipl": -10,
@@ -216,7 +216,7 @@ questions = [
       }
    },
    {
-      "question": "Law and order should be maintained at all costs.",
+      "question": "q25",
       "effect": {
          "econ": 0,
          "dipl": -5,
@@ -225,7 +225,7 @@ questions = [
       }
    },
    {
-      "question": "Political elites are necessary, as the general populace makes bad decisions.",
+      "question": "q26",
       "effect": {
          "econ": 0,
          "dipl": 0,
@@ -234,7 +234,7 @@ questions = [
       }
    },
    {
-      "question": "A victimless crime, such as drug use, should not be a crime at all.",
+      "question": "q27",
       "effect": {
          "econ": 0,
          "dipl": 0,
@@ -243,7 +243,7 @@ questions = [
       }
    },
    {
-      "question": "Terrorism is a major threat, and some civil liberties must be sacrificed to prevent it.",
+      "question": "q28",
       "effect": {
          "econ": 0,
          "dipl": 0,
@@ -252,7 +252,7 @@ questions = [
       }
    },
    {
-      "question": "Government surveillance is necessary in the modern world.",
+      "question": "q29",
       "effect": {
          "econ": 0,
          "dipl": 0,
@@ -261,7 +261,7 @@ questions = [
       }
    },
    {
-      "question": "The very existence of the state is a threat to our liberty.",
+      "question": "q30",
       "effect": {
          "econ": 0,
          "dipl": 0,
@@ -270,7 +270,7 @@ questions = [
       }
    },
    {
-      "question": "Regardless of political opinions, it is important to side with your country.",
+      "question": "q31",
       "effect": {
          "econ": 0,
          "dipl": -5,
@@ -279,7 +279,7 @@ questions = [
       }
    },
    {
-      "question": "No authority should be left unquestioned.",
+      "question": "q32",
       "effect": {
          "econ": 0,
          "dipl": 0,
@@ -288,7 +288,7 @@ questions = [
       }
    },
    {
-      "question": "A strongly hierarchical state is most efficient.",
+      "question": "q33",
       "effect": {
          "econ": 0,
          "dipl": 0,
@@ -297,7 +297,7 @@ questions = [
       }
    },
    {
-      "question": "It is important that the government follows the majority opinion, even if it is wrong.",
+      "question": "q34",
       "effect": {
          "econ": 0,
          "dipl": 0,
@@ -306,7 +306,7 @@ questions = [
       }
    },
    {
-      "question": "The stronger the leadership, the better.",
+      "question": "q35",
       "effect": {
          "econ": 0,
          "dipl": -5,
@@ -315,7 +315,7 @@ questions = [
       }
    },
    {
-      "question": "Democracy is intrinsically valuable as more than a decision-making process.",
+      "question": "q36",
       "effect": {
          "econ": 0,
          "dipl": 0,
@@ -324,7 +324,7 @@ questions = [
       }
    },
    {
-      "question": "Environmental regulations are essential.",
+      "question": "q37",
       "effect": {
          "econ": 5,
          "dipl": 0,
@@ -333,7 +333,7 @@ questions = [
       }
    },
    {
-      "question": "A better world will come from automation, science, and technology.",
+      "question": "q38",
       "effect": {
          "econ": 0,
          "dipl": 0,
@@ -342,7 +342,7 @@ questions = [
       }
    },
    {
-      "question": "Children should be educated in religious or traditional values.",
+      "question": "q39",
       "effect": {
          "econ": 0,
          "dipl": 0,
@@ -351,7 +351,7 @@ questions = [
       }
    },
    {
-      "question": "Irrational traditions should be abolished.",
+      "question": "q40",
       "effect": {
          "econ": 0,
          "dipl": 0,
@@ -360,7 +360,7 @@ questions = [
       }
    },
    {
-      "question": "Religion should play a role in government.",
+      "question": "q41",
       "effect": {
          "econ": 0,
          "dipl": 0,
@@ -369,7 +369,7 @@ questions = [
       }
    },
    {
-      "question": "Churches should not be exempt from taxes.",
+      "question": "q42",
       "effect": {
          "econ": 5,
          "dipl": 0,
@@ -378,7 +378,7 @@ questions = [
       }
    },
    {
-      "question": "Climate change is either not real or not man-made.",
+      "question": "q43",
       "effect": {
          "econ": 0,
          "dipl": 0,
@@ -387,7 +387,7 @@ questions = [
       }
    },
    {
-      "question": "It is important that we work as a united world to combat climate change.",
+      "question": "q44",
       "effect": {
          "econ": 0,
          "dipl": 10,
@@ -396,7 +396,7 @@ questions = [
       }
    },
    {
-      "question": "Society was better many years ago than it is now.",
+      "question": "q45",
       "effect": {
          "econ": 0,
          "dipl": 0,
@@ -405,7 +405,7 @@ questions = [
       }
    },
    {
-      "question": "It is important that we stay connected to our past.",
+      "question": "q46",
       "effect": {
          "econ": 0,
          "dipl": 0,
@@ -414,7 +414,7 @@ questions = [
       }
    },
    {
-      "question": "It is important that we think in the long term, beyond our lifespans.",
+      "question": "q47",
       "effect": {
          "econ": 0,
          "dipl": 0,
@@ -423,7 +423,7 @@ questions = [
       }
    },
    {
-      "question": "Reason is more important than maintaining our culture.",
+      "question": "q48",
       "effect": {
          "econ": 0,
          "dipl": 0,
@@ -432,7 +432,7 @@ questions = [
       }
    },
    {
-      "question": "Drug use should be legalized or decriminalized.",
+      "question": "q49",
       "effect": {
          "econ": 0,
          "dipl": 0,
@@ -441,7 +441,7 @@ questions = [
       }
    },
    {
-      "question": "Same-sex marriage should be legal.",
+      "question": "q50",
       "effect": {
          "econ": 0,
          "dipl": 0,
@@ -450,7 +450,7 @@ questions = [
       }
    },
    {
-      "question": "Sex outside marriage is immoral.",
+      "question": "q51",
       "effect": {
          "econ": 0,
          "dipl": 0,
@@ -459,7 +459,7 @@ questions = [
       }
    },
    {
-      "question": "Abortion should be prohibited.",
+      "question": "q52",
       "effect": {
          "econ": 0,
          "dipl": 0,
@@ -468,7 +468,7 @@ questions = [
       }
    },
    {
-      "question": "Gun ownership should be prohibited for those without a valid reason.",
+      "question": "q53",
       "effect": {
          "econ": 0,
          "dipl": 10,
@@ -477,7 +477,7 @@ questions = [
       }
    },
    {
-      "question": "I support single-payer, universal healthcare.",
+      "question": "q54",
       "effect": {
          "econ": 10,
          "dipl": 0,
@@ -486,7 +486,7 @@ questions = [
       }
    },
    {
-      "question": "I support the European Union.",
+      "question": "q55",
       "effect": {
          "econ": -5,
          "dipl": 10,
@@ -495,7 +495,7 @@ questions = [
       }
    },
    {
-      "question": "Communism isn't as bad as people say it is.",
+      "question": "q56",
       "effect": {
          "econ": 10,
          "dipl": 0,
@@ -504,7 +504,7 @@ questions = [
       }
    },
    {
-      "question": "Fascism isn't as bad as people say it is.",
+      "question": "q57",
       "effect": {
          "econ": -5,
          "dipl": -10,
@@ -513,7 +513,7 @@ questions = [
       }
    },
    {
-      "question": "Capitalism isn't as bad as people say it is.",
+      "question": "q58",
       "effect": {
          "econ": -10,
          "dipl": 0,
@@ -522,7 +522,7 @@ questions = [
       }
    },
    {
-      "question": "All people, cultures, worldviews, genders, sexualities, and economic classes should be treated equally.",
+      "question": "q59",
       "effect": {
          "econ": 10,
          "dipl": 10,
@@ -531,7 +531,7 @@ questions = [
       }
    },
    {
-      "question": "It is important that we further our ethnic, cultural, or economic group's goals above all others.",
+      "question": "q60",
       "effect": {
          "econ": -10,
          "dipl": -10,
