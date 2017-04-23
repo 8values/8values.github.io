@@ -101,7 +101,7 @@ questions = [
    {
       "question": "The means of production should belong to the workers who use them.",
       "effect": {
-         "econ": -10,
+         "econ": 10,
          "dipl": 0,
          "govt": 0,
          "scty": 0
