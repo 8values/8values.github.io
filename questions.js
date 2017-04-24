@@ -369,7 +369,7 @@ questions = [
       }
    },
    {
-      "question": "Churches should not be exempt from taxes.",
+      "question": "Churches should be taxed the same way other institutions are taxed.",
       "effect": {
          "econ": 5,
          "dipl": 0,
