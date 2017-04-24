@@ -16,5 +16,14 @@
 	"liberty": "<b class=\"liberty\">Liberty</b> (State)<br/>Those with higher Liberty scores believe in strong civil liberties. They tend to support democracy and oppose state intervention in personal lives. Note that this refers to civil liberties, not economic liberties.",
 	"authority": "<b class=\"authority\">Authority</b> (State)<br/>Those with higher Authority scores believe in strong state power. They tend to support state intervention in personal lives, government surveillance, and at high values, censorship or autocracy.",
 	"tradition": "<b class=\"tradition\">Tradition</b> (Society)<br/>Those with higher Tradition scores believe in traditional values and strict adherence to a moral code. Though not always, they are usually religious, and support the status quo or the status quo ante.",
-	"progress": "<b class=\"progress\">Progress</b> (Society)<br/>Those with higher Progress scores believe in social change and rationality. Though not always, they are usually secular or atheist, and support environmental action and scientific or technological research."
+	"progress": "<b class=\"progress\">Progress</b> (Society)<br/>Those with higher Progress scores believe in social change and rationality. Though not always, they are usually secular or atheist, and support environmental action and scientific or technological research.",
+
+	"results": "Results",
+	"economic_axis": "Economic Axis: ",
+	"diplomatic_axis": "Diplomatic Axis: ",
+	"civic_axis": "Civil Axis: ",
+	"societal_axis": "Societal Axis: ",
+	"closest_match": "Closest Match: ",
+	"match_desc": "Ideological matching is a work in progress, and is much less accurate than the values and axes.<br>You can send these results by copying and pasting the URL at the top of the page or using the image below. Think your matched ideology was wrong? Want to help us calibrate the test? Send the results along with your political ideology to us at eightvalues@gmail.com, or send us any comments, questions, or criticism.",
+	"back": "Back"
 }

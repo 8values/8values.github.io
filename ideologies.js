@@ -1,461 +1,308 @@
-ideologies = [
-    {
-        "name": "Anarcho-Communism",
-        "stats": {
-            "econ": 100,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 90
-        }
+ideologies = {
+    "ideo1": {
+        "econ": 100,
+        "dipl": 50,
+        "govt": 100,
+        "scty": 90
     },
-    {
-        "name": "Libertarian Communism",
-        "stats": {
-            "econ": 100,
-            "dipl": 70,
-            "govt": 80,
-            "scty": 80
-        }
+    "ideo2": {
+        "econ": 100,
+        "dipl": 70,
+        "govt": 80,
+        "scty": 80
     },
-    {
-        "name": "Trotskyism",
-        "stats": {
-            "econ": 100,
-            "dipl": 100,
-            "govt": 60,
-            "scty": 80
-        }
+    "ideo3": {
+        "econ": 100,
+        "dipl": 100,
+        "govt": 60,
+        "scty": 80
     },
-    {
-        "name": "Marxism",
-        "stats": {
-            "econ": 100,
-            "dipl": 70,
-            "govt": 40,
-            "scty": 80
-        }
+    "ideo4": {
+        "econ": 100,
+        "dipl": 70,
+        "govt": 40,
+        "scty": 80
     },
-    {
-        "name": "De Leonism",
-        "stats": {
-            "econ": 100,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 80
-        }
+    "ideo5": {
+        "econ": 100,
+        "dipl": 30,
+        "govt": 30,
+        "scty": 80
     },
-    {
-        "name": "Leninism",
-        "stats": {
-            "econ": 100,
-            "dipl": 40,
-            "govt": 20,
-            "scty": 70
-        }
+    "ideo6": {
+        "econ": 100,
+        "dipl": 40,
+        "govt": 20,
+        "scty": 70
     },
-    {
-        "name": "Stalinism-Maoism",
-        "stats": {
-            "econ": 100,
-            "dipl": 20,
-            "govt": 0,
-            "scty": 60
-        }
+    "ideo7": {
+        "econ": 100,
+        "dipl": 20,
+        "govt": 0,
+        "scty": 60
     },
-    {
-        "name": "Religious Communism",
-        "stats": {
-            "econ": 100,
-            "dipl": 50,
-            "govt": 30,
-            "scty": 30
-        }
+    "ideo8": {
+        "econ": 100,
+        "dipl": 50,
+        "govt": 30,
+        "scty": 30
     },
-    {
-        "name": "State Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 70
-        }
+    "ideo9": {
+        "econ": 80,
+        "dipl": 30,
+        "govt": 30,
+        "scty": 70
     },
-    {
-        "name": "Theocratic Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 30,
-            "scty": 20
-        }
+    "ideo10": {
+        "econ": 80,
+        "dipl": 50,
+        "govt": 30,
+        "scty": 20
     },
-    {
-        "name": "Religious Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 70,
-            "scty": 20
-        }
+    "ideo11": {
+        "econ": 80,
+        "dipl": 50,
+        "govt": 70,
+        "scty": 20
     },
-    {
-        "name": "Democratic Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 80
-        }
+    "ideo12": {
+        "econ": 80,
+        "dipl": 50,
+        "govt": 50,
+        "scty": 80
     },
-    {
-        "name": "Revolutionary Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 20,
-            "govt": 50,
-            "scty": 70
-        }
+    "ideo13": {
+        "econ": 80,
+        "dipl": 20,
+        "govt": 50,
+        "scty": 70
     },
-    {
-        "name": "Libertarian Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 80,
-            "govt": 80,
-            "scty": 80
-        }
+    "ideo14": {
+        "econ": 80,
+        "dipl": 80,
+        "govt": 80,
+        "scty": 80
     },
-    {
-        "name": "Anarcho-Syndicalism",
-        "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 80
-        }
+    "ideo15": {
+        "econ": 80,
+        "dipl": 50,
+        "govt": 100,
+        "scty": 80
     },
-    {
-        "name": "Left-Wing Populism",
-        "stats": {
-            "econ": 60,
-            "dipl": 40,
-            "govt": 30,
-            "scty": 70
-        }
+    "ideo16": {
+        "econ": 60,
+        "dipl": 40,
+        "govt": 30,
+        "scty": 70
     },
-    {
-        "name": "Theocratic Distributism",
-        "stats": {
-            "econ": 60,
-            "dipl": 40,
-            "govt": 30,
-            "scty": 20
-        }
+    "ideo17": {
+        "econ": 60,
+        "dipl": 40,
+        "govt": 30,
+        "scty": 20
     },
-    {
-        "name": "Distributism",
-        "stats": {
-            "econ": 60,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 20
-        }
+    "ideo18": {
+        "econ": 60,
+        "dipl": 50,
+        "govt": 50,
+        "scty": 20
     },
-    {
-        "name": "Social Liberalism",
-        "stats": {
-            "econ": 60,
-            "dipl": 60,
-            "govt": 60,
-            "scty": 80
-        }
+    "ideo19": {
+        "econ": 60,
+        "dipl": 60,
+        "govt": 60,
+        "scty": 80
     },
-    {
-        "name": "Christian Democracy",
-        "stats": {
-            "econ": 60,
-            "dipl": 60,
-            "govt": 40,
-            "scty": 30
-        }
+    "ideo20": {
+        "econ": 60,
+        "dipl": 60,
+        "govt": 40,
+        "scty": 30
     },
-    {
-        "name": "Social Democracy",
-        "stats": {
-            "econ": 60,
-            "dipl": 70,
-            "govt": 40,
-            "scty": 80
-        }
+    "ideo21": {
+        "econ": 60,
+        "dipl": 70,
+        "govt": 40,
+        "scty": 80
     },
-    {
-        "name": "Progressivism",
-        "stats": {
-            "econ": 60,
-            "dipl": 80,
-            "govt": 60,
-            "scty": 100
-        }
+    "ideo22": {
+        "econ": 60,
+        "dipl": 80,
+        "govt": 60,
+        "scty": 100
     },
-    {
-        "name": "Anarcho-Mutualism",
-        "stats": {
-            "econ": 60,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 70
-        }
+    "ideo23": {
+        "econ": 60,
+        "dipl": 50,
+        "govt": 100,
+        "scty": 70
     },
-    {
-        "name": "National Totalitarianism",
-        "stats": {
-            "econ": 50,
-            "dipl": 20,
-            "govt": 0,
-            "scty": 50
-        }
+    "ideo24": {
+        "econ": 50,
+        "dipl": 20,
+        "govt": 0,
+        "scty": 50
     },
-    {
-        "name": "Global Totalitarianism",
-        "stats": {
-            "econ": 50,
-            "dipl": 80,
-            "govt": 0,
-            "scty": 50
-        }
+    "ideo25": {
+        "econ": 50,
+        "dipl": 80,
+        "govt": 0,
+        "scty": 50
     },
-    {
-        "name": "Technocracy",
-        "stats": {
-            "econ": 60,
-            "dipl": 60,
-            "govt": 20,
-            "scty": 70
-        }
+    "ideo26": {
+        "econ": 60,
+        "dipl": 60,
+        "govt": 20,
+        "scty": 70
     },
-    {
-        "name": "Centrist",
-        "stats": {
-            "econ": 50,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 50
-        }
+    "ideo27": {
+        "econ": 50,
+        "dipl": 50,
+        "govt": 50,
+        "scty": 50
     },
-    {
-        "name": "Liberalism",
-        "stats": {
-            "econ": 50,
-            "dipl": 60,
-            "govt": 60,
-            "scty": 60
-        }
+    "ideo28": {
+        "econ": 50,
+        "dipl": 60,
+        "govt": 60,
+        "scty": 60
     },
-    {
-        "name": "Religious Anarchism",
-        "stats": {
-            "econ": 50,
-            "dipl": 50,
-            "govt": 0,
-            "scty": 20
-        }
+    "ideo29": {
+        "econ": 50,
+        "dipl": 50,
+        "govt": 0,
+        "scty": 20
     },
-    {
-        "name": "Right-Wing Populism",
-        "stats": {
-            "econ": 40,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 30
-        }
+    "ideo30": {
+        "econ": 40,
+        "dipl": 30,
+        "govt": 30,
+        "scty": 30
     },
-    {
-        "name": "Moderate Conservatism",
-        "stats": {
-            "econ": 40,
-            "dipl": 40,
-            "govt": 50,
-            "scty": 30
-        }
+    "ideo31": {
+        "econ": 40,
+        "dipl": 40,
+        "govt": 50,
+        "scty": 30
     },
-    {
-        "name": "Reactionary",
-        "stats": {
-            "econ": 40,
-            "dipl": 40,
-            "govt": 40,
-            "scty": 10
-        }
+    "ideo32": {
+        "econ": 40,
+        "dipl": 40,
+        "govt": 40,
+        "scty": 10
     },
-    {
-        "name": "Social Libertarianism",
-        "stats": {
-            "econ": 60,
-            "dipl": 70,
-            "govt": 80,
-            "scty": 70
-        }
+    "ideo33": {
+        "econ": 60,
+        "dipl": 70,
+        "govt": 80,
+        "scty": 70
     },
-    {
-        "name": "Libertarianism",
-        "stats": {
-            "econ": 40,
-            "dipl": 60,
-            "govt": 80,
-            "scty": 60
-        }
+    "ideo34": {
+        "econ": 40,
+        "dipl": 60,
+        "govt": 80,
+        "scty": 60
     },
-    {
-        "name": "Anarcho-Egoism",
-        "stats": {
-            "econ": 40,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 50
-        }
+    "ideo35": {
+        "econ": 40,
+        "dipl": 50,
+        "govt": 100,
+        "scty": 50
     },
-    {
-        "name": "Nazism",
-        "stats": {
-            "econ": 40,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 5
-        }
+    "ideo36": {
+        "econ": 40,
+        "dipl": 0,
+        "govt": 0,
+        "scty": 5
     },
-    {
-        "name": "Autocracy",
-        "stats": {
-            "econ": 50,
-            "dipl": 20,
-            "govt": 20,
-            "scty": 50
-        }
+    "ideo37": {
+        "econ": 50,
+        "dipl": 20,
+        "govt": 20,
+        "scty": 50
     },
-    {
-        "name": "Fascism",
-        "stats": {
-            "econ": 40,
-            "dipl": 20,
-            "govt": 20,
-            "scty": 20
-        }
+    "ideo38": {
+        "econ": 40,
+        "dipl": 20,
+        "govt": 20,
+        "scty": 20
     },
-    {
-        "name": "Capitalist Fascism",
-        "stats": {
-            "econ": 20,
-            "dipl": 20,
-            "govt": 20,
-            "scty": 20
-        }
+    "ideo39": {
+        "econ": 20,
+        "dipl": 20,
+        "govt": 20,
+        "scty": 20
     },
-    {
-        "name": "Conservatism",
-        "stats": {
-            "econ": 30,
-            "dipl": 40,
-            "govt": 40,
-            "scty": 20
-        }
+    "ideo40": {
+        "econ": 30,
+        "dipl": 40,
+        "govt": 40,
+        "scty": 20
     },
-    {
-        "name": "Neo-Liberalism",
-        "stats": {
-            "econ": 30,
-            "dipl": 30,
-            "govt": 50,
-            "scty": 60
-        }
+    "ideo41": {
+        "econ": 30,
+        "dipl": 30,
+        "govt": 50,
+        "scty": 60
     },
-    {
-        "name": "Classical Liberalism",
-        "stats": {
-            "econ": 30,
-            "dipl": 60,
-            "govt": 60,
-            "scty": 80
-        }
+    "ideo42": {
+        "econ": 30,
+        "dipl": 60,
+        "govt": 60,
+        "scty": 80
     },
-    {
-        "name": "Authoritarian Capitalism",
-        "stats": {
-            "econ": 20,
-            "dipl": 30,
-            "govt": 20,
-            "scty": 40
-        }
+    "ideo43": {
+        "econ": 20,
+        "dipl": 30,
+        "govt": 20,
+        "scty": 40
     },
-    {
-        "name": "State Capitalism",
-        "stats": {
-            "econ": 20,
-            "dipl": 50,
-            "govt": 30,
-            "scty": 50
-        }
+    "ideo44": {
+        "econ": 20,
+        "dipl": 50,
+        "govt": 30,
+        "scty": 50
     },
-    {
-        "name": "Neo-Conservatism",
-        "stats": {
-            "econ": 20,
-            "dipl": 20,
-            "govt": 40,
-            "scty": 20
-        }
+    "ideo45": {
+        "econ": 20,
+        "dipl": 20,
+        "govt": 40,
+        "scty": 20
     },
-    {
-        "name": "Fundamentalism",
-        "stats": {
-            "econ": 20,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 5
-        }
+    "ideo46": {
+        "econ": 20,
+        "dipl": 30,
+        "govt": 30,
+        "scty": 5
     },
-    {
-        "name": "Libertarian Capitalism",
-        "stats": {
-            "econ": 20,
-            "dipl": 50,
-            "govt": 80,
-            "scty": 60
-        }
+    "ideo47": {
+        "econ": 20,
+        "dipl": 50,
+        "govt": 80,
+        "scty": 60
     },
-    {
-        "name": "Market Anarchism",
-        "stats": {
-            "econ": 20,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 50
-        }
+    "ideo48": {
+        "econ": 20,
+        "dipl": 50,
+        "govt": 100,
+        "scty": 50
     },
-    {
-        "name": "Totalitarian Capitalism",
-        "stats": {
-            "econ": 0,
-            "dipl": 30,
-            "govt": 0,
-            "scty": 50
-        }
+    "ideo49": {
+        "econ": 0,
+        "dipl": 30,
+        "govt": 0,
+        "scty": 50
     },
-    {
-        "name": "Ultra-Capitalism",
-        "stats": {
-            "econ": 0,
-            "dipl": 40,
-            "govt": 50,
-            "scty": 50
-        }
+    "ideo50": {
+        "econ": 0,
+        "dipl": 40,
+        "govt": 50,
+        "scty": 50
     },
-    {
-        "name": "Anarcho-Capitalism",
-        "stats": {
-            "econ": 0,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 50
-        }
+    "ideo51": {
+        "econ": 0,
+        "dipl": 50,
+        "govt": 100,
+        "scty": 50
     }
-];
+};
