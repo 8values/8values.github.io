@@ -12,7 +12,6 @@
 </script>
 <h1>8values</h1>
 <hr>
-<button class="menubutton" onclick="prev_question" id="back_button">Back</button><br>
 <h2 style="text-align:center;" id="question-number">Loading...</h2>
 <p class="question" id="question-text"></p>
 <button class="button" onclick="next_question( 1.0)" style="background-color: #1b5e20;">Strongly Agree</button> <br>
@@ -20,6 +19,8 @@
 <button class="button" onclick="next_question( 0.0)" style="background-color: #bbbbbb;">Neutral/Unsure</button> <br>
 <button class="button" onclick="next_question(-0.5)" style="background-color: #f44336;">Disagree</button> <br>
 <button class="button" onclick="next_question(-1.0)" style="background-color: #b71c1c;">Strongly Disagree</button> <br>
+<button class="small_button" onclick="prev_question()" id="back_button">Back</button>
+<button class="small_button_off" id="back_button_off">Back</button><br>
 
 <script>
     var max_econ, max_dipl, max_govt, max_scty; // Max possible scores
@@ -27,7 +28,7 @@
     var econ, dipl, govt, scty; // User's scores
     econ = dipl = govt = scty = 0;
     var qn = 0; // Question number
-    var prev_answer = -20;
+    var prev_answer = null;
     init_question();
     for (var i = 0; i < questions.length; i++) {
         max_econ += Math.abs(questions[i].effect.econ)
@@ -38,10 +39,12 @@
     function init_question() {
         document.getElementById("question-text").innerHTML = questions[qn].question;
         document.getElementById("question-number").innerHTML = "Question " + (qn + 1) + " of " + (questions.length);
-        if (prev_answer == -20) {
-            document.getElementById("back_button").style.visibility = 'hidden';
+        if (prev_answer == null) {
+            document.getElementById("back_button").style.display = 'none';
+            document.getElementById("back_button_off").style.display = 'block';
         } else {
-            document.getElementById("back_button").style.visibility = 'visible';
+            document.getElementById("back_button").style.display = 'block';
+            document.getElementById("back_button_off").style.display = 'none';
         }
 
     }
@@ -60,7 +63,7 @@
         }
     }
     function prev_question() {
-        if (prev_answer == -20) {
+        if (prev_answer == null) {
             return;
         }
         qn--;
@@ -68,9 +71,9 @@
         dipl -= prev_answer * questions[qn].effect.dipl;
         govt -= prev_answer * questions[qn].effect.govt;
         scty -= prev_answer * questions[qn].effect.scty;
-        prev_answer = -20;
+        prev_answer = null;
         init_question();
-        
+
     }
     function calc_score(score,max) {
         return (100*(max+score)/(2*max)).toFixed(1)
