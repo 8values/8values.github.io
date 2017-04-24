@@ -63,7 +63,7 @@ questions = [
       }
    },
    {
-      "question": "Inheritance and capital gains are legitimate forms of wealth.",
+      "question": "Inheritance is a legitimate form of wealth.",
       "effect": {
          "econ": -10,
          "dipl": 0,
