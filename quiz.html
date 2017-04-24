@@ -51,7 +51,8 @@
         dipl += mult*questions[qn].effect.dipl
         govt += mult*questions[qn].effect.govt
         scty += mult*questions[qn].effect.scty
-        qn++
+        qn++;
+        prev_answer = mult;
         if (qn < questions.length) {
             init_question();
         } else {
