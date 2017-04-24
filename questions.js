@@ -117,7 +117,7 @@ questions = [
       }
    },
    {
-      "question": "Military intervention is often necessary to protect the nation.",
+      "question": "Military action by our nation is often necessary to protect it.",
       "effect": {
          "econ": 0,
          "dipl": -10,
@@ -202,7 +202,7 @@ questions = [
       "effect": {
          "econ": 0,
          "dipl": -10,
-         "govt": 5,
+         "govt": -10,
          "scty": -10
       }
    },
