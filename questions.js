@@ -156,7 +156,7 @@ questions = [
       "question": "International aid is a waste of money.",
       "effect": {
          "econ": -5,
-         "dipl": 10,
+         "dipl": -10,
          "govt": 0,
          "scty": 0
       }

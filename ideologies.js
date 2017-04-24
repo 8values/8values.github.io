@@ -54,7 +54,7 @@ ideologies = [
         }
     },
     {
-        "name": "Stalinism-Maoism",
+        "name": "Stalinism/Maoism",
         "stats": {
             "econ": 100,
             "dipl": 20,
