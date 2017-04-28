@@ -10,42 +10,32 @@
 <script src="https://unpkg.com/i18next@8.0.0/i18next.min.js"></script>
 <script src="https://unpkg.com/i18next-browser-languagedetector@1.0.1/i18nextBrowserLanguageDetector.min.js"></script>
 <script src="https://unpkg.com/i18next-xhr-backend@1.4.1/i18nextXHRBackend.min.js"></script>
+<script type="application/javascript" src="i18n.js"></script>
 
 <h1>8values</h1>
 <hr>
-<button id="start" class="button translate" onclick="location.href='instructions.html';" style="font-size:36pt;"></button>
+<button data-i18n="start" class="button" onclick="location.href='instructions.html';" style="font-size:36pt;"></button>
 <img src="values.svg" class="center"></img>
 
-<h2 id="faq_whatis" class="translate"></h2>
-    <p id="faq_whatis_answer" class="translate"></p>
+<h2 data-i18n="faq_whatis"></h2>
+    <p data-i18n="faq_whatis_answer"></p>
 
 <h2 id="faq_values" class="translate"></h2>
-    <p id="faq_values_answer" class="translate"></p>
-    <p id="equality" class="value-description translate"></p>
-    <p id="wealth" class="value-description translate"></p>
-    <p id="might" class="value-description translate"></p>
-    <p id="peace" class="value-description translate"></p>
-    <p id="liberty" class="value-description translate"></p>
-    <p id="authority" class="value-description translate"></p>
-    <p id="tradition" class="value-description translate"></p>
-    <p id="progress" class="value-description translate"></p>
-<h2 id="faq_match" class="translate"></h2>
-    <p id="faq_match_answer" class="translate"></p>
-<h2 id="faq_scores" class="translate"></h2>
-    <p id="faq_scores_answer" class="translate"></p>
+    <p data-i18n="faq_values_answer"></p>
+    <p data-i18n="equality" class="value-description"></p>
+    <p data-i18n="wealth" class="value-description"></p>
+    <p data-i18n="might" class="value-description"></p>
+    <p data-i18n="peace" class="value-description"></p>
+    <p data-i18n="liberty" class="value-description"></p>
+    <p data-i18n="authority" class="value-description"></p>
+    <p data-i18n="tradition" class="value-description"></p>
+    <p data-i18n="progress" class="value-description"></p>
+<h2 data-i18n="faq_match"></h2>
+    <p data-i18n="faq_match_answer"></p>
+<h2 data-i18n="faq_scores"></h2>
+    <p data-i18n="faq_scores_answer"></p>
 
 <script type="text/javascript">
-    window.i18next
-        .use(window.i18nextBrowserLanguageDetector)
-        .use(window.i18nextXHRBackend)
-        .init({
-          "fallbackLng": "en"
-        }, ready)
-
-    function ready() {
-        for (i of document.getElementsByClassName("translate")) {
-            document.getElementById(i.id).innerHTML=i18next.t(i.id)
-        }
-    }
+    i18n_load_ns()
 </script>
 </body>
