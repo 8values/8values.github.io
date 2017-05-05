@@ -7,5 +7,13 @@
 	"faq_match": "O que significa &quot;Perfil mais Próximo&quot; ao final dos resultados?",
 	"faq_scores": "Eu não gosto da minha pontuação!",
 	"faq_scores_answer": "¯\\_(ツ)_/¯<br/>Se você tem alguma sugestão ou crítica construtiva, sinta-se à vontade para enviar um e-mail para eightvalues@gmail.com",
+
+	"results": "Resultados",
+	"economic_axis": "Eixo Econômico: ",
+	"diplomatic_axis": "Eixo Diplomático: ",
+	"civic_axis": "Eixo Civil: ",
+	"societal_axis": "Eixo Social: ",
+	"closest_match": "Perfil mais Próximo: ",
+	"match_desc": "O cálculo do perfil ideológico é um trabalho em andamento, e é muito menos exato que os valores e eixos.<br>Você pode enviar esses resultados copiando e colando a URL no topo da página ou usando a imagem abaixo. Acha que a ideologia associada estava errada? Quer nos ajudar a calibrar os testes? Envie os resultados juntamente com sua ideologia política para nós no endereço eightvalues@gmail.com, ou nos mande quaisquer comentários, perguntas ou críticas.",
 	"back": "Voltar"
 }
