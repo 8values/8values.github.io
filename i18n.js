@@ -17,6 +17,10 @@ function i18n_load_ns(namespaces, callback) {
 function i18n_ready() {
     var fields = document.querySelectorAll("[data-i18n]")
     for (var i = 0; i < fields.length; i++) {
-        fields[i].innerHTML=i18next.t(fields[i].dataset.i18n, fields[i].dataset)
+        if (fields[i].tagName === "IMG") {
+            fields[i].src = 'value_images/' + i18next.t(fields[i].dataset.i18n)
+        } else {
+            fields[i].innerHTML=i18next.t(fields[i].dataset.i18n, fields[i].dataset)
+        }
     }
 }
