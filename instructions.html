@@ -5,33 +5,45 @@
 <link rel="icon" type="x-icon" href="icon.png">
 <link rel="shortcut icon" type="x-icon" href="icon.png">
 <meta charset="utf-8">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6511426299019766",
+    enable_page_level_ads: true
+  });
+</script>
 </head>
 <body>
 <script src="https://unpkg.com/i18next@8.0.0/i18next.min.js"></script>
 <script src="https://unpkg.com/i18next-browser-languagedetector@1.0.1/i18nextBrowserLanguageDetector.min.js"></script>
 <script src="https://unpkg.com/i18next-xhr-backend@1.4.1/i18nextXHRBackend.min.js"></script>
+<script type="application/javascript" src="i18n.js"></script>
 
 <h1>8values</h1>
 <hr>
-<h2 id="title" style="text-align:center;"></h2>
-<p id="description" class="question"></p>
-<button id="confirm" class="button" onclick="location.href='quiz.html';" style="background-color: #2196f3;"></button> <br>
-<button id="cancel" class="button" onclick="location.href='index.html';" style="background-color: #f44336;"></button> <br>
+<h2 data-i18n="title" data-ns="instructions" style="text-align:center;"></h2>
+<p data-i18n="description" data-ns="instructions" class="question"></p>
+<button data-i18n="confirm" data-ns="instructions" class="button" onclick="location.href='quiz.html';" style="background-color: #2196f3;"></button> <br>
+<button data-i18n="cancel" data-ns="instructions" class="button" onclick="location.href='index.html';" style="background-color: #f44336;"></button> <br>
 
 <script type="text/javascript">
-	window.i18next
-        .use(window.i18nextBrowserLanguageDetector)
-        .use(window.i18nextXHRBackend)
-        .init({
-          "fallbackLng": "en",
-          "ns": [ "instructions" ]
-        }, ready)
-
-    function ready() {
-        ins = i18next.getFixedT(null, 'instructions')
-        for (i of ["title", "description", "confirm", "cancel"]) {
-            document.getElementById(i).innerHTML=ins(i)
-        }
-    }
+    i18n_load_ns("instructions")
 </script>
+
+<!-- Website visit statistics - no personal information is collected! -->
+<script type="text/javascript">
+var sc_project=11325211;
+var sc_invisible=1;
+var sc_security="fd9f0659";
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="web stats"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="//c.statcounter.com/11325211/0/fd9f0659/1/" alt="web
+stats"></a></div></noscript>
 </body>

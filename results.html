@@ -5,53 +5,77 @@
 <link rel="icon" type="x-icon" href="icon.png">
 <link rel="shortcut icon" type="x-icon" href="icon.png">
 <meta charset="utf-8">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6511426299019766",
+    enable_page_level_ads: true
+  });
+</script>
 </head>
 <script src="https://unpkg.com/i18next@8.0.0/i18next.min.js"></script>
 <script src="https://unpkg.com/i18next-browser-languagedetector@1.0.1/i18nextBrowserLanguageDetector.min.js"></script>
 <script src="https://unpkg.com/i18next-xhr-backend@1.4.1/i18nextXHRBackend.min.js"></script>
-<script type="application/javascript"
-        src="ideologies.js">
-</script>
+<script type="application/javascript" src="ideologies.js"></script>
+<script type="application/javascript" src="i18n.js"></script>
 
 <body>
 <h1>8values</h1>
 <hr>
 
-<h1 id="results" class="translate"></h1>
+<h1 data-i18n="results"></h1>
 
-<h2><span id="economic_axis" class="translate"></span><span class="weight-300" id="economic-label"></span></h2>
+<h2><span data-i18n="economic_axis"></span><span class="weight-300" id="economic-label"></span></h2>
 <div class="axis">
     <img id="img-equality" src="value_images/equality.svg" height="128pt"/>
     <div class="bar equality" id="bar-equality"><div class="text-wrapper" id="equality"></div></div>
     <div class="bar wealth" id="bar-wealth"><div class="text-wrapper" id="wealth"></div></div>
     <img id="img-wealth" src="value_images/wealth.svg" height="128pt"/>
 </div>
-<h2><span id="diplomatic_axis" class="translate"></span><span class="weight-300" id="diplomatic-label"></span></h2>
+<h2><span data-i18n="diplomatic_axis"></span><span class="weight-300" id="diplomatic-label"></span></h2>
 <div class="axis">
     <img id="img-might" src="value_images/might.svg" height="128pt"/>
     <div class="bar might" id="bar-might"><div class="text-wrapper" id="might"></div></div>
     <div class="bar peace" id="bar-peace"><div class="text-wrapper" id="peace"></div></div>
     <img id="img-peace" src="value_images/peace.svg" height="128pt"/>
 </div>
-<h2><span id="civic_axis" class="translate"></span><span class="weight-300" id="state-label"></span></h2>
+<h2><span data-i18n="civic_axis"></span><span class="weight-300" id="state-label"></span></h2>
 <div class="axis">
     <img id="img-liberty" src="value_images/liberty.svg" height="128pt"/>
     <div class="bar liberty" id="bar-liberty"><div class="text-wrapper" id="liberty"></div></div>
     <div class="bar authority" id="bar-authority"><div class="text-wrapper" id="authority"></div></div>
     <img id="img-authority" src="value_images/authority.svg" height="128pt"/>
 </div>
-<h2><span id="societal_axis" class="translate"></span><span class="weight-300" id="society-label"></span></h2>
+<h2><span data-i18n="societal_axis"></span><span class="weight-300" id="society-label"></span></h2>
 <div class="axis">
     <img id="img-tradition" src="value_images/tradition.svg" height="128pt"/>
     <div class="bar tradition" id="bar-tradition"><div class="text-wrapper" id="tradition"></div></div>
     <div class="bar progress" id="bar-progress"><div class="text-wrapper" id="progress"></div></div>
     <img id="img-progress" src="value_images/progress.svg" height="128pt"/>
 </div>
-<h2><span id="closest_match" class="translate"></span><span class="weight-300" id="ideology-label"></span></h2>
-<p id="match_desc" class="translate"></p>
+<h2><span data-i18n="closest_match"></span><span class="weight-300" id="ideology-label"></span></h2>
+<p data-i18n="match_desc"></p>
 <hr/>
 <canvas id="banner" width=800 height=600 style="font-family:Montserrat"></canvas>
-<button id="back" class="button translate" onclick="location.href='index.html';" style="background-color: #2196f3;"></button> <br>
+<button data-i18n="back" class="button" onclick="location.href='index.html';" style="background-color: #2196f3;"></button> <br>
+
+<!-- Website visit statistics - no personal information is collected! -->
+<script type="text/javascript">
+var sc_project=11325211;
+var sc_invisible=1;
+var sc_security="fd9f0659";
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="web stats"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="//c.statcounter.com/11325211/0/fd9f0659/1/" alt="web
+stats"></a></div></noscript>
+
 <script>
     function getQueryVariable(variable)
     {
@@ -127,20 +151,10 @@
     }
 
     window.onload = function() {
-        window.i18next
-            .use(window.i18nextBrowserLanguageDetector)
-            .use(window.i18nextXHRBackend)
-            .init({
-              "fallbackLng": "en",
-              "ns": [ "ideologies", "matches", "translation" ]
-            }, ready)
+        i18n_load_ns([ "ideologies", "matches", "translation" ], ready)
     }
 
     function ready() {
-        for (i of document.getElementsByClassName("translate")) {
-            document.getElementById(i.id).innerHTML=i18next.t(i.id)
-        }
-
         ideo_t = i18next.getFixedT(null, "ideologies")
         mat_t = i18next.getFixedT(null, "matches")
 
