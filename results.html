@@ -27,31 +27,55 @@
 
 <h2><span data-i18n="economic_axis"></span><span class="weight-300" id="economic-label"></span></h2>
 <div class="axis">
-    <img id="img-equality" data-i18n="equality.svg" height="128pt"/>
+    <figure>
+        <img id="img-equality" src="value_images/equality.svg" width="128pt"/>
+        <figcaption id="cap-equality" data-i18n="equality" data-ns="values" class="small"></figcaption>
+    </figure>
     <div class="bar equality" id="bar-equality"><div class="text-wrapper" id="equality"></div></div>
-    <div class="bar wealth" id="bar-wealth"><div class="text-wrapper" id="wealth"></div></div>
-    <img id="img-wealth" data-i18n="wealth.svg" height="128pt"/>
+    <div class="bar wealth" id="bar-wealth"><div class="text-wrapper" id="wealth"></div></div>    
+    <figure >
+        <img id="img-wealth" src="value_images/wealth.svg" width="128pt"/>
+        <figcaption id="cap-wealth" data-i18n="wealth" data-ns="values" class="small"></figcaption>
+    </figure>
 </div>
 <h2><span data-i18n="diplomatic_axis"></span><span class="weight-300" id="diplomatic-label"></span></h2>
 <div class="axis">
-    <img id="img-might" data-i18n="might.svg" height="128pt"/>
+    <figure>
+        <img id="img-might" src="value_images/might.svg" width="128pt"/>
+        <figcaption id="cap-might" data-i18n="might" data-ns="values" class="small"></figcaption>
+    </figure>
     <div class="bar might" id="bar-might"><div class="text-wrapper" id="might"></div></div>
     <div class="bar peace" id="bar-peace"><div class="text-wrapper" id="peace"></div></div>
-    <img id="img-peace" data-i18n="peace.svg" height="128pt"/>
+    <figure>
+        <img id="img-peace" src="value_images/peace.svg" width="128pt"/>
+        <figcaption id="cap-peace" data-i18n="peace" data-ns="values" class="small"></figcaption>
+    </figure>
 </div>
 <h2><span data-i18n="civic_axis"></span><span class="weight-300" id="state-label"></span></h2>
 <div class="axis">
-    <img id="img-liberty" data-i18n="liberty.svg" height="128pt"/>
+    <figure>
+        <img id="img-liberty" src="value_images/liberty.svg" width="128pt"/>
+        <figcaption id="cap-liberty" data-i18n="liberty" data-ns="values" class="small"></figcaption>
+    </figure>
     <div class="bar liberty" id="bar-liberty"><div class="text-wrapper" id="liberty"></div></div>
     <div class="bar authority" id="bar-authority"><div class="text-wrapper" id="authority"></div></div>
-    <img id="img-authority" data-i18n="authority.svg" height="128pt"/>
+    <figure>
+        <img id="img-authority" src="value_images/authority.svg" width="128pt"/>
+        <figcaption id="cap-authority" data-i18n="authority" data-ns="values" class="small"></figcaption>
+    </figure>
 </div>
 <h2><span data-i18n="societal_axis"></span><span class="weight-300" id="society-label"></span></h2>
 <div class="axis">
-    <img id="img-tradition" data-i18n="tradition.svg" height="128pt"/>
+    <figure>
+        <img id="img-tradition" src="value_images/tradition.svg" width="128pt"/>
+        <figcaption id="cap-tradition" data-i18n="tradition" data-ns="values" class="small"></figcaption>
+    </figure>
     <div class="bar tradition" id="bar-tradition"><div class="text-wrapper" id="tradition"></div></div>
     <div class="bar progress" id="bar-progress"><div class="text-wrapper" id="progress"></div></div>
-    <img id="img-progress" data-i18n="progress.svg" height="128pt"/>
+    <figure>
+        <img id="img-progress" src="value_images/progress.svg" width="128pt"/>
+        <figcaption id="cap-progress" data-i18n="progress" data-ns="values" class="small"></figcaption>
+    </figure>
 </div>
 <h2><span data-i18n="closest_match"></span><span class="weight-300" id="ideology-label"></span></h2>
 <p data-i18n="match_desc"></p>
@@ -151,7 +175,7 @@ stats"></a></div></noscript>
     }
 
     window.onload = function() {
-        i18n_load_ns([ "ideologies", "matches", "translation" ], ready)
+        i18n_load_ns([ "ideologies", "matches", "translation", "values" ], ready)
     }
 
     function ready() {
@@ -170,23 +194,41 @@ stats"></a></div></noscript>
         var ctx = c.getContext("2d")
         ctx.fillStyle = "#EEEEEE"
         ctx.fillRect(0,0,800,600)
+        ctx.font="14px Montserrat"
+        ctx.textAlign="center"
 
         img = document.getElementById("img-equality")
         ctx.drawImage(img, 20, 120, 100, 100);
+        cap = document.getElementById("cap-equality").innerText
+        ctx.fillText(cap, 70, 210)
         img = document.getElementById("img-wealth")
         ctx.drawImage(img, 680, 120, 100, 100)
+        cap = document.getElementById("cap-wealth").innerText
+        ctx.fillText(cap, 730, 210)
         img = document.getElementById("img-might")
         ctx.drawImage(img, 20, 240, 100, 100)
+        cap = document.getElementById("cap-might").innerText
+        ctx.fillText(cap, 70, 330)
         img = document.getElementById("img-peace")
         ctx.drawImage(img, 680, 240, 100, 100)
+        cap = document.getElementById("cap-peace").innerText
+        ctx.fillText(cap, 730, 330)
         img = document.getElementById("img-liberty")
         ctx.drawImage(img, 20, 360, 100, 100)
+        cap = document.getElementById("cap-liberty").innerText
+        ctx.fillText(cap, 70, 450)
         img = document.getElementById("img-authority")
         ctx.drawImage(img, 680, 360, 100, 100)
+        cap = document.getElementById("cap-authority").innerText
+        ctx.fillText(cap, 730, 450)
         img = document.getElementById("img-tradition")
         ctx.drawImage(img, 20, 480, 100, 100)
+        cap = document.getElementById("cap-tradition").innerText
+        ctx.fillText(cap, 70, 570)
         img = document.getElementById("img-progress")
         ctx.drawImage(img, 680, 480, 100, 100)
+        cap = document.getElementById("cap-progress").innerText
+        ctx.fillText(cap, 730, 570)
 
         ctx.fillStyle="#222222"
         ctx.fillRect(120, 130, 560, 80)
