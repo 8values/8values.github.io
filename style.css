@@ -249,6 +249,6 @@ figcaption {
     color: white;
 }
 figcaption.small {
-    width: 128px;
+    width: 100%;
     font-size: 14pt;
 }
