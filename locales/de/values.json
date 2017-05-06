@@ -1,15 +1,15 @@
 {
-    "economic": "ECONOMIC",
-    "diplomatic": "DIPLOMATIC",
-    "civil": "CIVIL",
-    "societal": "SOCIETAL",
+    "economic": "WIRTSCHAFTLICH",
+    "diplomatic": "DIPLOMATISCH",
+    "civil": "ZIVIL",
+    "societal": "SOZIAL",
 
-    "equality": "EQUALITY",
-	"wealth": "MARKETS",
-	"might": "NATION",
-	"peace": "WORLD",
-	"liberty": "LIBERTY",
-	"authority": "AUTHORITY",
+    "equality": "GLEICHHEIT",
+	"wealth": "MÄRKTE",
+	"might": "STAAT",
+	"peace": "WELT",
+	"liberty": "FREIHEIT",
+	"authority": "AUTORITÄT",
 	"tradition": "TRADITION",
-	"progress": "PROGRESS"
+	"progress": "FORTSCHRITT"
 }
