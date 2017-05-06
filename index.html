@@ -22,9 +22,46 @@
 <h1>8values</h1>
 <hr>
 <button data-i18n="start" class="button" onclick="location.href='instructions.html';" style="font-size:36pt;"></button>
-<img data-i18n="values.svg" class="center"></img>
+<figure id="values" class="center">
+    <p data-i18n="economic" data-ns="values"></p>
+    <p data-i18n="diplomatic" data-ns="values"></p>
+    <p data-i18n="civil" data-ns="values"></p>
+    <p data-i18n="societal" data-ns="values"></p>
+    <figure>
+        <img src="value_images/equality.svg" />
+        <figcaption data-i18n="equality" data-ns="values"></figcaption>
+    </figure>
+    <figure>
+        <img src="value_images/might.svg" />
+        <figcaption data-i18n="might" data-ns="values"></figcaption>
+    </figure>
+    <figure>
+        <img src="value_images/liberty.svg" />
+        <figcaption data-i18n="liberty" data-ns="values"></figcaption>
+    </figure>
+    <figure>
+        <img src="value_images/tradition.svg" />
+        <figcaption data-i18n="tradition" data-ns="values"></figcaption>
+    </figure>
+    <figure>
+        <img src="value_images/wealth.svg" />
+        <figcaption data-i18n="wealth" data-ns="values"></figcaption>
+    </figure>
+    <figure>
+        <img src="value_images/peace.svg" />
+        <figcaption data-i18n="peace" data-ns="values"></figcaption>
+    </figure>
+    <figure>
+        <img src="value_images/authority.svg" />
+        <figcaption data-i18n="authority" data-ns="values"></figcaption>
+    </figure>
+    <figure>
+        <img src="value_images/progress.svg" />
+        <figcaption data-i18n="progress" data-ns="values"></figcaption>
+    </figure>
+</figure>
 
-<h2 data-i18n="faq_whatis"></h2>
+<h2 data-i18n="faq_whatis" style="clear:both"></h2>
     <p data-i18n="faq_whatis_answer"></p>
 
 <h2 data-i18n="faq_values"></h2>
@@ -43,7 +80,7 @@
     <p data-i18n="faq_scores_answer"></p>
 
 <script type="text/javascript">
-    i18n_load_ns()
+    i18n_load_ns([ "translation", "values" ])
 </script>
 
 <!-- Website visit statistics - no personal information is collected! -->

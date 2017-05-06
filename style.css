@@ -66,7 +66,7 @@ li {
 a {
     font-family: inherit;
 }
-img.center {
+figure.center {
     display: block;
     margin: 1em auto;
     width: 50%;
@@ -215,4 +215,35 @@ canvas {
     margin: 8pt;
     margin-left: auto;
     margin-right: auto;
+}
+#values {
+    width: 870px;
+}
+figure {
+    position: relative;
+    margin: 0;
+}
+#values figure, #values p {
+    float: left;
+    margin: 5px;
+}
+#values p {
+    text-align: center;
+    width: 200px;
+    font-family: Montserrat;
+    font-size: 24pt;
+    color: black;
+}
+figcaption {
+    position: absolute;
+    top: 75%;
+    text-align: center;
+    width: 200px;
+    font-family: Montserrat;
+    font-size: 24pt;
+    color: white;
+}
+figcaption.small {
+    width: 128px;
+    font-size: 14pt;
 }
