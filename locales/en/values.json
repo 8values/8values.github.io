@@ -1,0 +1,15 @@
+{
+    "economic": "ECONOMIC",
+    "diplomatic": "DIPLOMATIC",
+    "civil": "CIVIL",
+    "societal": "SOCIETAL",
+
+    "equality": "EQUALITY",
+	"wealth": "MARKETS",
+	"might": "NATION",
+	"peace": "WORLD",
+	"liberty": "LIBERTY",
+	"authority": "AUTHORITY",
+	"tradition": "TRADITION",
+	"progress": "PROGRESS"
+}

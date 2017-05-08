@@ -1,0 +1,29 @@
+{
+	"start": "Klicke hier, um zu beginnen!",
+	"faq_whatis": "Was ist 8values?",
+	"faq_whatis_answer": "8values ist grundsätzlich ein politisches Quiz, dass versucht, acht verschiedenen politischen Werten Prozente zuzuordnen. Dir wird eine Aussage gezeigt und du antwortest mit deiner Meinung zu dieser Aussage, von <b>Starke Zustimmung</b> bis <b>Starke Ablehnung</b>, wobei jede Antwort deine Werte etwas beeinflusst. Am Ende des Quiz werden deine Antworten mit dem jeweiligen Höchstwert jedes Wertes verglichen, somit erhältst du einen Prozentwert. Antworte ehrlich!",
+	"faq_values": "Was sind die acht Werte?",
+	"faq_values_answer": "Es gibt vier unabhängige Achsen - Wirtschaftlich, Diplomatisch, Staat und Gesellschaftlich. Jeder Achse sind zwei gegensätzliche Werte zugewiesen, und zwar:",
+	"faq_match": "Was bedeutet &quot;Beste Übereinstimmung&quot; unter den Ergebnissen?",
+	"faq_match_answer": "Neben der Bewertung der acht Werte versucht das Quiz auch, dich einer politischen Ideologie zuzuordnen. Diese Funktion ist noch in Arbeit und viel ungenauer als die Werte und Achsen, also nimm es nicht zu ernst. Wenn du mit deiner zugewiesenen Ideologie nicht einverstanden bist, schicke uns eine E-Mail an eightvalues@gmail.com mit deinen Werten, deiner zugewiesenen Ideologie und deiner bevorzugten Ideologie und wir werden das System anpassen. Vielen Dank!",
+	"faq_scores": "Ich mag meine Ergebnisse nicht!",
+	"faq_scores_answer": "¯\\_(ツ)_/¯<br/>Wenn du Vorschläge oder konstruktive Kritik hast, sende diese gerne an eightvalues@gmail.com",
+	
+	"equality": "<b class=\"equality\">Gleichheit</b> (Wirtschaftlich)<br/>Diejenigen mit höheren Gleichheit-Punkten sind der Meinung, (wirtschaftliche) Werte sollen unter der Bevölkerung verteilt werden. Sie neigen dazu, progressive Steuerpolitik, Sozialprogramme, und bei hohen Werten den Sozialismus, zu befürworten.",
+	"wealth": "<b class=\"wealth\">Märkte</b> (Wirtschaftlich)<br/>Diejenigen mit höheren Markt-Punkten glauben, die Wirtschaft sollte schnelles Wachstum anstreben. Sie neigen dazu, niedrige Seuern, Privatisierung, Deregulierung, und bei hohen Werten Laissez-Faire-Kapitalismus zu befürworten.",
+	"might": "<b class=\"might\">Staat</b> (Diplomatisch)<br/>Diejenigen mit höheren Staat-Punkten sind patriotisch und nationalistisch. Sie glauben oft an eine aggressive Außenpolitik, Wertschätzung des Militärs, Stärke, Souveränität, und bei hohen Werten, an territoriale Expansion.",
+	"peace": "<b class=\"peace\">Welt</b> (Diplomatisch)<br/>Diejenigen mit höheren Welt-Scores sind kosmopolitisch und globalistisch. Sie glauben oft an eine friedliche Außenpolitik, Diplomatie, Kooperation, Integration, und bei hohen Werten, an eine Weltregierung.",
+	"liberty": "<b class=\"liberty\">Freiheit</b> (Staat)<br/>Diejenigen mit höheren Freiheit-Punkten glauben an große zivile Freiheit. Sie neigen dazu, Demokratie zu unterstützen und sind gegen staatliche Einmischung in ihr Privatleben. Beachte, dass sich das auf zivile Freiheiten bezieht, nicht auf wirtschaftliche Freiheiten.",
+	"authority": "<b class=\"authority\">Autorität</b> (Staat)<br/>Diejenigen mit höheren Autorität-Punkten glauben an einen starken Staat. Sie neigen dazu, staatliche Einmischung in Privatleben, staatliche Überwachung, und bei hohen Werten Zensur und Autokratie, zu befürworten.",
+	"tradition": "<b class=\"tradition\">Tradition</b> (Gesellschaftlich)<br/>Diejenigen mit höheren Tradition-Punkten glauben an traditionelle Werte und die strenge Einhaltung moralischer Regeln. Sie sind häufig religiös und unterstützen den derzeitigen oder einen früheren Status Quo.",
+	"progress": "<b class=\"progress\">Fortschritt</b> (Gesellschaftlich)<br/>Diejenigen mit höheren Fortschritt-Punkten glauben an soziale Veränderung und Rationalität. Sie sind häufig nicht gläubig bzw. Atheisten und befürworten Umweltaktionismus und wissenschaftliche sowie technologische Forschung.",
+
+	"results": "Ergebnisse",
+	"economic_axis": "Wirtschaftliche Axis: ",
+	"diplomatic_axis": "Diplomatische Achse: ",
+	"civic_axis": "Zivile Achse: ",
+	"societal_axis": "Soziale Achse: ",
+	"closest_match": "Beste Übereinstimmung: ",
+	"match_desc": "Die Zuordnung der Ideologien ist noch in Entwicklung und wesentlich ungenauer als die Achsen.<br/>Du kannst deine Ergebnisse versenden, indem du die URL oben auf der Seite kopierst, oder das untere Bild benutzt. Deine zugeordnete Ideologie ist falsch? Du willst uns helfen, das Quiz zu kalibrieren? Sende uns deine Ergebnisse und politische Ideologie an eightvalues@gmail.com, oder sende uns jegliche Kommentare, Fragen oder Kritik.",
+	"back": "Zurück"
+}

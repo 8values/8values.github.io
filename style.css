@@ -66,12 +66,6 @@ li {
 a {
     font-family: inherit;
 }
-img.center {
-    display: block;
-    margin: 1em auto;
-    width: 50%;
-    min-width: 500pt;
-}
 .button {
     background-color: #2196f3;
     font-family: 'Montserrat', sans-serif;
@@ -215,4 +209,46 @@ canvas {
     margin: 8pt;
     margin-left: auto;
     margin-right: auto;
+}
+figure {
+    position: relative;
+    margin: 0;
+}
+figure.center {
+    display: block;
+    margin: 1em auto;
+    width: 50%;
+    min-width: 500pt;
+}
+figure img {
+    width: 100%;
+}
+#values {
+    background: white;
+}
+#values figure, #values p {
+    width: 23.5%;
+    min-width: 100pt;
+    float: left;
+    margin: 5px;
+}
+#values p {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 150%;
+    color: black;
+}
+figcaption {
+    position: absolute;
+    top: 75%;
+    text-align: center;
+    width: 100%;
+    min-width: 100pt;
+    font-family: Montserrat;
+    font-size: 150%;
+    color: white;
+}
+figcaption.small {
+    width: 100%;
+    font-size: 14pt;
 }

@@ -51,20 +51,20 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="766.04529"
-     inkscape:cy="-11.092422"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="374.52874"
+     inkscape:cy="-32.492387"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g5264-1"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1920"
-     inkscape:window-height="1016"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-width="1440"
+     inkscape:window-height="837"
+     inkscape:window-x="-8"
+     inkscape:window-y="206"
      inkscape:window-maximized="1"
      showguides="false"
      inkscape:object-nodes="true"
@@ -78,7 +78,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -120,36 +120,6 @@
          id="path5258-9"
          d="m 0.72760492,18.520836 v 4.167188 c 0,1.539081 1.23904398,2.778124 2.77812498,2.778124 H 22.952604 c 1.539081,0 2.778125,-1.239043 2.778125,-2.778124 v -4.167188 z"
          style="opacity:1;fill:#222222;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.24999997;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.90944878;paint-order:normal" />
-      <g
-         aria-label="WORLD"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.23333311px;line-height:2.11666656px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Medium';text-align:center;text-anchor:middle;opacity:1;fill:#eeeeee;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.11666656;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
-         id="text4627-36">
-        <path
-           inkscape:connector-curvature="0"
-           d="M 8.8896038,20.325296 H 9.4780371 L 8.4747372,23.28863 H 7.8863039 l -0.6773333,-2.2479 -0.6900333,2.2479 H 5.9389706 L 4.939904,20.325296 h 0.6096 l 0.6985,2.3495 0.6942666,-2.3495 h 0.5588 l 0.6984999,2.357967 z"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.23333311px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Medium';text-align:center;text-anchor:middle;fill:#eeeeee;fill-opacity:1;stroke-width:2.11666656"
-           id="path5750" />
-        <path
-           inkscape:connector-curvature="0"
-           d="m 11.13962,20.287196 q 0.440267,0 0.8001,0.198967 0.364067,0.198967 0.5715,0.5461 0.207433,0.347133 0.207433,0.770467 0,0.423333 -0.207433,0.7747 -0.207433,0.347133 -0.5715,0.550333 -0.359833,0.2032 -0.8001,0.2032 -0.440266,0 -0.804333,-0.2032 -0.3598335,-0.2032 -0.5672668,-0.550333 -0.2074333,-0.351367 -0.2074333,-0.7747 0,-0.423334 0.2074333,-0.770467 0.2074333,-0.347133 0.5672668,-0.5461 0.364067,-0.198967 0.804333,-0.198967 z m 0.0085,0.508 q -0.270933,0 -0.503767,0.135467 -0.232833,0.131233 -0.3683,0.364067 -0.135466,0.2286 -0.135466,0.508 0,0.2794 0.135466,0.512233 0.1397,0.232833 0.3683,0.3683 0.232834,0.135467 0.503767,0.135467 0.2667,0 0.4953,-0.135467 0.2286,-0.135467 0.359833,-0.3683 0.135467,-0.232833 0.135467,-0.512233 0,-0.2794 -0.135467,-0.508 -0.131233,-0.232834 -0.359833,-0.364067 -0.2286,-0.135467 -0.4953,-0.135467 z"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.23333311px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Medium';text-align:center;text-anchor:middle;fill:#eeeeee;fill-opacity:1;stroke-width:2.11666656"
-           id="path5752" />
-        <path
-           inkscape:connector-curvature="0"
-           d="m 15.070667,23.28863 -0.512234,-0.8763 q -0.03387,0.0042 -0.105833,0.0042 h -0.668867 v 0.8721 H 13.216467 V 20.325296 H 14.4526 q 0.575733,0 0.889,0.2667 0.313267,0.2667 0.313267,0.753534 0,0.347133 -0.1524,0.592666 -0.148167,0.245534 -0.436034,0.3683 l 0.651934,0.982134 z m -1.286934,-1.3716 H 14.4526 q 0.321733,0 0.491067,-0.1397 0.169333,-0.1397 0.169333,-0.414867 0,-0.270933 -0.169333,-0.4064 -0.169334,-0.135467 -0.491067,-0.135467 h -0.668867 z"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.23333311px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Medium';text-align:center;text-anchor:middle;fill:#eeeeee;fill-opacity:1;stroke-width:2.11666656"
-           id="path5754" />
-        <path
-           inkscape:connector-curvature="0"
-           d="m 16.275711,20.325296 h 0.567267 v 2.4511 h 1.278467 v 0.512234 h -1.845734 z"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.23333311px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Medium';text-align:center;text-anchor:middle;fill:#eeeeee;fill-opacity:1;stroke-width:2.11666656"
-           id="path5756" />
-        <path
-           inkscape:connector-curvature="0"
-           d="m 19.797911,20.325296 q 0.4445,0 0.795866,0.1905 0.351367,0.186267 0.550334,0.524934 0.198966,0.338666 0.198966,0.766233 0,0.427567 -0.2032,0.766233 -0.198966,0.334434 -0.554566,0.524934 -0.3556,0.1905 -0.808567,0.1905 h -1.210733 v -2.963334 z m 0.0127,2.4638 q 0.270933,0 0.486833,-0.122766 0.220133,-0.127 0.3429,-0.347134 0.122767,-0.224366 0.122767,-0.508 0,-0.283633 -0.127,-0.508 -0.127,-0.2286 -0.351367,-0.351366 -0.220133,-0.127 -0.4953,-0.127 h -0.656167 v 1.964266 z"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.23333311px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Medium';text-align:center;text-anchor:middle;fill:#eeeeee;fill-opacity:1;stroke-width:2.11666656"
-           id="path5758" />
-      </g>
     </g>
   </g>
 </svg>

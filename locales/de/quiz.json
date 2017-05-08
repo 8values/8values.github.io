@@ -1,0 +1,8 @@
+{
+	"strongly_agree": "Starke Zustimmung",
+	"agree": "Zustimmung",
+	"neutral": "Neutral/Nicht sicher",
+	"disagree": "Ablehnung",
+	"strongly_disagree": "Starke Ablehnung",
+	"question_no": "Frage {{current}} von {{total}}"
+}
