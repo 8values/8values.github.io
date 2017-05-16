@@ -21,7 +21,8 @@
 <img src="values.svg" class="center"></img>
 
 <h2>What is 8values?</h2>
-    <p>8values is, in essence, a political quiz that attempts to assign percentages for eight different political values. You will be presented by a statement, and then you will answer with your opinion on the statement, from <b>Strongly Agree</b> to <b>Strongly Disagree</b>, with each answer slightly affecting your scores. At the end of the quiz, your answers will be compared to the maximum possible for each value, thus giving you a percentage. Answer honestly!</p>
+    <p>8values is, in essence, a political quiz that attempts to assign percentages for eight different political values. You will be presented by a statement, and then you will answer with your opinion on the statement, from <b>Strongly Agree</b> to <b>Strongly Disagree</b>, with each answer slightly affecting your scores. At the end of the quiz, your answers will be compared to the maximum possible for each value, thus giving you a percentage. Answer honestly!<br /><br />
+    There are <b><u><span id="numOfQuestions"></span></u></b> questions in the test.</p>
 
 <h2>What are the eight values?</h2>
     <p>There are four independent axes - Economic, Diplomatic, State, and Society - and each has two opposing values assigned to them. They are:</p>
@@ -63,4 +64,10 @@ href="http://statcounter.com/" target="_blank"><img
 class="statcounter"
 src="//c.statcounter.com/11325211/0/fd9f0659/1/" alt="web
 stats"></a></div></noscript>
+
+<!-- This is the script for the page itself -->
+<script type="application/javascript"src="questions.js"></script>
+<script type="text/javascript">
+    document.getElementById("numOfQuestions").innerHTML = questions.length
+</script>
 </body>
