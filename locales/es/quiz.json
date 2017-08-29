@@ -1,0 +1,8 @@
+{
+	"strongly_agree": "Muy de acuerdo",
+	"agree": "De acuerdo",
+	"neutral": "Neutral/No estoy seguro/a",
+	"disagree": "En desacuerdo",
+	"strongly_disagree": "Muy en desacuerdo",
+	"question_no": "Pregunta {{current}} de {{total}}"
+}
