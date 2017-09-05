@@ -21,7 +21,8 @@
 <img src="values.svg" class="center"></img>
 
 <h2>What is 8values?</h2>
-    <p>8values is, in essence, a political quiz that attempts to assign percentages for eight different political values. You will be presented by a statement, and then you will answer with your opinion on the statement, from <b>Strongly Agree</b> to <b>Strongly Disagree</b>, with each answer slightly affecting your scores. At the end of the quiz, your answers will be compared to the maximum possible for each value, thus giving you a percentage. Answer honestly!</p>
+    <p>8values is, in essence, a political quiz that attempts to assign percentages for eight different political values. You will be presented by a statement, and then you will answer with your opinion on the statement, from <b>Strongly Agree</b> to <b>Strongly Disagree</b>, with each answer slightly affecting your scores. At the end of the quiz, your answers will be compared to the maximum possible for each value, thus giving you a percentage. Answer honestly!<br /><br />
+    There are <b><u><span id="numOfQuestions"></span></u></b> questions in the test.</p>
 
 <h2>What are the eight values?</h2>
     <p>There are four independent axes - Economic, Diplomatic, State, and Society - and each has two opposing values assigned to them. They are:</p>
@@ -45,7 +46,7 @@
     <p>In addition to matching you to the eight values, the quiz also attempts to match you to a political ideology. This is a work in progress and is much less accurate than the values and axes, so don't take it too seriously. If you disagree with your assigned ideology, send us an email at eightvalues@gmail.com with your scores, matched ideology, and preferred ideology, and we'll look into adjusting the system. Thanks!</p>
 <h2>I don't like my scores!</h2>
     <p>¯\_(ツ)_/¯<br/>
-    If you have any suggestions or constructive criticism, feel free to send it to eightvalues@gmail.com or open an issue on the GitHub page!</p>
+    If you have any suggestions or constructive criticism, feel free to send it to <a href="mailto:eightvalues@gmail.com">eightvalues@gmail.com</a> or open an issue on the GitHub page here: <a href="https://github.com/8values/8values.github.io">GitHub Page</a></p>
 
 <!-- Website visit statistics - no personal information is collected! -->
 <script type="text/javascript">
@@ -63,4 +64,10 @@ href="http://statcounter.com/" target="_blank"><img
 class="statcounter"
 src="//c.statcounter.com/11325211/0/fd9f0659/1/" alt="web
 stats"></a></div></noscript>
+
+<!-- This is the script for the page itself -->
+<script type="application/javascript"src="questions.js"></script>
+<script type="text/javascript">
+    document.getElementById("numOfQuestions").innerHTML = questions.length;
+</script>
 </body>
