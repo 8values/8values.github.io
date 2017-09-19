@@ -4,6 +4,7 @@ html {
 }
 body {
     width: 80%;
+    max-width: 1000pt;
     min-height: calc(100vh - 4em);
     margin: 0 auto;
     padding: 2em;
@@ -17,11 +18,12 @@ p {
     color: #444444;
     font-family: 'Roboto', sans-serif;
     font-size: 16pt;
-    line-height: 1;
+    line-height: 1.5;
     margin: 4pt;
 }
 p.value-description {
     text-indent: -16pt;
+    margin: 12pt;
     margin-left: 20pt;
 }
 p.question {
@@ -47,17 +49,17 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 72pt;
     text-align: center;
-    line-height: 72pt;
-    margin-top: 0pt;
-    margin-bottom: 0pt;
+    line-height: 80pt;
+    margin-top: 20pt;
+    margin-bottom: 10pt;
 }
 h2 {
     color: #333333;
     font-family: 'Montserrat', sans-serif;
     font-size: 36pt;
-    line-height: 36pt;
-    margin-top: 12pt;
-    margin-bottom: 0pt;
+    line-height: 40pt;
+    margin-top: 20pt;
+    margin-bottom: 10pt;
 }
 li {
     font-size: 16pt;
