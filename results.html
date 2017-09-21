@@ -139,12 +139,24 @@ stats"></a></div></noscript>
     ideology = ""
     ideodist = Infinity
     for (var i = 0; i < ideologies.length; i++) {
+        //dist is the user's total distance on all axes for the current ideology
+        //ideodist is the final dist value for the closest ideology yet checked
         dist = 0
-        dist += Math.pow(Math.abs(ideologies[i].stats.econ - equality), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.govt - liberty), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.dipl - peace), 1.73856063)
-        dist += Math.pow(Math.abs(ideologies[i].stats.scty - progress), 1.73856063)
+        //add liberty and economic distances to dist
+        dist += Math.pow(Math.abs(ideologies[i].stats.econ - equality), ideologies[i].stats.econWeight)
+        dist += Math.pow(Math.abs(ideologies[i].stats.govt - liberty), ideologies[i].stats.govtWeight)
+        //if diplomatic weight for current ideology is not 0, add that distance to dist
+        //this is done because applying a power of zero and adding that to dist would increase dist by one when the value should not change dist at all
+        if(ideologies[i].stats.diplWeight!=0){
+        dist += Math.pow(Math.abs(ideologies[i].stats.dipl - peace), ideologies[i].stats.diplWeight)
+        }
+        //if societal weight for current ideology is not 0, add that distance to dist
+        if(ideologies[i].stats.sctyWeight!=0){
+        dist += Math.pow(Math.abs(ideologies[i].stats.scty - progress), ideologies[i].stats.sctyWeight)
+        }
+        //check if this ideology is closer than the next best match
         if (dist < ideodist) {
+            //change the ideology to the current one; set the ideodist variable to match the dist value of the new match
             ideology = ideologies[i].name
             ideodist = dist
         }
