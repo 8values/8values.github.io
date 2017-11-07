@@ -54,6 +54,20 @@ stats"></a></div></noscript>
     econ = dipl = govt = scty = 0;
     var qn = 0; // Question number
     var prev_answer = null;
+
+    let state;
+    try {
+      state = JSON.parse(localStorage.getItem('state'));
+    } catch(err) {}
+
+    if (state) {
+      econ = state.econ;
+      dipl = state.dipl;
+      govt = state.govt;
+      scty = state.scty;
+      qn = state.qn;
+    }
+
     init_question();
     for (var i = 0; i < questions.length; i++) {
         max_econ += Math.abs(questions[i].effect.econ)
@@ -83,6 +97,13 @@ stats"></a></div></noscript>
         prev_answer = mult;
         if (qn < questions.length) {
             init_question();
+            localStorage.setItem('state', JSON.stringify({
+              econ: econ,
+              dipl: dipl,
+              govt: govt,
+              scty: scty,
+              qn: qn
+            }));
         } else {
             results();
         }
