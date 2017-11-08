@@ -28,6 +28,7 @@
 <button class="button" onclick="next_question(-1.0)" style="background-color: #b71c1c;">Strongly Disagree</button> <br>
 <button class="small_button" onclick="prev_question()" id="back_button">Back</button>
 <button class="small_button_off" id="back_button_off">Back</button><br>
+<button class="small_button small_button_alert" onclick="start_over()" id="reset_button">Start over</button>
 
 <!-- Website visit statistics - no personal information is collected! -->
 <script type="text/javascript">
@@ -107,6 +108,12 @@ stats"></a></div></noscript>
         } else {
             results();
         }
+    }
+    function start_over() {
+      if (confirm('Are you sure you want to reset your progress?')) {
+        localStorage.removeItem('state');
+        location.reload();
+      }
     }
     function prev_question() {
         if (prev_answer == null) {
