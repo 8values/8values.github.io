@@ -28,6 +28,7 @@
 <button class="button" onclick="next_question(-1.0)" style="background-color: #b71c1c;">Strongly Disagree</button> <br>
 <button class="small_button" onclick="prev_question()" id="back_button">Back</button>
 <button class="small_button_off" id="back_button_off">Back</button><br>
+<button class="small_button small_button_alert" onclick="start_over()" id="reset_button">Start over</button>
 
 <!-- Website visit statistics - no personal information is collected! -->
 <script type="text/javascript">
@@ -54,6 +55,20 @@ stats"></a></div></noscript>
     econ = dipl = govt = scty = 0;
     var qn = 0; // Question number
     var prev_answer = null;
+
+    let state;
+    try {
+      state = JSON.parse(localStorage.getItem('state'));
+    } catch(err) {}
+
+    if (state) {
+      econ = state.econ;
+      dipl = state.dipl;
+      govt = state.govt;
+      scty = state.scty;
+      qn = state.qn;
+    }
+
     init_question();
     for (var i = 0; i < questions.length; i++) {
         max_econ += Math.abs(questions[i].effect.econ)
@@ -83,9 +98,22 @@ stats"></a></div></noscript>
         prev_answer = mult;
         if (qn < questions.length) {
             init_question();
+            localStorage.setItem('state', JSON.stringify({
+              econ: econ,
+              dipl: dipl,
+              govt: govt,
+              scty: scty,
+              qn: qn
+            }));
         } else {
             results();
         }
+    }
+    function start_over() {
+      if (confirm('Are you sure you want to reset your progress?')) {
+        localStorage.removeItem('state');
+        location.reload();
+      }
     }
     function prev_question() {
         if (prev_answer == null) {

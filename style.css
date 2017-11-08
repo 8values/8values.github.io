@@ -90,6 +90,7 @@ img.center {
 }
 .small_button, .small_button_off {
     background-color: #333;
+    display: inline-block;
     font-family: 'Montserrat', sans-serif;
     border: none;
     border-radius: 8pt;
@@ -103,6 +104,9 @@ img.center {
     font-size: 18pt;
     margin: -2px auto;
     cursor: pointer;
+}
+.small_button_alert {
+  background-color: #FF0000;
 }
 .small_button_off {
     background-color: #ddd;
