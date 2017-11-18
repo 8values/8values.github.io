@@ -432,6 +432,15 @@ ideologies = [
         }
     },
     {
+        "name": "Rational-Egoism",
+        "stats": {
+            "econ": 10,
+            "dipl": 50,
+            "govt": 90,
+            "scty": 40
+        }
+    },
+    {
         "name": "Totalitarian Capitalism",
         "stats": {
             "econ": 0,
