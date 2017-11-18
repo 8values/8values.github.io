@@ -228,7 +228,7 @@ questions = [
         "question": "Research should be conducted on an international scale.",
         "effect": {
             "econ": 0,
-            "dipl": -10,
+            "dipl": 10,
             "govt": 0,
             "scty": 10
         }
