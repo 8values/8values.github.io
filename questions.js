@@ -68,7 +68,7 @@ questions = [
             "econ": -10,
             "dipl": 0,
             "govt": 0,
-            "scty": -5
+            "scty": -10
         }
     },
     {
@@ -86,7 +86,7 @@ questions = [
             "econ": -10,
             "dipl": 0,
             "govt": 0,
-            "scty": -5
+            "scty": -10
         }
     },
     {
@@ -119,7 +119,7 @@ questions = [
     {
         "question": "Quality education is a right of all people.",
         "effect": {
-            "econ": 10,
+            "econ": 5,
             "dipl": 0,
             "govt": 0,
             "scty": 10
@@ -148,7 +148,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": -10,
-            "govt": -10,
+            "govt": -5,
             "scty": 0
         }
     },
@@ -157,7 +157,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 10,
-            "govt": 0,
+            "govt": 5,
             "scty": 0
         }
     },
@@ -184,7 +184,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 10,
-            "govt": 0,
+            "govt": 5,
             "scty": 0
         }
     },
@@ -193,7 +193,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": -10,
-            "govt": -10,
+            "govt": -5,
             "scty": 0
         }
     },
@@ -255,8 +255,8 @@ questions = [
         "question": "My religious values should be spread as much as possible.",
         "effect": {
             "econ": 0,
-            "dipl": -5,
-            "govt": -10,
+            "dipl": -10,
+            "govt": -2,
             "scty": -10
         }
     },
@@ -265,7 +265,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": -10,
-            "govt": -10,
+            "govt": -5,
             "scty": 0
         }
     },
@@ -273,7 +273,7 @@ questions = [
         "question": "It is very important to maintain law and order.",
         "effect": {
             "econ": 0,
-            "dipl": -5,
+            "dipl": -10,
             "govt": -10,
             "scty": 0
         }
@@ -328,8 +328,8 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": -10,
-            "govt": -10,
-            "scty": -5
+            "govt": -5,
+            "scty": -10
         }
     },
     {
@@ -400,7 +400,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -10,
+            "govt": -2,
             "scty": -10
         }
     },
@@ -418,16 +418,16 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -10,
+            "govt": -5,
             "scty": -10
         }
     },
     {
         "question": "Churches should be taxed the same way other institutions are taxed.",
         "effect": {
-            "econ": 5,
+            "econ": 0,
             "dipl": 0,
-            "govt": 0,
+            "govt": 5,
             "scty": 10
         }
     },
@@ -444,7 +444,7 @@ questions = [
         "question": "It is important that we work as a united world to combat climate change.",
         "effect": {
             "econ": 0,
-            "dipl": 10,
+            "dipl": 5,
             "govt": 0,
             "scty": 10
         }
@@ -543,7 +543,7 @@ questions = [
         "question": "Gun ownership should be prohibited for those without a valid reason.",
         "effect": {
             "econ": 0,
-            "dipl": 10,
+            "dipl": 0,
             "govt": -5,
             "scty": 0
         }
@@ -607,14 +607,14 @@ questions = [
         "effect": {
             "econ": 10,
             "dipl": 10,
-            "govt": 0,
+            "govt": 10,
             "scty": 0
         }
     },
     {
         "question": "All people - regardless of factors like culture or sexuality - should be treated equally.",
         "effect": {
-            "econ": 10,
+            "econ": 0,
             "dipl": 10,
             "govt": 10,
             "scty": 10
@@ -625,7 +625,7 @@ questions = [
         "effect": {
             "econ": -10,
             "dipl": -10,
-            "govt": -10,
+            "govt": 0,
             "scty": -10
         }
     }
