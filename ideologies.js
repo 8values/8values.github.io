@@ -432,7 +432,7 @@ ideologies = [
         }
     },
     {
-        "name": "Rational-Egoism",
+        "name": "Objectivism",
         "stats": {
             "econ": 10,
             "dipl": 50,
