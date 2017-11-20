@@ -198,7 +198,7 @@ ideologies = [
         }
     },
     {
-        "name": "Libertarian Egoism",
+        "name": "Anarcho-Objectivism",
         "stats": {
             "econ": 40,
             "dipl": 50,
@@ -324,7 +324,7 @@ ideologies = [
         }
     },
     {
-        "name": "Egoism",
+        "name": "Objectivism",
         "stats": {
             "econ": 10,
             "dipl": 50,
