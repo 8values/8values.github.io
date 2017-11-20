@@ -9,15 +9,6 @@ ideologies = [
         }
     },
     {
-        "name": "De Leonism",
-        "stats": {
-            "econ": 100,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 80
-        }
-    },
-    {
         "name": "Stalinism/Maoism",
         "stats": {
             "econ": 100,
@@ -72,7 +63,7 @@ ideologies = [
         }
     },
     {
-        "name": "Christian Democracy",
+        "name": "Religious Democracy",
         "stats": {
             "econ": 60,
             "dipl": 60,
@@ -87,15 +78,6 @@ ideologies = [
             "dipl": 70,
             "govt": 40,
             "scty": 80
-        }
-    },
-    {
-        "name": "Progressivism",
-        "stats": {
-            "econ": 60,
-            "dipl": 80,
-            "govt": 60,
-            "scty": 100
         }
     },
     {
@@ -155,7 +137,7 @@ ideologies = [
     {
         "name": "Capitalist Populism",
         "stats": {
-            "econ": 40,
+            "econ": 30,
             "dipl": 30,
             "govt": 30,
             "scty": 30
@@ -189,7 +171,7 @@ ideologies = [
         }
     },
     {
-        "name": "Libertarianism",
+        "name": "Capitalist Libertarianism",
         "stats": {
             "econ": 40,
             "dipl": 60,
@@ -198,7 +180,7 @@ ideologies = [
         }
     },
     {
-        "name": "Anarcho-Objectivism",
+        "name": "Aanrcho-Objectivism",
         "stats": {
             "econ": 40,
             "dipl": 50,
@@ -234,15 +216,6 @@ ideologies = [
         }
     },
     {
-        "name": "Capitalist Fascism",
-        "stats": {
-            "econ": 20,
-            "dipl": 20,
-            "govt": 20,
-            "scty": 20
-        }
-    },
-    {
         "name": "Conservatism",
         "stats": {
             "econ": 30,
@@ -255,22 +228,13 @@ ideologies = [
         "name": "Neo-Liberalism",
         "stats": {
             "econ": 30,
-            "dipl": 30,
+            "dipl": 50,
             "govt": 50,
             "scty": 60
         }
     },
     {
-        "name": "Classical Liberalism",
-        "stats": {
-            "econ": 30,
-            "dipl": 60,
-            "govt": 60,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Authoritarian Capitalism",
+        "name": "Capitalist Authoritarianism",
         "stats": {
             "econ": 20,
             "dipl": 30,
@@ -279,19 +243,10 @@ ideologies = [
         }
     },
     {
-        "name": "State Capitalism",
-        "stats": {
-            "econ": 20,
-            "dipl": 50,
-            "govt": 30,
-            "scty": 50
-        }
-    },
-    {
         "name": "Neo-Conservatism",
         "stats": {
             "econ": 20,
-            "dipl": 20,
+            "dipl": 40,
             "govt": 40,
             "scty": 20
         }
@@ -306,20 +261,11 @@ ideologies = [
         }
     },
     {
-        "name": "Libertarian Capitalism",
-        "stats": {
-            "econ": 20,
-            "dipl": 50,
-            "govt": 80,
-            "scty": 60
-        }
-    },
-    {
         "name": "Market Anarchism",
         "stats": {
             "econ": 20,
             "dipl": 50,
-            "govt": 100,
+            "govt": 80,
             "scty": 50
         }
     },
@@ -332,31 +278,4 @@ ideologies = [
             "scty": 40
         }
     },
-    {
-        "name": "Totalitarian Capitalism",
-        "stats": {
-            "econ": 0,
-            "dipl": 30,
-            "govt": 0,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Ultra-Capitalism",
-        "stats": {
-            "econ": 0,
-            "dipl": 40,
-            "govt": 50,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Anarcho-Capitalism",
-        "stats": {
-            "econ": 0,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 50
-        }
-    }
 ];
