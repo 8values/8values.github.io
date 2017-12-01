@@ -1,3 +1,6 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css); 
+
 html {
     background-color: #bbbbbb;
     padding: 0px;
@@ -15,7 +18,7 @@ body {
 }
 p {
     color: #444444;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Noto Sans KR', 'Roboto', sans-serif;
     font-size: 16pt;
     line-height: 1;
     margin: 4pt;
@@ -27,7 +30,7 @@ p.value-description {
 p.question {
     margin: 16pt auto;
     color: #333333;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Jeju Gothic', 'Montserrat', sans-serif;
     font-weight: normal;
     width: 70%;
     min-width: 500pt;
@@ -44,7 +47,7 @@ p.question {
 }
 h1 {
     color: #222222;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Jeju Gothic', 'Montserrat', sans-serif;
     font-size: 72pt;
     text-align: center;
     line-height: 72pt;
@@ -53,7 +56,7 @@ h1 {
 }
 h2 {
     color: #333333;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Jeju Gothic', 'Montserrat', sans-serif;
     font-size: 36pt;
     line-height: 36pt;
     margin-top: 12pt;
@@ -74,7 +77,7 @@ img.center {
 }
 .button {
     background-color: #2196f3;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Jeju Gothic', 'Montserrat', sans-serif;
     border: none;
     border-radius: 8pt;
     color: white;
@@ -90,7 +93,7 @@ img.center {
 }
 .small_button, .small_button_off {
     background-color: #333;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Jeju Gothic', 'Montserrat', sans-serif;
     border: none;
     border-radius: 8pt;
     color: white;
@@ -133,7 +136,7 @@ div.bar {
     width: 50%;
 }
 div.text-wrapper {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Jeju Gothic', 'Montserrat', sans-serif;
     font-size: 36pt;
     line-height: 36pt;
     color: #222222;
