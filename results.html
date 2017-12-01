@@ -47,9 +47,9 @@
     <div class="bar progress" id="bar-progress"><div class="text-wrapper" id="progress"></div></div>
     <img id="img-progress" src="value_images/progress.svg" height="128pt"/>
 </div>
-<h2>Closest Match: <span class="weight-300" id="ideology-label"></span></h2>
-<p>Ideological matching is a work in progress, and is much less accurate than the values and axes.</p>
-<p>You can send these results by copying and pasting the URL at the top of the page or using the image below. Think your matched ideology was wrong? Want to help us calibrate the test? Send the results along with your political ideology to us at eightvalues@gmail.com, or send us any comments, questions, or criticism. </p>
+<h2>Ближайшее совпадение: <span class="weight-300" id="ideology-label"></span></h2>
+<p>Идеологическое сопоставление незавершенно и гораздо менее точное, чем значения и оси.</p>
+<p>Вы можете отправить эти результаты, скопировав и вставив URL в верхней части страницы или используя изображение ниже.</p>
 <hr/>
 <canvas id="banner" width=800 height=650 style="font-family:Montserrat"></canvas>
 <button class="button" onclick="location.href='index.html';" style="background-color: #2196f3;">Назад</button> <br>
@@ -216,11 +216,11 @@ stats"></a></div></noscript> -->
         if (authority > 30) {ctx.fillText(authority + "%", 670, 477.5)}
         if (progress  > 30) {ctx.fillText(progress + "%", 670, 597.5)}
 
-        ctx.font="300 30px Montserrat"
+        ctx.font="medium 30px Montserrat"
         ctx.fillText("Russian: 8values-ru.github.io", 780, 60)
         ctx.fillText("Original: 8values.github.io", 780, 90)
-		ctx.fillText(version, 780, 120)
-        ctx.font="300 20px Montserrat"
+		//ctx.fillText(version, 780, 120)
+        ctx.font="medium 20px Montserrat"
         ctx.textAlign="center"
         ctx.fillText("Экономическая Ось: " + document.getElementById("economic-label").innerHTML, 400, 175)
         ctx.fillText("Дипломатическая Ось: " + document.getElementById("diplomatic-label").innerHTML, 400, 295)
