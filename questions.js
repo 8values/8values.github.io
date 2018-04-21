@@ -180,6 +180,24 @@ questions = [
         }
     },
     {
+        "question": "*The federal government should not own any land and should give the federal land back to the States.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -40,
+            "scty": 0
+        }
+    },
+    {
+        "question": "*It is a basic right for anyone to defend themselves against a physical attacker whether they are the one who attacked first.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 0
+        }
+    },
+    {
         "question": "The United Nations should be abolished.",
         "effect": {
             "econ": 0,
