@@ -27,6 +27,15 @@ questions = [
         }
     },
     {
+        "question": "Certain federal programs should be abolished and be replaced by private organizations.",
+        "effect": {
+            "econ": -10,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 0
+        }
+    },
+    {
         "question": "It is better to maintain a balanced budget than to ensure welfare for all citizens.",
         "effect": {
             "econ": -10,
@@ -81,6 +90,15 @@ questions = [
         }
     },
     {
+        "question": "The federal income tax should be a flat tax where all the people regardless of economic class pay the same percentage of their income.",
+        "effect": {
+            "econ": -10,
+            "dipl": 0,
+            "govt": -5,
+            "scty": 0
+        }
+    },
+    {
         "question": "Inheritance is a legitimate form of wealth.",
         "effect": {
             "econ": -10,
@@ -108,11 +126,29 @@ questions = [
         }
     },
     {
+        "question": "Tax payer funded roads should be replaced in favor of private toll roads.",
+        "effect": {
+            "econ": -10,
+            "dipl": 0,
+            "govt": -5,
+            "scty": 0
+        }
+    },
+    {
         "question": "Those with a greater ability to pay should receive better healthcare.",
         "effect": {
             "econ": -10,
             "dipl": 0,
             "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Healthcare should be treated like any other insurance and be mainly left to the private sector.",
+        "effect": {
+            "econ": -10,
+            "dipl": 0,
+            "govt": -10,
             "scty": 0
         }
     },
@@ -123,6 +159,15 @@ questions = [
             "dipl": 0,
             "govt": 0,
             "scty": 10
+        }
+    },
+    {
+        "question": "Education is a service that should be little controled by the Federal government and be left to the States to decide how their education system should work.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 0
         }
     },
     {
@@ -243,12 +288,30 @@ questions = [
         }
     },
     {
+        "question": "My nation does not need to, nor is it our responsibility, to help aide proxy wars and accept floods of migrants.",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "govt": -5,
+            "scty": 0
+        }
+    },
+    {
         "question": "Even when protesting an authoritarian government, violence is not acceptable.",
         "effect": {
             "econ": 0,
             "dipl": 5,
             "govt": -5,
             "scty": 0
+        }
+    },
+    {
+        "question": "It is the duty of the people to keep the government in check and to revolt against it if neccessary if the government has become too beurocratic.",
+        "effect": {
+            "econ": 0,
+            "dipl": -5,
+            "govt": -10,
+            "scty": -10
         }
     },
     {
@@ -513,6 +576,33 @@ questions = [
         }
     },
     {
+        "question": "Race, ethnicity, and nationality do not matter the most but it is their culture and the values they hold that matter the most.",
+        "effect": {
+            "econ": 0,
+            "dipl": 5,
+            "govt": 5,
+            "scty": 5
+        }
+    },
+    {
+        "question": "Ethnic nationalism is not importnant nor is it neccessary, but it is cultural nationalism.",
+        "effect": {
+            "econ": 0,
+            "dipl": -5,
+            "govt": 0,
+            "scty": -10
+        }
+    },
+    {
+        "question": "My nation's culture is superior to other cultures in many/or most ways.",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "govt": -5,
+            "scty": -10
+        }
+    },
+    {
         "question": "Sex outside marriage is immoral.",
         "effect": {
             "econ": 0,
@@ -522,11 +612,29 @@ questions = [
         }
     },
     {
+        "question": "Sex outside of marriage is immoral unless if it is between a soon-to-be-married couple.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": -10
+        }
+    },
+    {
         "question": "If we accept migrants at all, it is important that they assimilate into our culture.",
         "effect": {
             "econ": 0,
             "dipl": 0,
             "govt": -5,
+            "scty": -10
+        }
+    },
+    {
+        "question": "Nativism is more important than diversity and multiculturism.",
+        "effect": {
+            "econ": 0,
+            "dipl": -5,
+            "govt": 5,
             "scty": -10
         }
     },
@@ -545,6 +653,15 @@ questions = [
             "econ": 0,
             "dipl": 10,
             "govt": -10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "You do not need a valid reason to own a gun because it is a fundamental right.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -5,
             "scty": 0
         }
     },
@@ -618,6 +735,15 @@ questions = [
             "dipl": 10,
             "govt": 10,
             "scty": 10
+        }
+    },
+    {
+        "question": "People of certain factors like culture or sexuality should be treated as equally as everyone else by the governemnt but should be discouraged upon by society.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 5,
+            "scty": -10
         }
     },
     {
