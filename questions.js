@@ -27,11 +27,11 @@ questions = [
         }
     },
     {
-        "question": "Certain federal programs should be abolished and be replaced by private organizations.",
+        "question": "*Certain federal programs should be abolished and be replaced by private organizations.",
         "effect": {
             "econ": -10,
             "dipl": 0,
-            "govt": -10,
+            "govt": 0,
             "scty": 0
         }
     },
@@ -90,11 +90,11 @@ questions = [
         }
     },
     {
-        "question": "The federal income tax should be a flat tax where all the people regardless of economic class pay the same percentage of their income.",
+        "question": "*The federal income tax should be a flat tax where all the people regardless of economic class pay the same percentage of their income.",
         "effect": {
             "econ": -10,
             "dipl": 0,
-            "govt": -5,
+            "govt": 0,
             "scty": 0
         }
     },
@@ -126,11 +126,11 @@ questions = [
         }
     },
     {
-        "question": "Tax payer funded roads should be replaced in favor of private toll roads.",
+        "question": "*Tax payer funded roads should be replaced in favor of private toll roads.",
         "effect": {
             "econ": -10,
             "dipl": 0,
-            "govt": -5,
+            "govt": 0,
             "scty": 0
         }
     },
@@ -144,11 +144,11 @@ questions = [
         }
     },
     {
-        "question": "Healthcare should be treated like any other insurance and be mainly left to the private sector.",
+        "question": "*Healthcare should be treated like any other insurance and be mainly left to the private sector.",
         "effect": {
             "econ": -10,
             "dipl": 0,
-            "govt": -10,
+            "govt": 0,
             "scty": 0
         }
     },
@@ -162,12 +162,12 @@ questions = [
         }
     },
     {
-        "question": "Education is a service that should be little controled by the Federal government and be left to the States to decide how their education system should work.",
+        "question": "*Education is a service that should be little controled by the Federal government and be left to the States to decide how their education system should work.",
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -10,
-            "scty": 0
+            "govt": -5,
+            "scty": -10
         }
     },
     {
@@ -288,12 +288,12 @@ questions = [
         }
     },
     {
-        "question": "My nation does not need to, nor is it our responsibility, to help aide proxy wars and accept floods of migrants.",
+        "question": "*My nation does not need to, nor is it our responsibility, to help aide proxy wars and accept floods of migrants.",
         "effect": {
             "econ": 0,
-            "dipl": -10,
-            "govt": -5,
-            "scty": 0
+            "dipl": -20,
+            "govt": 0,
+            "scty": -20
         }
     },
     {
@@ -306,11 +306,11 @@ questions = [
         }
     },
     {
-        "question": "It is the duty of the people to keep the government in check and to revolt against it if neccessary if the government has become too beurocratic.",
+        "question": "*It is the duty of the people to keep the government in check and to revolt against it if neccessary if the government has become too beurocratic.",
         "effect": {
             "econ": 0,
-            "dipl": -5,
-            "govt": -10,
+            "dipl": -10,
+            "govt": 0,
             "scty": -10
         }
     },
@@ -576,30 +576,30 @@ questions = [
         }
     },
     {
-        "question": "Race, ethnicity, and nationality do not matter the most but it is their culture and the values they hold that matter the most.",
+        "question": "*Race, ethnicity, and nationality do not matter the most but it is their culture and the values they hold that matter the most.",
         "effect": {
             "econ": 0,
-            "dipl": 5,
-            "govt": 5,
-            "scty": 5
-        }
-    },
-    {
-        "question": "Ethnic nationalism is not importnant nor is it neccessary, but it is cultural nationalism.",
-        "effect": {
-            "econ": 0,
-            "dipl": -5,
+            "dipl": -10,
             "govt": 0,
             "scty": -10
         }
     },
     {
-        "question": "My nation's culture is superior to other cultures in many/or most ways.",
+        "question": "*Ethnic nationalism is not importnant nor is it neccessary, but it is cultural nationalism that is important.",
         "effect": {
             "econ": 0,
             "dipl": -10,
-            "govt": -5,
-            "scty": -10
+            "govt": 0,
+            "scty": -20
+        }
+    },
+    {
+        "question": "*My nation's culture is superior to other cultures in many/or most ways.",
+        "effect": {
+            "econ": 0,
+            "dipl": -20,
+            "govt": 0,
+            "scty": -20
         }
     },
     {
@@ -612,11 +612,11 @@ questions = [
         }
     },
     {
-        "question": "Sex outside of marriage is immoral unless if it is between a soon-to-be-married couple.",
+        "question": "*Sex outside of marriage is immoral unless if it is between a soon-to-be-married couple.",
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": 0,
+            "govt": -5,
             "scty": -10
         }
     },
@@ -630,11 +630,11 @@ questions = [
         }
     },
     {
-        "question": "Nativism is more important than diversity and multiculturism.",
+        "question": "*Nativism is more important than diversity and multiculturism.",
         "effect": {
             "econ": 0,
-            "dipl": -5,
-            "govt": 5,
+            "dipl": -10,
+            "govt": -5,
             "scty": -10
         }
     },
@@ -657,11 +657,11 @@ questions = [
         }
     },
     {
-        "question": "You do not need a valid reason to own a gun because it is a fundamental right.",
+        "question": "*You do not need a valid reason to own a gun because it is a fundamental right.",
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -5,
+            "govt": -10,
             "scty": 0
         }
     },
@@ -738,11 +738,11 @@ questions = [
         }
     },
     {
-        "question": "People of certain factors like culture or sexuality should be treated as equally as everyone else by the governemnt but should be discouraged upon by society.",
+        "question": "*People of certain factors like opposing culture or homosexuality should be treated as equally as everyone else by the governemnt but should be discouraged upon by society.",
         "effect": {
             "econ": 0,
-            "dipl": 0,
-            "govt": 5,
+            "dipl": -10,
+            "govt": 0,
             "scty": -10
         }
     },
