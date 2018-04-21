@@ -306,6 +306,15 @@ ideologies = [
         }
     },
     {
+        "name": "Paleo-Libertarianism",
+        "stats": {
+            "econ": 20,
+            "dipl": 50
+            "govt": 80
+            "scty": 20
+        }
+    },
+    {
         "name": "Anarcho-Egoism",
         "stats": {
             "econ": 40,
