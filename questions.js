@@ -31,7 +31,7 @@ questions = [
         "effect": {
             "econ": -10,
             "dipl": 0,
-            "govt": 0,
+            "govt": -10,
             "scty": 0
         }
     },
@@ -94,7 +94,7 @@ questions = [
         "effect": {
             "econ": -10,
             "dipl": 0,
-            "govt": 0,
+            "govt": -5,
             "scty": 0
         }
     },
@@ -130,7 +130,7 @@ questions = [
         "effect": {
             "econ": -10,
             "dipl": 0,
-            "govt": 0,
+            "govt": -5,
             "scty": 0
         }
     },
@@ -148,7 +148,7 @@ questions = [
         "effect": {
             "econ": -10,
             "dipl": 0,
-            "govt": 0,
+            "govt": -5,
             "scty": 0
         }
     },
@@ -194,7 +194,7 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "govt": -10,
-            "scty": 0
+            "scty": -10
         }
     },
     {
@@ -310,7 +310,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": -20,
-            "govt": 0,
+            "govt": -20,
             "scty": -20
         }
     },
@@ -432,6 +432,15 @@ questions = [
         }
     },
     {
+        "question": "*The government should not classify anyone into any group based on certain traits except for the census.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 0
+        }
+    },
+    {
         "question": "It is important that the government follows the majority opinion, even if it is wrong.",
         "effect": {
             "econ": 0,
@@ -468,6 +477,15 @@ questions = [
         }
     },
     {
+        "question": "*Protecting the environment is a responsibility that should be left to the individual and to society, the government should not get involved.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": -10
+        }
+    },
+    {
         "question": "A better world will come from automation, science, and technology.",
         "effect": {
             "econ": 0,
@@ -492,6 +510,15 @@ questions = [
             "dipl": 0,
             "govt": 0,
             "scty": 10
+        }
+    },
+    {
+        "question": "*Tradition is essential in society and too much progress can ruin family values.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": -10
         }
     },
     {
@@ -652,7 +679,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": -10,
-            "govt": -5,
+            "govt": 0,
             "scty": -10
         }
     },
