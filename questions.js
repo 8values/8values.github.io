@@ -47,7 +47,7 @@ questions = [
     {
         "question": "International trade is beneficial.",
         "effect": {
-            "econ": -5,
+            "econ" : -10 ,
             "dipl": 0,
             "govt": 10,
             "scty": 0
@@ -155,8 +155,8 @@ questions = [
     {
         "question": "I support regional unions, such as the European Union.",
         "effect": {
-            "econ": -5,
-            "dipl": 10,
+            "econ": -10 ,
+            "dipl" : 10 ,
             "govt": 10,
             "scty": 5
         }
@@ -508,7 +508,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 10,
-            "govt": 5,
+            "govt" : 5 ,
             "scty": 10
         }
     },
@@ -517,7 +517,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -5,
+            "govt": -10 ,
             "scty": -10
         }
     },
@@ -526,7 +526,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -5,
+            "govt": -10 ,
             "scty": -10
         }
     },
@@ -623,9 +623,9 @@ questions = [
     {
         "question": "It is important that we further my group's goals above all others.",
         "effect": {
-            "econ": -10,
+            "econ": 10,
             "dipl": -10,
-            "govt": -10,
+            "govt": 10,
             "scty": -10
         }
     }
