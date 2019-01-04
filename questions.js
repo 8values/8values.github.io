@@ -54,7 +54,7 @@ questions = [
         }
     },
     {
-        "question": "From each according to his ability, to each according to his needs.",
+        "question": "From each according to their ability, to each according to their needs.",
         "effect": {
             "econ": 10,
             "dipl": 0,
