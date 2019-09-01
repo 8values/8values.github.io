@@ -48,22 +48,20 @@ stats"></a></div></noscript>
 
 <!-- JavaScript for the test itself -->
 <script>
-    var max_econ, max_dipl, max_govt, max_scty; // Max possible scores
-    max_econ = max_dipl = max_govt = max_scty = 0;
-    var econ, dipl, govt, scty; // User's scores
-    econ = dipl = govt = scty = 0;
+    var max_liberal_interventionism, max_progress_conservative; // Max possible scores
+    max_liberal_interventionism = max_progress_conservative  = 0;
+    var liberal_interventionism, progress_conservative; // User's scores
+    liberal_interventionism = progress_conservative = 0;
     var qn = 0; // Question number
     var prev_answer = null;
     init_question();
     for (var i = 0; i < questions.length; i++) {
-        max_econ += Math.abs(questions[i].effect.econ)
-        max_dipl += Math.abs(questions[i].effect.dipl)
-        max_govt += Math.abs(questions[i].effect.govt)
-        max_scty += Math.abs(questions[i].effect.scty)
+        max_liberal_interventionism += Math.abs(questions[i].effect.liberal_interventionism)
+        max_progress_conservative += Math.abs(questions[i].effect.progress_conservative)
     }
     function init_question() {
         document.getElementById("question-text").innerHTML = questions[qn].question;
-        document.getElementById("question-number").innerHTML = "Question " + (qn + 1) + " of " + (questions.length);
+        document.getElementById("question-number").innerHTML = "질문 " + (qn + 1) + " (총 " + (questions.length) + "개)";
         if (prev_answer == null) {
             document.getElementById("back_button").style.display = 'none';
             document.getElementById("back_button_off").style.display = 'block';
@@ -75,10 +73,8 @@ stats"></a></div></noscript>
     }
 
     function next_question(mult) {
-        econ += mult*questions[qn].effect.econ
-        dipl += mult*questions[qn].effect.dipl
-        govt += mult*questions[qn].effect.govt
-        scty += mult*questions[qn].effect.scty
+        liberal_interventionism += mult*questions[qn].effect.liberal_interventionism
+        progress_conservative += mult*questions[qn].effect.progress_conservative
         qn++;
         prev_answer = mult;
         if (qn < questions.length) {
@@ -92,10 +88,8 @@ stats"></a></div></noscript>
             return;
         }
         qn--;
-        econ -= prev_answer * questions[qn].effect.econ;
-        dipl -= prev_answer * questions[qn].effect.dipl;
-        govt -= prev_answer * questions[qn].effect.govt;
-        scty -= prev_answer * questions[qn].effect.scty;
+        liberal_interventionism -= prev_answer * questions[qn].effect.liberal_interventionism;
+        progress_conservative -= prev_answer * questions[qn].effect.progress_conservative;
         prev_answer = null;
         init_question();
 
@@ -105,10 +99,8 @@ stats"></a></div></noscript>
     }
     function results() {
         location.href = `results.html`
-            + `?e=${calc_score(econ,max_econ)}`
-            + `&d=${calc_score(dipl,max_dipl)}`
-            + `&g=${calc_score(govt,max_govt)}`
-            + `&s=${calc_score(scty,max_scty)}`
+            + `?l=${calc_score(liberal_interventionism,max_liberal_interventionism)}`
+            + `&p=${calc_score(progress_conservative,max_progress_conservative)}`
     }
 </script>
 </body>
