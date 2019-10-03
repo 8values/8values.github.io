@@ -333,7 +333,7 @@ questions = [
         }
     },
     {
-        "question": "No authority should be left unquestioned.",
+        "question": "All authority should be questioned.",
         "effect": {
             "econ": 0,
             "dipl": 0,
