@@ -603,7 +603,7 @@ questions = [
         }
     },
     {
-        "question": "Governments should be as concerned about foreign citizens as they are about those within their borders.",
+        "question": "Governments should be as concerned about foreigners as they are about their own citizens.",
         "effect": {
             "econ": 10,
             "dipl": 10,
