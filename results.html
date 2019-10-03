@@ -51,7 +51,7 @@
 <p>Ideological matching is a work in progress, and is much less accurate than the values and axes.</p>
 <p>You can send these results by copying and pasting the URL at the top of the page or using the image below. Think your matched ideology was wrong? Want to help us calibrate the test? Send the results along with your political ideology to us at eightvalues@gmail.com, or send us any comments, questions, or criticism. </p>
 <hr/>
-<canvas id="banner" width=800 height=650 style="font-family:Montserrat"></canvas>
+<img src="" id="banner">
 <button class="button" onclick="location.href='index.html';" style="background-color: #2196f3;">Back</button> <br>
 <!-- Website visit statistics - no personal information is collected! -->
 <script type="text/javascript">
@@ -155,10 +155,12 @@ stats"></a></div></noscript>
     }
 
     window.onload = function() {
-        var c = document.getElementById("banner")
+        var c = document.createElement("canvas")
         var ctx = c.getContext("2d")
+        c.width = 800;
+        c.height = 650;
         ctx.fillStyle = "#EEEEEE"
-        ctx.fillRect(0,0,800,600)
+        ctx.fillRect(0,0,800,650);
 
         img = document.getElementById("img-equality")
         ctx.drawImage(img, 20, 170, 100, 100);
@@ -224,6 +226,8 @@ stats"></a></div></noscript>
         ctx.fillText("Diplomatic Axis: " + document.getElementById("diplomatic-label").innerHTML, 400, 295)
         ctx.fillText("Civil Axis: " + document.getElementById("state-label").innerHTML, 400, 415)
         ctx.fillText("Societal Axis: " + document.getElementById("society-label").innerHTML, 400, 535)
+
+        document.getElementById("banner").src = c.toDataURL();
     }
     </script>
 </body>

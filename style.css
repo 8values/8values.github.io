@@ -182,7 +182,7 @@ div.tradition {
 span.weight-300 {
     font-weight: 300;
 }
-canvas {
+#banner {
     border-color: #444444;
     border-style: solid;
     border-width: 2px;
