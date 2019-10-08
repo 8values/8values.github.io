@@ -18,13 +18,15 @@ p {
     color: #444444;
     font-family: 'Roboto', sans-serif;
     font-size: 16pt;
-    line-height: 1.5;
+    line-height: 1.25;
     margin: 4pt;
 }
 p.value-description {
     text-indent: -16pt;
     margin: 12pt;
-    margin-left: 20pt;
+    margin-left: 32pt;
+    margin-right: 24pt;
+    line-height: 1.1;
 }
 p.question {
     margin: 16pt auto;
