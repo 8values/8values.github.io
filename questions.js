@@ -45,11 +45,11 @@ questions = [
         }
     },
     {
-        "question": "International trade is beneficial.",
+        "question": "Tariffs on international trade are important to encourage local production.",
         "effect": {
-            "econ": -5,
+            "econ": 5,
             "dipl": 0,
-            "govt": 10,
+            "govt": -10,
             "scty": 0
         }
     },
@@ -59,7 +59,7 @@ questions = [
             "econ": 10,
             "dipl": 0,
             "govt": 0,
-            "scty": 5
+            "scty": 0
         }
     },
     {
@@ -68,7 +68,7 @@ questions = [
             "econ": -10,
             "dipl": 0,
             "govt": 0,
-            "scty": -5
+            "scty": 0
         }
     },
     {
@@ -90,7 +90,7 @@ questions = [
         }
     },
     {
-        "question": "Public utilities like roads and electricity should be publicly owned.",
+        "question": "Basic utilities like roads and electricity should be publicly owned.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -99,7 +99,7 @@ questions = [
         }
     },
     {
-        "question": "Excessive government intervention is a threat to the economy.",
+        "question": "Government intervention is a threat to the economy.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -122,7 +122,7 @@ questions = [
             "econ": 10,
             "dipl": 0,
             "govt": 0,
-            "scty": 10
+            "scty": 5
         }
     },
     {
@@ -265,7 +265,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": -10,
-            "govt": -10,
+            "govt": -5,
             "scty": 0
         }
     },
@@ -400,7 +400,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -10,
+            "govt": -5,
             "scty": -10
         }
     },
@@ -543,7 +543,7 @@ questions = [
         "question": "Gun ownership should be prohibited for those without a valid reason.",
         "effect": {
             "econ": 0,
-            "dipl": 10,
+            "dipl": 0,
             "govt": -10,
             "scty": 0
         }
@@ -605,7 +605,7 @@ questions = [
     {
         "question": "Governments should be as concerned about foreigners as they are about their own citizens.",
         "effect": {
-            "econ": 10,
+            "econ": 0,
             "dipl": 10,
             "govt": 0,
             "scty": 0
