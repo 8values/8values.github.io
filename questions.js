@@ -288,7 +288,7 @@ questions = [
         }
     },
     {
-        "question": "Victimless crimes (such as drug use) should not be crimes at all.",
+        "question": "Victimless crimes should not be crimes at all.",
         "effect": {
             "econ": 0,
             "dipl": 0,
