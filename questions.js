@@ -288,7 +288,7 @@ questions = [
         }
     },
     {
-        "question": "Victimless crimes (such as drug use) should not be crimes at all.",
+        "question": "Physician-assisted suicide should be legal.",
         "effect": {
             "econ": 0,
             "dipl": 0,
