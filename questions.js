@@ -244,7 +244,7 @@ questions = [
     },
     {
         "question": "Even when protesting an authoritarian government, violence is not acceptable.",
-        "effect": {
+https://github.com/8values/8values.github.io/pull/112/conflict?name=questions.js&ancestor_oid=c6ae2b1c4fdbfc531c4ea779f93a0ca217f3c348&base_oid=0897cfcb9e4aca37f56b566907b0631ee4086488&head_oid=3d6022ed6037b2df094c037f9df636b147b77799        "effect": {
             "econ": 0,
             "dipl": 5,
             "govt": -5,
@@ -288,7 +288,7 @@ questions = [
         }
     },
     {
-        "question": "Victimless crimes should not be crimes at all.",
+        "question": "Physician-assisted suicide should be legal.",
         "effect": {
             "econ": 0,
             "dipl": 0,
