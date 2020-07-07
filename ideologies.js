@@ -18,6 +18,16 @@ ideologies = [
         }
     },
     {
+
+        "name": "Soulism",
+        "stats": {
+            "econ": 100,
+            "dipl": 100,
+            "govt": 100,
+            "scty": 100
+        }
+    },
+    {
         "name": "Trotskyism",
         "stats": {
             "econ": 100,
@@ -342,12 +352,12 @@ ideologies = [
         }
     },
     {
-        "name": "Capitalist Fascism",
+        "name": "National Capitalism",
         "stats": {
-            "econ": 20,
+            "econ": 5,
             "dipl": 20,
-            "govt": 20,
-            "scty": 20
+            "govt": 10,
+            "scty": 10
         }
     },
     {
