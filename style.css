@@ -1,5 +1,5 @@
 html {
-    background-color: #808ead;
+    background-color: #ffeed7;
     padding: 0px;
 }
 body {
@@ -7,8 +7,8 @@ body {
     min-height: calc(100vh - 4em);
     margin: 0 auto;
     padding: 2em;
-    background-color: #808ead;
-    border-color: #eeeeee;
+    background-color: #ffeed7;
+    border-color: #ffdaab;
     border-left-style: solid;
     border-right-style: solid;
     border-width: 20px;
@@ -32,7 +32,7 @@ p.question {
     width: 70%;
     min-width: 500pt;
     min-height: 144pt;
-    background-color: #808ead;
+    background-color: #ffeed7;
     padding: 16pt;
     border-radius: 16pt;
     font-size: 36pt;
