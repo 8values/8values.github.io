@@ -9,12 +9,12 @@ ideologies = [
         }
     },
     {
-        "name": "Libertarian Communism",
+        "name": "Communalism",
         "stats": {
             "econ": 100,
-            "dipl": 70,
-            "govt": 80,
-            "scty": 80
+            "dipl": 30,
+            "govt": 90,
+            "scty": 90
         }
     },
     {
@@ -54,10 +54,10 @@ ideologies = [
         }
     },
     {
-        "name": "Marxism",
+        "name": "Orthodox Marxism",
         "stats": {
             "econ": 100,
-            "dipl": 70,
+            "dipl": 100,
             "govt": 40,
             "scty": 80
         }
@@ -66,7 +66,7 @@ ideologies = [
         "name": "De Leonism",
         "stats": {
             "econ": 100,
-            "dipl": 30,
+            "dipl": 50,
             "govt": 30,
             "scty": 80
         }
@@ -81,12 +81,12 @@ ideologies = [
         }
     },
     {
-        "name": "Stalinism/Maoism",
+        "name": "Stalinism",
         "stats": {
             "econ": 100,
-            "dipl": 20,
+            "dipl": 50,
             "govt": 0,
-            "scty": 60
+            "scty": 70
         }
     },
     {
@@ -99,21 +99,21 @@ ideologies = [
         }
     },
     {
-        "name": "State Socialism",
+        "name": "Utopian Socialism",
         "stats": {
             "econ": 80,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 70
+            "dipl": 70,
+            "govt": 60,
+            "scty": 90
         }
     },
     {
-        "name": "Theocratic Socialism",
+        "name": "Juche",
         "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 30,
-            "scty": 20
+            "econ": 100,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 5
         }
     },
     {
@@ -162,25 +162,25 @@ ideologies = [
         }
     },
     {
-        "name": "Left-Wing Populism",
+        "name": "Maoism",
         "stats": {
-            "econ": 60,
-            "dipl": 40,
-            "govt": 30,
-            "scty": 70
+            "econ": 100,
+            "dipl": 20,
+            "govt": 0,
+            "scty": 40
         }
     },
     {
-        "name": "Theocratic Distributism",
+        "name": "Progressive Distributism",
         "stats": {
             "econ": 60,
-            "dipl": 40,
-            "govt": 30,
-            "scty": 20
+            "dipl": 50,
+            "govt": 50,
+            "scty": 80
         }
     },
     {
-        "name": "Distributism",
+        "name": "Conservative Distributism",
         "stats": {
             "econ": 60,
             "dipl": 50,
@@ -198,10 +198,10 @@ ideologies = [
         }
     },
     {
-        "name": "Christian Democracy",
+        "name": "Religious Democracy",
         "stats": {
             "econ": 60,
-            "dipl": 60,
+            "dipl": 50,
             "govt": 50,
             "scty": 30
         }
@@ -231,15 +231,6 @@ ideologies = [
             "dipl": 50,
             "govt": 100,
             "scty": 70
-        }
-    },
-    {
-        "name": "National Totalitarianism",
-        "stats": {
-            "econ": 50,
-            "dipl": 20,
-            "govt": 0,
-            "scty": 50
         }
     },
     {
@@ -308,10 +299,10 @@ ideologies = [
     {
         "name": "Reactionary",
         "stats": {
-            "econ": 40,
-            "dipl": 40,
-            "govt": 40,
-            "scty": 10
+            "econ": 10,
+            "dipl": 35,
+            "govt": 25,
+            "scty": 0
         }
     },
     {
@@ -351,11 +342,11 @@ ideologies = [
         }
     },
     {
-        "name": "Autocracy",
+        "name": "Avaritionism",
         "stats": {
-            "econ": 50,
-            "dipl": 20,
-            "govt": 20,
+            "econ": 0,
+            "dipl": 50,
+            "govt": 100,
             "scty": 50
         }
     },
@@ -414,34 +405,25 @@ ideologies = [
         }
     },
     {
-        "name": "State Capitalism",
-        "stats": {
-            "econ": 20,
-            "dipl": 50,
-            "govt": 30,
-            "scty": 50
-        }
-    },
-    {
         "name": "Neo-Conservatism",
         "stats": {
             "econ": 20,
             "dipl": 20,
-            "govt": 40,
-            "scty": 20
+            "govt": 60,
+            "scty": 30
         }
     },
     {
-        "name": "Fundamentalism",
+        "name": "Socialism with Chinese Characteristics",
         "stats": {
-            "econ": 20,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 5
+            "econ": 60,
+            "dipl": 10,
+            "govt": 10,
+            "scty": 50
         }
     },
     {
-        "name": "Libertarian Capitalism",
+        "name": "Right-Capitalism",
         "stats": {
             "econ": 20,
             "dipl": 50,
@@ -464,7 +446,7 @@ ideologies = [
             "econ": 10,
             "dipl": 50,
             "govt": 90,
-            "scty": 40
+            "scty": 100
         }
     },
     {

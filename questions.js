@@ -261,10 +261,10 @@ questions = [
         }
     },
     {
-        "question": "not finished",
+        "question": "Pornography gives a negative effect to society.",
         "effect": {
             "econ": 0,
-            "dipl": -10,
+            "dipl": 0,
             "govt": 0,
             "scty": -10
         }
@@ -378,12 +378,12 @@ questions = [
         }
     },
     {
-        "question": "",
+        "question": "We need to establish an Aristocratic-style of government to defend tradition.",
         "effect": {
             "econ": 0,
-            "dipl": -10,
-            "govt": 0,
-            "scty": -5
+            "dipl": 0,
+            "govt": -2,
+            "scty": -10
         }
     },
     {
