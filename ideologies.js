@@ -18,13 +18,30 @@ ideologies = [
         }
     },
     {
-
         "name": "Soulism",
         "stats": {
             "econ": 100,
             "dipl": 100,
             "govt": 100,
             "scty": 100
+        }
+    },
+    {
+        "name": "Anarcha-Feminism",
+        "stats": {
+            "econ": 95,
+            "dipl": 100,
+            "govt": 100,
+            "scty": 100
+        }
+    },
+    {
+       "name": "English Socialism",
+       "stats": {
+           "econ": 75,
+           "dipl": 0,
+           "govt": 0,
+           "scty": 50
         }
     },
     {
@@ -199,12 +216,12 @@ ideologies = [
         }
     },
     {
-        "name": "Progressivism",
+        "name": "Social Authoritarianism",
         "stats": {
             "econ": 60,
-            "dipl": 80,
-            "govt": 60,
-            "scty": 100
+            "dipl": 50,
+            "govt": 20,
+            "scty": 80
         }
     },
     {
@@ -255,9 +272,9 @@ ideologies = [
     {
         "name": "Liberalism",
         "stats": {
-            "econ": 50,
-            "dipl": 60,
-            "govt": 60,
+            "econ": 45,
+            "dipl": 50,
+            "govt": 55,
             "scty": 60
         }
     },
@@ -271,21 +288,21 @@ ideologies = [
         }
     },
     {
-        "name": "Right-Wing Populism",
+        "name": "National Populism",
         "stats": {
-            "econ": 40,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 30
+            "econ": 55,
+            "dipl": 20,
+            "govt": 40,
+            "scty": 20
         }
     },
     {
-        "name": "Moderate Conservatism",
+        "name": "Liberal Conservatism",
         "stats": {
             "econ": 40,
-            "dipl": 40,
+            "dipl": 50,
             "govt": 50,
-            "scty": 30
+            "scty": 45
         }
     },
     {
@@ -325,12 +342,12 @@ ideologies = [
         }
     },
     {
-        "name": "Nazism",
+        "name": "National Socialism",
         "stats": {
-            "econ": 40,
+            "econ": 50,
             "dipl": 0,
             "govt": 0,
-            "scty": 5
+            "scty": 10
         }
     },
     {
@@ -363,10 +380,10 @@ ideologies = [
     {
         "name": "Conservatism",
         "stats": {
-            "econ": 30,
+            "econ": 40,
             "dipl": 40,
-            "govt": 40,
-            "scty": 20
+            "govt": 50,
+            "scty": 30
         }
     },
     {
@@ -457,6 +474,222 @@ ideologies = [
             "dipl": 30,
             "govt": 0,
             "scty": 50
+        }
+    },
+    {
+        "name": "Paleolibertarianism",
+        "stats": {
+            "econ": 0,
+            "dipl": 50,
+            "govt": 80,
+            "scty": 20
+       }
+    },
+    {
+        "name": "Pink Capitalism",
+        "stats": {
+            "econ": 10,
+            "dipl": 70,
+            "govt": 60,
+            "scty": 85
+        }
+    },
+    {
+        "name": "Dark Enlightenment",
+        "stats": {
+            "econ": 5,
+            "dipl": 50,
+            "govt": 45,
+            "scty": 5
+        }
+    },
+    {
+        "name": "Pink Capitalism",
+        "stats": {
+            "econ": 10,
+            "dipl": 70,
+            "govt": 60,
+            "scty": 85
+        }
+    },
+    {
+        "name": "Fordism",
+        "stats": {
+            "econ": 0,
+            "dipl": 100,
+            "govt": 0,
+            "scty": 100
+        }
+    },
+    {
+        "name": "National Anarchism",
+        "stats": {
+            "econ": 60,
+            "dipl": 20,
+            "govt": 90,
+            "scty": 20
+        }
+    },
+    {
+        "name": "Dengism",
+        "stats": {
+            "econ": 50,
+            "dipl": 30,
+            "govt": 15,
+            "scty": 40
+        }
+    },
+    {
+        "name": "Social Nationalism",
+        "stats": {
+            "econ": 60,
+            "dipl": 25,
+            "govt": 25,
+            "scty": 30
+        }
+    },
+    {
+        "name": "Anarcho-Primitivism",
+        "stats": {
+            "econ": 50,
+            "dipl": 50,
+            "govt": 100,
+            "scty": 0
+        }
+    },
+    {
+        "name": "Longism",
+        "stats": {
+            "econ": 60,
+            "dipl": 30,
+            "govt": 100,
+            "scty": 0
+        }
+    },
+    {
+        "name": "Archeofuturism",
+        "stats": {
+            "econ": 50,
+            "dipl": 5,
+            "govt": 30,
+            "scty": 30
+        }
+    },
+    {
+        "name": "Strasserism",
+        "stats": {
+            "econ": 75,
+            "dipl": 5,
+            "govt": 15,
+            "scty": 20
+        }
+    },
+    {
+        "name": "State Liberalism",
+        "stats": {
+            "econ": 30,
+            "dipl": 60,
+            "govt": 5,
+            "scty": 90
+        }
+    },
+    {
+        "name": "National Revolutionaryism",
+        "stats": {
+            "econ": 55,
+            "dipl": 5,
+            "govt": 20,
+            "scty": 10
+        }
+    },
+    {
+        "name": "Clerical Fascism",
+        "stats": {
+            "econ": 60,
+            "dipl": 0,
+            "govt": 5,
+            "scty": 0
+        }
+    },
+    {
+        "name": "Third International Theory",
+        "stats": {
+            "econ": 70,
+            "dipl": 30,
+            "govt": 50,
+            "scty": 10
+        }
+    },
+    {
+        "name": "National Communism",
+        "stats": {
+            "econ": 95,
+            "dipl": 0,
+            "govt": 5,
+            "scty": 50
+        }
+    },
+    {
+        "name": "Integralism",
+        "stats": {
+            "econ": 60,
+            "dipl": 20,
+            "govt": 30,
+            "scty": 10
+        }
+    },
+    {
+        "name": "Korwinism",
+        "stats": {
+            "econ": 0,
+            "dipl": 25,
+            "govt": 70,
+            "scty": 30
+        }
+    },
+    {
+        "name": "Tribal Primitivism",
+        "stats": {
+            "econ": 50,
+            "dipl": 0,
+            "govt": 100,
+            "scty": 0
+        }
+    },
+    {
+        "name": "Religious Internationalism",
+        "stats": {
+            "econ": 50,
+            "dipl": 100,
+            "govt": 10,
+            "scty": 5
+        }
+    },
+    {
+        "name": "Anarcho-Nihilism",
+        "stats": {
+            "econ": 70,
+            "dipl": 100,
+            "govt": 100,
+            "scty": 100
+        }
+    },
+    {
+        "name": "Titoism",
+        "stats": {
+            "econ": 70,
+            "dipl": 20,
+            "govt": 20,
+            "scty": 50
+        }
+    },
+    {
+        "name": "Minarcho-Titoism",
+        "stats": {
+            "econ": 70,
+            "dipl": 40,
+            "govt": 70,
+            "scty": 60
         }
     },
     {
