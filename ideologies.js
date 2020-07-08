@@ -594,12 +594,12 @@ ideologies = [
         }
     },
     {
-        "name": "National Revolutionaryism",
+        "name": "Revolutionary Nationalism",
         "stats": {
-            "econ": 55,
+            "econ": 60,
             "dipl": 5,
             "govt": 20,
-            "scty": 10
+            "scty": 20
         }
     },
     {

@@ -1,6 +1,6 @@
 questions = [
     {
-        "question": "Private property should be defended",
+        "question": "Private property should be defended.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -9,7 +9,7 @@ questions = [
         }
     },
     {
-        "question": "The right of peaceful protest shall never be infringe upon",
+        "question": "The right of peaceful protest shall never be infringe upon.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -27,16 +27,16 @@ questions = [
         }
     },
     {
-        "question": "It is better to maintain a balanced budget than to ensure welfare for all citizens.",
+        "question": "Welfare should be cut or completely abolished to cut government spending",
         "effect": {
-            "econ": -10,
+            "econ": 10,
             "dipl": 0,
             "govt": 0,
             "scty": 0
         }
     },
     {
-        "question": "Publicly-funded research is more beneficial to the people than leaving it to the market.",
+        "question": "Money should be abolished.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -48,13 +48,13 @@ questions = [
         "question": "Tariffs on international trade are important to encourage local production.",
         "effect": {
             "econ": 5,
-            "dipl": 5,
+            "dipl": 0,
             "govt": 0,
             "scty": 0
         }
     },
     {
-        "question": "From each according to his ability, to each according to his needs.",
+        "question": "Rent should be abolished.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -99,7 +99,7 @@ questions = [
         }
     },
     {
-        "question": "Government intervention is a threat to the economy.",
+        "question": "Government intervention should be initiated rarely if ever.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -117,9 +117,9 @@ questions = [
         }
     },
     {
-        "question": "Materialism is a poison in society",
+        "question": "Materialism is a poison in society.",
         "effect": {
-            "econ": 2,
+            "econ": 0,
             "dipl": 0,
             "govt": 0,
             "scty": -10
@@ -135,7 +135,7 @@ questions = [
         }
     },
     {
-        "question": "I wish to see the United Nations continuing to exist",
+        "question": "The United Nations is a positive for the world.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -144,7 +144,7 @@ questions = [
         }
     },
     {
-        "question": "Nations are simply social constructs that distract us from real issues",
+        "question": "Nations are simply social constructs that distract us from real issues.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -153,16 +153,7 @@ questions = [
         }
     },
     {
-        "question": "The Nation should be United like a bundle of sticks, free of individualism",
-        "effect": {
-            "econ": -2,
-            "dipl": -10,
-            "govt": 0,
-            "scty": -2
-        }
-    },
-    {
-        "question": "No international body or power should boss around any nation",
+        "question": "individualism is inferior to collectivism or communitarianism.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -171,7 +162,16 @@ questions = [
         }
     },
     {
-        "question": "We should strive to a more global world past National boundaries",
+        "question": "International groups do not have the right to intervene against independent nations.",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "We should strive to a more global world past national boundaries.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -180,7 +180,7 @@ questions = [
         }
     },
     {
-        "question": "National Borders should be abolished",
+        "question": "I support International Military alliances such as CSTO, NATO etc.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -198,16 +198,16 @@ questions = [
         }
     },
     {
-        "question": "Taxation is theft",
+        "question": "State sponsored media is preferable to independent or corporate media.",
         "effect": {
-            "econ": -10,
+            "econ": 0,
             "dipl": 0,
-            "govt": 10,
+            "govt": -5,
             "scty": 0
         }
     },
     {
-        "question": "My Nation should stay out of international affairs",
+        "question": "My Nation should stay out of international affairs.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -216,7 +216,7 @@ questions = [
         }
     },
     {
-        "question": "Every opinion is equal and should be looked as such by society",
+        "question": "Every opinion is equal and should be looked as such by society.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -225,7 +225,7 @@ questions = [
         }
     },
     {
-        "question": "Each national group should have their desire of autonomy respected",
+        "question": "Each national group should have their desire of autonomy respected.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -234,16 +234,16 @@ questions = [
         }
     },
     {
-        "question": "Autarky is a sensible form of economics",
+        "question": "Autarky is a sensible form of economics.",
         "effect": {
             "econ": 2,
-            "dipl": -10,
+            "dipl": -5,
             "govt": 0,
             "scty": 0
         }
     },
     {
-        "question": "Society needs a radical change not a reform",
+        "question": "Society needs a radical change not a reform.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -252,7 +252,7 @@ questions = [
         }
     },
     {
-        "question": "Religious revival is necessary for society",
+        "question": "Religious revival is necessary for society.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -261,7 +261,7 @@ questions = [
         }
     },
     {
-        "question": "There's no such thing as equality, it is all a fairy tale that cannot be achieved",
+        "question": "There's no such thing as equality, it is all a fairy tale that cannot be achieved.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -270,7 +270,7 @@ questions = [
         }
     },
     {
-        "question": "The police is a group of bandits that are only there to protect the status quo",
+        "question": "The police is a group of bandits that are only there to protect the status quo.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -279,7 +279,7 @@ questions = [
         }
     },
     {
-        "question": "We should focus on rehabilitation instead of punishment for our jail system",
+        "question": "We should focus on rehabilitation instead of punishment for our jail system.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -288,7 +288,7 @@ questions = [
         }
     },
     {
-        "question": "The French Revolution was more of a negative for our world then anything",
+        "question": "The French Revolution was more of a negative for our world then anything.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -297,7 +297,7 @@ questions = [
         }
     },
     {
-        "question": "The state should be as small as possible",
+        "question": "The state should be as small as possible.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -306,7 +306,7 @@ questions = [
         }
     },
     {
-        "question": "Government Surveillance is a necessary evil",
+        "question": "Government Surveillance is a necessary evil.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -315,7 +315,7 @@ questions = [
         }
     },
     {
-        "question": "The state should be abolished in favor of Anarchism",
+        "question": "The state should be abolished in favor of Anarchism.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -324,7 +324,7 @@ questions = [
         }
     },
     {
-        "question": "There's no such thing as a victimless crime, all crimes have victims including drug use",
+        "question": "There's no such thing as a victimless crime, all crimes have victims including drug use.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -333,7 +333,7 @@ questions = [
         }
     },
     {
-        "question": "Freedom of Speech in regards to the law is a human right",
+        "question": "Freedom of Speech in regards to the law is a human right.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -351,7 +351,7 @@ questions = [
         }
     },
     {
-        "question": "We should return to tradition, without modern convenience",
+        "question": "We should return to tradition, without modern convenience.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -360,7 +360,7 @@ questions = [
         }
     },
     {
-        "question": "If well compensated, eminent domain (the taking of property) is acceptable",
+        "question": "If well compensated, eminent domain (the taking of property) is acceptable.",
         "effect": {
             "econ": 2,
             "dipl": 0,
@@ -369,7 +369,7 @@ questions = [
         }
     },
     {
-        "question": "Political Diversity (Multi-Party system, Panarchy etc) should be removed and opposed",
+        "question": "Political Diversity (Multi-Party system, Panarchy etc) should be removed and opposed.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -378,7 +378,7 @@ questions = [
         }
     },
     {
-        "question": "Homogeneity is necessary to keep order",
+        "question": "",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -387,7 +387,7 @@ questions = [
         }
     },
     {
-        "question": "Degeneracy is a real problem that we shouldn't take lightly",
+        "question": "Degeneracy is a real problem that we shouldn't take lightly.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -396,7 +396,7 @@ questions = [
         }
     },
     {
-        "question": "Urban society is inferior to all others",
+        "question": "Urban society is inferior to all others.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -405,7 +405,7 @@ questions = [
         }
     },
     {
-        "question": "We need to accelerate technological growth",
+        "question": "We need to accelerate technological growth.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -414,7 +414,7 @@ questions = [
         }
     },
     {
-        "question": "The practice of animal testing should be banned",
+        "question": "The practice of animal testing should be banned.",
         "effect": {
             "econ": 2,
             "dipl": 0,
@@ -423,7 +423,7 @@ questions = [
         }
     },
     {
-        "question": "Women need to reject traditionalism as an abusive policy",
+        "question": "Women need to reject traditionalism as an abusive policy.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -432,7 +432,7 @@ questions = [
         }
     },
     {
-        "question": "Either the state or the community should have regulations to protect the environment",
+        "question": "Either the state or the community should have regulations to protect the environment.",
         "effect": {
             "econ": 5,
             "dipl": 0,
@@ -441,7 +441,7 @@ questions = [
         }
     },
     {
-        "question": "Opposition to the (my) system isn't acceptable",
+        "question": "Opposition to the (my) system isn't acceptable.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -450,7 +450,7 @@ questions = [
         }
     },
     {
-        "question": "There's no such thing as equality, it is all a fairy tale that cannot be achieved",
+        "question": "There's no such thing as equality, it is all a fairy tale that cannot be achieved.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -468,7 +468,7 @@ questions = [
         }
     },
     {
-        "question": "I see no nationality, race, religion or other, I only see fellow human beings",
+        "question": "I see no nationality, race, religion or other, I only see fellow human beings.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -477,7 +477,7 @@ questions = [
         }
     },
     {
-        "question": "Cultures always change, focusing too much on them should be avoided",
+        "question": "Cultures always change, focusing too much on them should be avoided.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -486,7 +486,7 @@ questions = [
         }
     },
     {
-        "question": "Drug use is a deplorable in our society",
+        "question": "Drug use is a deplorable in our society.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -495,7 +495,7 @@ questions = [
         }
     },
     {
-        "question": "Same-sex marriage is a sign of progress",
+        "question": "Marriage is defined as between a Man and a Women.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -504,7 +504,7 @@ questions = [
         }
     },
     {
-        "question": "We must protect transgender individuals from discrimination",
+        "question": "We must protect transgender individuals from discrimination.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -513,7 +513,7 @@ questions = [
         }
     },
     {
-        "question": "Sex outside marriage is a sin.",
+        "question": "Sex outside marriage is sinful.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -531,7 +531,7 @@ questions = [
         }
     },
     {
-        "question": "Abortion is a disgusting act that is similar to murder",
+        "question": "Abortion is a disgusting act that is similar to murder.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -549,7 +549,7 @@ questions = [
         }
     },
     {
-        "question": "I desire a public form of healthcare, either provided by the state or community",
+        "question": "I desire a public form of healthcare, either provided by the state or community.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -558,7 +558,7 @@ questions = [
         }
     },
     {
-        "question": "Prostitution is something we should look negatively",
+        "question": "Prostitution is something we should look negatively.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -585,7 +585,7 @@ questions = [
         }
     },
     {
-        "question": "Transhumanism is a valid goal for our society",
+        "question": "Transhumanism is a valid goal for our society.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -594,7 +594,7 @@ questions = [
         }
     },
     {
-        "question": "Immigration is a net positive for society",
+        "question": "Immigration is a net positive for society.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -603,7 +603,7 @@ questions = [
         }
     },
     {
-        "question": "While I care about human life outside of my country, the priority of our government should be our own people",
+        "question": "While I care about human life outside of my country, the priority of our government should be our own people.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -612,7 +612,7 @@ questions = [
         }
     },
     {
-        "question": "Tolerance isn't something we should strive for in society as it creates a weak nation",
+        "question": "Tolerance isn't something we should strive for in society as it creates a weak nation.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -621,7 +621,7 @@ questions = [
         }
     },
     {
-        "question": "Homogeneity is necessary to keep order",
+        "question": "Homogeneity is necessary to keep order.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -630,7 +630,7 @@ questions = [
         }
     },
     {
-        "question": "I wish to see massive wealth redistribution",
+        "question": "I wish to see massive wealth redistribution.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -639,7 +639,7 @@ questions = [
         }
     },
     {
-        "question": "Marriage is an important part of society that should be defended",
+        "question": "Marriage is an important part of society that should be defended.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -648,7 +648,7 @@ questions = [
         }
     },
     {
-        "question": "Space exploration should be a priority for us",
+        "question": "Space exploration should be a priority for us.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -657,7 +657,7 @@ questions = [
         }
     },
     {
-        "question": "Wrongful behaviours of companies are caused by governmental regulations",
+        "question": "Wrongful behaviours of companies are caused by governmental regulations.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -666,7 +666,7 @@ questions = [
         }
     },
     {
-        "question": "The patriarchy isn't just real but should be removed",
+        "question": "The patriarchy isn't just real but should be removed.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -675,7 +675,7 @@ questions = [
         }
     },
     {
-        "question": "The notion that men and women don't exist and are a social construct is frankly ridiculous",
+        "question": "The notion that men and women don't exist and are a social construct is frankly ridiculous.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -684,16 +684,16 @@ questions = [
         }
     },
     {
-        "question": "We shouldn't honor history with a racist past",
+        "question": "Viccinations should be voluntary.",
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": 0,
-            "scty": 10
+            "govt": 10,
+            "scty": 0
         }
     },
     {
-        "question": "Class is meaningless and is only a term abused by the radical left",
+        "question": "Class is meaningless and is only a term abused by the radical left.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -702,7 +702,7 @@ questions = [
         }
     },
     {
-        "question": "Society is inherently racist and we should change that",
+        "question": "Society is inherently racist and we should change that.",
         "effect": {
             "econ": 0,
             "dipl": 0,
