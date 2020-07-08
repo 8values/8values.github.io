@@ -9,7 +9,7 @@ questions = [
         }
     },
     {
-        "question": "The right of peaceful protest shall never be infringe upon.",
+        "question": "The right of peaceful protest shall never be infringed upon.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -207,7 +207,7 @@ questions = [
         }
     },
     {
-        "question": "My Nation should stay out of international affairs.",
+        "question": "My Nation should be free to decide its own future.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -225,10 +225,10 @@ questions = [
         }
     },
     {
-        "question": "Each national group should have their desire of autonomy respected.",
+        "question": "Regional unions such as the European Union are Desirable.",
         "effect": {
             "econ": 0,
-            "dipl": -10,
+            "dipl": 10,
             "govt": 0,
             "scty": 0
         }
@@ -243,12 +243,12 @@ questions = [
         }
     },
     {
-        "question": "Society needs a radical change not a reform.",
+        "question": "Some parts of tradition should be abandoned.",
         "effect": {
             "econ": 0,
             "dipl": 0,
             "govt": 0,
-            "scty": 2
+            "scty": 5
         }
     },
     {
