@@ -23,14 +23,14 @@ ideologies = [
             "econ": 100,
             "dipl": 100,
             "govt": 100,
-            "scty": 100
+            "scty": 90
         }
     },
     {
         "name": "Anarcha-Feminism",
         "stats": {
             "econ": 95,
-            "dipl": 100,
+            "dipl": 90,
             "govt": 100,
             "scty": 100
         }
@@ -81,12 +81,12 @@ ideologies = [
         }
     },
     {
-        "name": "Stalinism",
+        "name": "Marxist-Leninism",
         "stats": {
             "econ": 100,
             "dipl": 50,
             "govt": 0,
-            "scty": 70
+            "scty": 50
         }
     },
     {
@@ -111,7 +111,7 @@ ideologies = [
         "name": "Juche",
         "stats": {
             "econ": 100,
-            "dipl": 0,
+            "dipl": 10,
             "govt": 0,
             "scty": 5
         }
@@ -162,12 +162,12 @@ ideologies = [
         }
     },
     {
-        "name": "Maoism",
+        "name": "National Bolshevism",
         "stats": {
             "econ": 100,
-            "dipl": 20,
+            "dipl": 10,
             "govt": 0,
-            "scty": 40
+            "scty": 10
         }
     },
     {
@@ -335,7 +335,7 @@ ideologies = [
     {
         "name": "National Socialism",
         "stats": {
-            "econ": 50,
+            "econ": 45,
             "dipl": 0,
             "govt": 0,
             "scty": 10
@@ -423,7 +423,7 @@ ideologies = [
         }
     },
     {
-        "name": "Right-Capitalism",
+        "name": "Right-Libertarianism",
         "stats": {
             "econ": 20,
             "dipl": 50,
@@ -450,10 +450,10 @@ ideologies = [
         }
     },
     {
-        "name": "Totalitarian Capitalism",
+        "name": "Corpotocracy",
         "stats": {
             "econ": 0,
-            "dipl": 30,
+            "dipl": 50,
             "govt": 0,
             "scty": 50
         }
@@ -481,7 +481,7 @@ ideologies = [
         "stats": {
             "econ": 5,
             "dipl": 50,
-            "govt": 45,
+            "govt": 50,
             "scty": 5
         }
     },
@@ -497,9 +497,9 @@ ideologies = [
     {
         "name": "Fordism",
         "stats": {
-            "econ": 0,
+            "econ": 5,
             "dipl": 100,
-            "govt": 0,
+            "govt": 5,
             "scty": 100
         }
     },
@@ -588,9 +588,9 @@ ideologies = [
         "name": "Clerical Fascism",
         "stats": {
             "econ": 60,
-            "dipl": 0,
+            "dipl": 5,
             "govt": 5,
-            "scty": 0
+            "scty": 2
         }
     },
     {
@@ -606,7 +606,7 @@ ideologies = [
         "name": "National Communism",
         "stats": {
             "econ": 95,
-            "dipl": 0,
+            "dipl": 10,
             "govt": 5,
             "scty": 50
         }

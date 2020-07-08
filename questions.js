@@ -450,7 +450,7 @@ questions = [
         }
     },
     {
-        "question": "There's no such thing as equality, it is all a fairy tale that cannot be achieved.",
+        "question": "There's no such thing as equality in the world.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -486,7 +486,7 @@ questions = [
         }
     },
     {
-        "question": "Drug use is a deplorable in our society.",
+        "question": "Drug use should be looked down upon in our Society.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -495,7 +495,7 @@ questions = [
         }
     },
     {
-        "question": "Marriage is defined as between a Man and a Women.",
+        "question": "Same-sex marriage should be defended.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -558,7 +558,7 @@ questions = [
         }
     },
     {
-        "question": "Prostitution is something we should look negatively.",
+        "question": "Prostitution is a deplorable act.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -576,12 +576,12 @@ questions = [
         }
     },
     {
-        "question": "To chase progress at all costs is dangerous.",
+        "question": "Whistleblowers should be prosecuted under the law.",
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": 0,
-            "scty": -10
+            "govt": -10,
+            "scty": 0
         }
     },
     {
@@ -675,7 +675,7 @@ questions = [
         }
     },
     {
-        "question": "The notion that men and women don't exist and are a social construct is frankly ridiculous.",
+        "question": "The classification of men and women are social constructs.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -684,7 +684,7 @@ questions = [
         }
     },
     {
-        "question": "Viccinations should be voluntary.",
+        "question": "Vaccinations should be voluntary.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -711,7 +711,7 @@ questions = [
         }
     },
     {
-        "question": "Society is inherently racist and we should change that.",
+        "question": "Race is a social construct.",
         "effect": {
             "econ": 0,
             "dipl": 0,
