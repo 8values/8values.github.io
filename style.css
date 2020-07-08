@@ -1,5 +1,5 @@
 html {
-    background-color: #ffeed7;
+    background-color: #000000;
     padding: 0px;
 }
 body {
@@ -7,14 +7,14 @@ body {
     min-height: calc(100vh - 4em);
     margin: 0 auto;
     padding: 2em;
-    background-color: #ffeed7;
-    border-color: #ffdaab;
+    background-color: #000000;
+    border-color: #000000;
     border-left-style: solid;
     border-right-style: solid;
     border-width: 20px;
 }
 p {
-    color: #444444;
+    color: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-size: 16pt;
     line-height: 1;
@@ -26,13 +26,13 @@ p.value-description {
 }
 p.question {
     margin: 16pt auto;
-    color: #333333;
+    color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     width: 70%;
     min-width: 500pt;
     min-height: 144pt;
-    background-color: #ffeed7;
+    background-color: #000000;
     padding: 16pt;
     border-radius: 16pt;
     font-size: 36pt;
@@ -43,7 +43,7 @@ p.question {
 
 }
 h1 {
-    color: #222222;
+    color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     font-size: 72pt;
     text-align: center;
@@ -52,7 +52,7 @@ h1 {
     margin-bottom: 0pt;
 }
 h2 {
-    color: #333333;
+    color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     font-size: 36pt;
     line-height: 36pt;
