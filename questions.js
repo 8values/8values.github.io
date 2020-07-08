@@ -261,7 +261,7 @@ questions = [
         }
     },
     {
-        "question": "There's no such thing as equality, it is all a fairy tale that cannot be achieved.",
+        "question": "not finished",
         "effect": {
             "econ": 0,
             "dipl": -10,
