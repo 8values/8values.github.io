@@ -702,6 +702,15 @@ questions = [
         }
     },
     {
+        "question": "If you have nothing to hide then you have nothing to fear",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 0
+        }
+    },
+    {
         "question": "Society is inherently racist and we should change that.",
         "effect": {
             "econ": 0,
