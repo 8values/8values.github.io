@@ -1,5 +1,5 @@
 html {
-    background-color: #bbbbbb;
+    background-color: #808ead;
     padding: 0px;
 }
 body {
@@ -7,7 +7,7 @@ body {
     min-height: calc(100vh - 4em);
     margin: 0 auto;
     padding: 2em;
-    background-color: #dddddd;
+    background-color: #808ead;
     border-color: #eeeeee;
     border-left-style: solid;
     border-right-style: solid;
@@ -26,13 +26,13 @@ p.value-description {
 }
 p.question {
     margin: 16pt auto;
-    color: #164c8a;
+    color: #333333;
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     width: 70%;
     min-width: 500pt;
     min-height: 144pt;
-    background-color: #eeeeee;
+    background-color: #808ead;
     padding: 16pt;
     border-radius: 16pt;
     font-size: 36pt;
