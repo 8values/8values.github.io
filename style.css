@@ -87,8 +87,20 @@ img.center {
     font-size: 24pt;
     margin: -2px auto;
     cursor: pointer;
+    transform: translate(0, 0);
+    transition: transform 300ms, color 300ms, background-color 300ms;
+    outline: none !important;
 }
-.small_button, .small_button_off {
+
+.button:active {
+    transform: translate(0, 10%);
+    transition: transform 0ms, color 0ms, background-color 0ms;
+    color: rgb(0, 0, 0) !important;
+    background-color: white !important;
+}
+
+.small_button,
+.small_button_off {
     background-color: #333;
     font-family: 'Montserrat', sans-serif;
     border: none;
@@ -103,6 +115,16 @@ img.center {
     font-size: 18pt;
     margin: -2px auto;
     cursor: pointer;
+    transform: translate(0, 0);
+    transition: transform 300ms, color 300ms, background-color 300ms;
+    outline: none !important;
+}
+
+.small_button:active {
+    transform: translate(0, 10%);
+    transition: transform 0ms, color 0ms, background-color 0ms;
+    color: rgb(0, 0, 0) !important;
+    background-color: white !important;
 }
 .small_button_off {
     background-color: #ddd;
