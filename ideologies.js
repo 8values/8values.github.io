@@ -116,13 +116,13 @@ ideologies = {
     "ideo20": {
         "econ": 60,
         "dipl": 60,
-        "govt": 40,
+        "govt": 50,
         "scty": 30
     },
     "ideo21": {
         "econ": 60,
         "dipl": 70,
-        "govt": 40,
+        "govt": 60,
         "scty": 80
     },
     "ideo22": {
@@ -170,7 +170,7 @@ ideologies = {
     "ideo29": {
         "econ": 50,
         "dipl": 50,
-        "govt": 0,
+        "govt": 100,
         "scty": 20
     },
     "ideo30": {
@@ -304,5 +304,11 @@ ideologies = {
         "dipl": 50,
         "govt": 100,
         "scty": 50
+    },
+    "ideo52": {
+        "econ": 10,
+        "dipl": 50,
+        "govt": 90,
+        "scty": 40
     }
 };

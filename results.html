@@ -5,12 +5,8 @@
 <link rel="icon" type="x-icon" href="icon.png">
 <link rel="shortcut icon" type="x-icon" href="icon.png">
 <meta charset="utf-8">
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-6511426299019766",
-    enable_page_level_ads: true
-  });
+  version = "Test Edition #1" //Remember to update this before making changes to the test itself!
 </script>
 </head>
 <script src="https://unpkg.com/i18next@8.0.0/i18next.min.js"></script>
@@ -80,9 +76,8 @@
 <h2><span data-i18n="closest_match"></span><span class="weight-300" id="ideology-label"></span></h2>
 <p data-i18n="match_desc"></p>
 <hr/>
-<canvas id="banner" width=800 height=600 style="font-family:Montserrat"></canvas>
+<img src="" id="banner">
 <button data-i18n="back" class="button" onclick="location.href='index.html';" style="background-color: #2196f3;"></button> <br>
-
 <!-- Website visit statistics - no personal information is collected! -->
 <script type="text/javascript">
 var sc_project=11325211;
@@ -190,94 +185,98 @@ stats"></a></div></noscript>
         document.getElementById("state-label").innerHTML = setLabel(liberty, "govt")
         document.getElementById("society-label").innerHTML = setLabel(progress, "scty")
 
-        var c = document.getElementById("banner")
+        var c = document.createElement("canvas")
         var ctx = c.getContext("2d")
+        c.width = 800;
+        c.height = 650;
         ctx.fillStyle = "#EEEEEE"
-        ctx.fillRect(0,0,800,600)
-        ctx.font="14px Montserrat"
+        ctx.fillRect(0,0,800,650);
+        ctx.font="15px Montserrat"
         ctx.textAlign="center"
 
         img = document.getElementById("img-equality")
-        ctx.drawImage(img, 20, 120, 100, 100);
+        ctx.drawImage(img, 20, 170, 100, 100);
         cap = document.getElementById("cap-equality").innerText
-        ctx.fillText(cap, 70, 210)
+        ctx.fillText(cap, 70, 260)
         img = document.getElementById("img-wealth")
-        ctx.drawImage(img, 680, 120, 100, 100)
+        ctx.drawImage(img, 680, 170, 100, 100)
         cap = document.getElementById("cap-wealth").innerText
-        ctx.fillText(cap, 730, 210)
+        ctx.fillText(cap, 730, 260)
         img = document.getElementById("img-might")
-        ctx.drawImage(img, 20, 240, 100, 100)
+        ctx.drawImage(img, 20, 290, 100, 100)
         cap = document.getElementById("cap-might").innerText
-        ctx.fillText(cap, 70, 330)
+        ctx.fillText(cap, 70, 380)
         img = document.getElementById("img-peace")
-        ctx.drawImage(img, 680, 240, 100, 100)
+        ctx.drawImage(img, 680, 290, 100, 100)
         cap = document.getElementById("cap-peace").innerText
-        ctx.fillText(cap, 730, 330)
+        ctx.fillText(cap, 730, 380)
         img = document.getElementById("img-liberty")
-        ctx.drawImage(img, 20, 360, 100, 100)
+        ctx.drawImage(img, 20, 410, 100, 100)
         cap = document.getElementById("cap-liberty").innerText
-        ctx.fillText(cap, 70, 450)
+        ctx.fillText(cap, 70, 500)
         img = document.getElementById("img-authority")
-        ctx.drawImage(img, 680, 360, 100, 100)
+        ctx.drawImage(img, 680, 410, 100, 100)
         cap = document.getElementById("cap-authority").innerText
-        ctx.fillText(cap, 730, 450)
+        ctx.fillText(cap, 730, 500)
         img = document.getElementById("img-tradition")
-        ctx.drawImage(img, 20, 480, 100, 100)
+        ctx.drawImage(img, 20, 530, 100, 100)
         cap = document.getElementById("cap-tradition").innerText
-        ctx.fillText(cap, 70, 570)
+        ctx.fillText(cap, 70, 620)
         img = document.getElementById("img-progress")
-        ctx.drawImage(img, 680, 480, 100, 100)
+        ctx.drawImage(img, 680, 530, 100, 100)
         cap = document.getElementById("cap-progress").innerText
-        ctx.fillText(cap, 730, 570)
+        ctx.fillText(cap, 730, 620)
 
         ctx.fillStyle="#222222"
-        ctx.fillRect(120, 130, 560, 80)
-        ctx.fillRect(120, 250, 560, 80)
-        ctx.fillRect(120, 370, 560, 80)
-        ctx.fillRect(120, 490, 560, 80)
+        ctx.fillRect(120, 180, 560, 80)
+        ctx.fillRect(120, 300, 560, 80)
+        ctx.fillRect(120, 420, 560, 80)
+        ctx.fillRect(120, 540, 560, 80)
         ctx.fillStyle="#f44336"
-        ctx.fillRect(120, 134, 5.6*equality-2, 72)
+        ctx.fillRect(120, 184, 5.6*equality-2, 72)
         ctx.fillStyle="#00897b"
-        ctx.fillRect(682-5.6*wealth, 134, 5.6*wealth-2, 72)
+        ctx.fillRect(682-5.6*wealth, 184, 5.6*wealth-2, 72)
         ctx.fillStyle="#ff9800"
-        ctx.fillRect(120, 254, 5.6*might-2, 72)
+        ctx.fillRect(120, 304, 5.6*might-2, 72)
         ctx.fillStyle="#03a9f4"
-        ctx.fillRect(682-5.6*peace, 254, 5.6*peace-2, 72)
+        ctx.fillRect(682-5.6*peace, 304, 5.6*peace-2, 72)
         ctx.fillStyle="#ffeb3b"
-        ctx.fillRect(120, 374, 5.6*liberty-2, 72)
+        ctx.fillRect(120, 424, 5.6*liberty-2, 72)
         ctx.fillStyle="#3f51b5"
-        ctx.fillRect(682-5.6*authority, 374, 5.6*authority-2, 72)
+        ctx.fillRect(682-5.6*authority, 424, 5.6*authority-2, 72)
         ctx.fillStyle="#8bc34a"
-        ctx.fillRect(120, 494, 5.6*tradition-2, 72)
+        ctx.fillRect(120, 544, 5.6*tradition-2, 72)
         ctx.fillStyle="#9c27b0"
-        ctx.fillRect(682-5.6*progress, 494, 5.6*progress-2, 72)
+        ctx.fillRect(682-5.6*progress, 544, 5.6*progress-2, 72)
         ctx.fillStyle="#222222"
         ctx.font="700 80px Montserrat"
         ctx.textAlign="left"
         ctx.fillText("8values", 20, 90)
-        ctx.font="40px Montserrat"
-        ctx.textAlign="right"
-        ctx.fillText(ideo_t(ideology), 780, 87.5)
 
         ctx.font="50px Montserrat"
+        ctx.fillText(ideo_t(ideology), 20, 140)
+
         ctx.textAlign="left"
-        if (equality  > 30) {ctx.fillText(equality + "%", 130, 187.5)}
-        if (might     > 30) {ctx.fillText(might + "%", 130, 307.5)}
-        if (liberty   > 30) {ctx.fillText(liberty + "%", 130, 427.5)}
-        if (tradition > 30) {ctx.fillText(tradition + "%", 130, 547.5)}
+        if (equality  > 30) {ctx.fillText(equality + "%", 130, 237.5)}
+        if (might     > 30) {ctx.fillText(might + "%", 130, 357.5)}
+        if (liberty   > 30) {ctx.fillText(liberty + "%", 130, 477.5)}
+        if (tradition > 30) {ctx.fillText(tradition + "%", 130, 597.5)}
         ctx.textAlign="right"
-        if (wealth    > 30) {ctx.fillText(wealth + "%", 670, 187.5)}
-        if (peace     > 30) {ctx.fillText(peace + "%", 670, 307.5)}
-        if (authority > 30) {ctx.fillText(authority + "%", 670, 427.5)}
-        if (progress  > 30) {ctx.fillText(progress + "%", 670, 547.5)}
+        if (wealth    > 30) {ctx.fillText(wealth + "%", 670, 237.5)}
+        if (peace     > 30) {ctx.fillText(peace + "%", 670, 357.5)}
+        if (authority > 30) {ctx.fillText(authority + "%", 670, 477.5)}
+        if (progress  > 30) {ctx.fillText(progress + "%", 670, 597.5)}
 
         ctx.font="300 30px Montserrat"
-        ctx.fillText("8values.github.io", 780, 55)
+        ctx.fillText("8values.github.io", 780, 60)
+		ctx.fillText(version, 780, 90)
         ctx.textAlign="center"
-        ctx.fillText(i18next.t("economic_axis") + document.getElementById("economic-label").innerHTML, 400, 125)
-        ctx.fillText(i18next.t("diplomatic_axis") + document.getElementById("diplomatic-label").innerHTML, 400, 245)
-        ctx.fillText(i18next.t("civic_axis") + document.getElementById("state-label").innerHTML, 400, 365)
-        ctx.fillText(i18next.t("societal_axis") + document.getElementById("society-label").innerHTML, 400, 485)
+        ctx.fillText(i18next.t("economic_axis") + document.getElementById("economic-label").innerHTML, 400, 175)
+        ctx.fillText(i18next.t("diplomatic_axis") + document.getElementById("diplomatic-label").innerHTML, 400, 295)
+        ctx.fillText(i18next.t("civic_axis") + document.getElementById("state-label").innerHTML, 400, 415)
+        ctx.fillText(i18next.t("societal_axis") + document.getElementById("society-label").innerHTML, 400, 535)
+
+        document.getElementById("banner").src = c.toDataURL();
     }
     </script>
 </body>

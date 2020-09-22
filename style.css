@@ -200,7 +200,7 @@ b.progress {
 span.weight-300 {
     font-weight: 300;
 }
-canvas {
+#banner {
     border-color: #444444;
     border-style: solid;
     border-width: 2px;
@@ -220,7 +220,7 @@ figure.center {
     width: 50%;
     min-width: 500pt;
 }
-figure img {
+#values img {
     width: 100%;
 }
 #values {
@@ -243,7 +243,7 @@ figcaption {
     top: 75%;
     text-align: center;
     width: 100%;
-    min-width: 100pt;
+    /* min-width: 100pt; */
     font-family: Montserrat;
     font-size: 150%;
     color: white;
