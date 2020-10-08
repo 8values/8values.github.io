@@ -50,10 +50,11 @@ stats"></a></div></noscript>
 <script>
     var max_econ, max_dipl, max_govt, max_scty; // Max possible scores
     max_econ = max_dipl = max_govt = max_scty = 0;
-    var econ, dipl, govt, scty; // User's scores
-    econ = dipl = govt = scty = 0;
+    let econ_array = new Array(questions.length);
+    let dipl_array = new Array(questions.length);
+    let govt_array = new Array(questions.length);
+    let scty_array = new Array(questions.length);
     var qn = 0; // Question number
-    var prev_answer = null;
     init_question();
     for (var i = 0; i < questions.length; i++) {
         max_econ += Math.abs(questions[i].effect.econ)
@@ -64,7 +65,7 @@ stats"></a></div></noscript>
     function init_question() {
         document.getElementById("question-text").innerHTML = questions[qn].question;
         document.getElementById("question-number").innerHTML = "Question " + (qn + 1) + " of " + (questions.length);
-        if (prev_answer == null) {
+        if (qn == 0) {
             document.getElementById("back_button").style.display = 'none';
             document.getElementById("back_button_off").style.display = 'block';
         } else {
@@ -75,40 +76,40 @@ stats"></a></div></noscript>
     }
 
     function next_question(mult) {
-        econ += mult*questions[qn].effect.econ
-        dipl += mult*questions[qn].effect.dipl
-        govt += mult*questions[qn].effect.govt
-        scty += mult*questions[qn].effect.scty
+        econ_array[qn] = mult*questions[qn].effect.econ
+        dipl_array[qn] = mult*questions[qn].effect.dipl
+        govt_array[qn] = mult*questions[qn].effect.govt
+        scty_array[qn] = mult*questions[qn].effect.scty
         qn++;
-        prev_answer = mult;
         if (qn < questions.length) {
             init_question();
         } else {
             results();
         }
     }
+
     function prev_question() {
-        if (prev_answer == null) {
+        if (qn == 0) {
             return;
         }
         qn--;
-        econ -= prev_answer * questions[qn].effect.econ;
-        dipl -= prev_answer * questions[qn].effect.dipl;
-        govt -= prev_answer * questions[qn].effect.govt;
-        scty -= prev_answer * questions[qn].effect.scty;
-        prev_answer = null;
         init_question();
-
     }
+
     function calc_score(score,max) {
         return (100*(max+score)/(2*max)).toFixed(1)
     }
+
     function results() {
+        let final_econ = econ_array.reduce((a, b) => a + b, 0)
+        let final_dipl = dipl_array.reduce((a, b) => a + b, 0)
+        let final_govt = govt_array.reduce((a, b) => a + b, 0)
+        let final_scty = scty_array.reduce((a, b) => a + b, 0)
         location.href = `results.html`
-            + `?e=${calc_score(econ,max_econ)}`
-            + `&d=${calc_score(dipl,max_dipl)}`
-            + `&g=${calc_score(govt,max_govt)}`
-            + `&s=${calc_score(scty,max_scty)}`
+            + `?e=${calc_score(final_econ,max_econ)}`
+            + `&d=${calc_score(final_dipl,max_dipl)}`
+            + `&g=${calc_score(final_govt,max_govt)}`
+            + `&s=${calc_score(final_scty,max_scty)}`
     }
 </script>
 </body>
