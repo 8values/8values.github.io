@@ -89,15 +89,15 @@ img.center {
     cursor: pointer;
 }
 .stronglyAgree { background: #1b5e20; }
-.stronglyAgree:hover { background: #154a19; }
+.stronglyAgree:hover, .stronglyAgree:focus { background: #154a19; }
 .agree { background: #4caf50; }
-.agree:hover { background: #29942e; }
+.agree:hover, .gree:focus { background: #29942e; }
 .neutral { background: #949494; }
-.neutral:hover { background: #656565; }
+.neutral:hover, .neutral:focus { background: #656565; }
 .disagree { background: #f44336; }
-.disagree:hover { background: #d6271a; }
+.disagree:hover, .disagree:focus { background: #d6271a; }
 .stronglyDisagree { background: #b71c1c; }
-.stronglyDisagree:hover { background: #a00e0e; }
+.stronglyDisagree:hover, .stronglyDisagree:focus { background: #a00e0e; }
 
 .small_button, .small_button_off {
     background-color: #333;
