@@ -88,6 +88,7 @@ img.center {
     margin: -2px auto;
     cursor: pointer;
 }
+.button:hover, .button:focus { background: #1687e0; }
 .stronglyAgree { background: #1b5e20; }
 .stronglyAgree:hover, .stronglyAgree:focus { background: #154a19; }
 .agree { background: #4caf50; }
