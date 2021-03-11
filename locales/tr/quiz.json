@@ -1,0 +1,8 @@
+{
+	"strongly_agree": "Kesinlikle Katılıyorum",
+	"agree": "Katılıyorum",
+	"neutral": "Nötr/Emin değilim",
+	"disagree": "Katılmıyorum",
+	"strongly_disagree": "Kesinlikle Katılmıyorum",
+	"question_no": "Soru {{current}} / {{total}}"
+}
