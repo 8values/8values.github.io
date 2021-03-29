@@ -1,0 +1,29 @@
+{
+  "start": "Clique aqui para iniciar!",
+  "faq_whatis": "O que é o 8values?",
+  "faq_whatis_answer": "8values é, em essência, um questionário político que tenta indicar porcentagens para oito diferentes valores políticos. Você será apresentado a uma afirmação e, então, você responderá com sua opinião sobre esta afirmação, de <b>Concordo Fortemente</b> a <b>Discordo Fortemente</b>, e cada resposta afetará significantemente sua pontuação. Ao final do questionário, suas repostas serão comparadas com o máximo possível para cada valor, resultando assim numa porcentagem. Responda honestamente!",
+  "faq_values": "Quais são os oito valores?",
+  "faq_values_answer": "Existem quatro eixos - Econômico, Diplomático, Civil e Social - e cada um tem dois valores opostos atribuídos para eles. Estes são:",
+  "faq_match": "O que significa &quot;Perfil mais Próximo&quot; ao final dos resultados?",
+	"faq_match_answer": "Adicionalmente à associação dos oito valores, o quiz também tenta calcular o seu perfil ideológico. Isto é um trabalho em andamento e muito menos preciso que os valores e eixos, então não o leve muito a sério. Se você discorda com a ideologia que lhe foi atribuída, nos mande um email no endereço eightvalues@gmail.com com sua pontuação, ideologia atribuída e ideologia preferida, e vamos tentar ajustar o sistema. Obrigado!",
+  "faq_scores": "Eu não gosto da minha pontuação!",
+  "faq_scores_answer": "¯\\_(ツ)_/¯<br/>Se você tem alguma sugestão ou crítica construtiva, sinta-se à vontade para enviar um e-mail para eightvalues@gmail.com",
+
+  "equality": "<b class=\"equality\">Igualdade</b> (Econômico)<br/>Aqueles com uma pontuação maior em Igualdade acreditam que a economia deve distribuir valor igualmente entre a população. Estes tendem a apoiar leis tributárias progressivas, programas sociais, e no geral, socialismo.",
+  "wealth": "<b class=\"wealth\">Mercado</b> (Econômico)<br/>Aqueles com uma pontuação maior em Mercado acreditam que a economia deve focar em crescimento rápido. Estes tendem a apoiar impostos mais baixos, privatização, desregulamentação, e no geral, capitalismo laissez-faire.",
+  "might": "<b class=\"might\">Nação</b> (Diplomático)<br/>Aqueles com uma pontuação maior em Nação são patriotas e nacionalistas. Estes geralmente acreditam numa política externa agressiva, valorizando as forças armadas, força, soberanidade, e no geral, expansão territorial.",
+  "peace": "<b class=\"peace\">Mundo</b> (Diplomático)<br/>Aqueles com uma pontuação maior em Mundo são cosmopolitas e globalistas. Estes geralmente acreditam numa política externa pacífica, enfatizando diplomacia, cooperação, integração, e no geral, um governo global.",
+  "liberty": "<b class=\"liberty\">Liberdade</b> (Civil)<br/>Aqueles com uma pontuação maior em Liberdade acreditam em forte liberdade civil. Estes tendem a apoiar democracia e opor-se à intervenção do Estado nas vidas pessoais. Note que isto se refere a liberdades civis, não a liberdades econômicas.",
+  "authority": "<b class=\"authority\">Autoridade</b> (Civil)<br/>Aqueles com uma pontuação maior em Autoridade acreditam em forte poder do Estado. Estes tendem a apoiar a intervenção do Estado nas vidas pessoais, fiscalização governamental, e no geral, censura ou autocracia.",
+  "tradition": "<b class=\"tradition\">Tradição</b> (Social)<br/>Aqueles com uma pontuação maior em Tradição acreditam em valores tradicionais e aderência estrita a um código moral. Embora nem sempre, usualmente são religiosos, e apoiam o status quo ou o status quo ante.",
+  "progress": "<b class=\"progress\">Progresso</b> (Social)<br/>Aqueles com uma pontuação maior em Progresso acreditam em mudança social e racionalidade. Embora nem sempre, usualmente são seculares ou ateus, e apoiam ação ambiental e pesquisa científica ou tecnológica.",
+
+  "results": "Resultados",
+  "economic_axis": "Eixo Econômico: ",
+  "diplomatic_axis": "Eixo Diplomático: ",
+  "civic_axis": "Eixo Civil: ",
+  "societal_axis": "Eixo Social: ",
+  "closest_match": "Perfil mais Próximo: ",
+  "match_desc": "O cálculo do perfil ideológico é um trabalho em andamento, e é muito menos exato que os valores e eixos.<br>Você pode enviar esses resultados copiando e colando a URL no topo da página ou usando a imagem abaixo. Acha que a ideologia associada estava errada? Quer nos ajudar a calibrar os testes? Envie os resultados juntamente com sua ideologia política para nós no endereço eightvalues@gmail.com, ou nos mande quaisquer comentários, perguntas ou críticas.",
+  "back": "Voltar"
+}

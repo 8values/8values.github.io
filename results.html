@@ -9,50 +9,75 @@
   version = "Test Edition #1" //Remember to update this before making changes to the test itself!
 </script>
 </head>
-<script type="application/javascript"
-        src="ideologies.js">
-</script>
+<script src="https://unpkg.com/i18next@8.0.0/i18next.min.js"></script>
+<script src="https://unpkg.com/i18next-browser-languagedetector@1.0.1/i18nextBrowserLanguageDetector.min.js"></script>
+<script src="https://unpkg.com/i18next-xhr-backend@1.4.1/i18nextXHRBackend.min.js"></script>
+<script type="application/javascript" src="ideologies.js"></script>
+<script type="application/javascript" src="i18n.js"></script>
 
 <body>
 <h1>8values</h1>
 <hr>
 
-<h1>Results</h1>
+<h1 data-i18n="results"></h1>
 
-<h2>Economic Axis: <span class="weight-300" id="economic-label"></span></h2>
+<h2><span data-i18n="economic_axis"></span><span class="weight-300" id="economic-label"></span></h2>
 <div class="axis">
-    <img id="img-equality" src="value_images/equality.svg" height="128pt"/>
+    <figure>
+        <img id="img-equality" src="value_images/equality.svg" width="128pt"/>
+        <figcaption id="cap-equality" data-i18n="equality" data-ns="values" class="small"></figcaption>
+    </figure>
     <div class="bar equality" id="bar-equality"><div class="text-wrapper" id="equality"></div></div>
-    <div class="bar wealth" id="bar-wealth"><div class="text-wrapper" id="wealth"></div></div>
-    <img id="img-wealth" src="value_images/wealth.svg" height="128pt"/>
+    <div class="bar wealth" id="bar-wealth"><div class="text-wrapper" id="wealth"></div></div>    
+    <figure >
+        <img id="img-wealth" src="value_images/wealth.svg" width="128pt"/>
+        <figcaption id="cap-wealth" data-i18n="wealth" data-ns="values" class="small"></figcaption>
+    </figure>
 </div>
-<h2>Diplomatic Axis: <span class="weight-300" id="diplomatic-label"></span></h2>
+<h2><span data-i18n="diplomatic_axis"></span><span class="weight-300" id="diplomatic-label"></span></h2>
 <div class="axis">
-    <img id="img-might" src="value_images/might.svg" height="128pt"/>
+    <figure>
+        <img id="img-might" src="value_images/might.svg" width="128pt"/>
+        <figcaption id="cap-might" data-i18n="might" data-ns="values" class="small"></figcaption>
+    </figure>
     <div class="bar might" id="bar-might"><div class="text-wrapper" id="might"></div></div>
     <div class="bar peace" id="bar-peace"><div class="text-wrapper" id="peace"></div></div>
-    <img id="img-peace" src="value_images/peace.svg" height="128pt"/>
+    <figure>
+        <img id="img-peace" src="value_images/peace.svg" width="128pt"/>
+        <figcaption id="cap-peace" data-i18n="peace" data-ns="values" class="small"></figcaption>
+    </figure>
 </div>
-<h2>Civil Axis: <span class="weight-300" id="state-label"></span></h2>
+<h2><span data-i18n="civic_axis"></span><span class="weight-300" id="state-label"></span></h2>
 <div class="axis">
-    <img id="img-liberty" src="value_images/liberty.svg" height="128pt"/>
+    <figure>
+        <img id="img-liberty" src="value_images/liberty.svg" width="128pt"/>
+        <figcaption id="cap-liberty" data-i18n="liberty" data-ns="values" class="small"></figcaption>
+    </figure>
     <div class="bar liberty" id="bar-liberty"><div class="text-wrapper" id="liberty"></div></div>
     <div class="bar authority" id="bar-authority"><div class="text-wrapper" id="authority"></div></div>
-    <img id="img-authority" src="value_images/authority.svg" height="128pt"/>
+    <figure>
+        <img id="img-authority" src="value_images/authority.svg" width="128pt"/>
+        <figcaption id="cap-authority" data-i18n="authority" data-ns="values" class="small"></figcaption>
+    </figure>
 </div>
-<h2>Societal Axis: <span class="weight-300" id="society-label"></span></h2>
+<h2><span data-i18n="societal_axis"></span><span class="weight-300" id="society-label"></span></h2>
 <div class="axis">
-    <img id="img-tradition" src="value_images/tradition.svg" height="128pt"/>
+    <figure>
+        <img id="img-tradition" src="value_images/tradition.svg" width="128pt"/>
+        <figcaption id="cap-tradition" data-i18n="tradition" data-ns="values" class="small"></figcaption>
+    </figure>
     <div class="bar tradition" id="bar-tradition"><div class="text-wrapper" id="tradition"></div></div>
     <div class="bar progress" id="bar-progress"><div class="text-wrapper" id="progress"></div></div>
-    <img id="img-progress" src="value_images/progress.svg" height="128pt"/>
+    <figure>
+        <img id="img-progress" src="value_images/progress.svg" width="128pt"/>
+        <figcaption id="cap-progress" data-i18n="progress" data-ns="values" class="small"></figcaption>
+    </figure>
 </div>
-<h2>Closest Match: <span class="weight-300" id="ideology-label"></span></h2>
-<p>Ideological matching is a work in progress, and is much less accurate than the values and axes.</p>
-<p>You can send these results by copying and pasting the URL at the top of the page or using the image below. Think your matched ideology was wrong? Want to help us calibrate the test? Send the results along with your political ideology to us at eightvalues@gmail.com, or send us any comments, questions, or criticism. </p>
+<h2><span data-i18n="closest_match"></span><span class="weight-300" id="ideology-label"></span></h2>
+<p data-i18n="match_desc"></p>
 <hr/>
 <img src="" id="banner">
-<button class="button" onclick="location.href='index.html';" style="background-color: #2196f3;">Back</button> <br>
+<button data-i18n="back" class="button" onclick="location.href='index.html';" style="background-color: #2196f3;"></button> <br>
 <!-- Website visit statistics - no personal information is collected! -->
 <script type="text/javascript">
 var sc_project=11325211;
@@ -69,6 +94,7 @@ href="http://statcounter.com/" target="_blank"><img
 class="statcounter"
 src="//c.statcounter.com/11325211/0/fd9f0659/1/" alt="web
 stats"></a></div></noscript>
+
 <script>
     function getQueryVariable(variable)
     {
@@ -91,20 +117,15 @@ stats"></a></div></noscript>
         }
     }
 
-    econArray = ["Communist","Socialist","Social","Centrist","Market","Capitalist","Laissez-Faire"]
-    diplArray = ["Cosmopolitan","Internationalist","Peaceful","Balanced","Patriotic","Nationalist","Chauvinist"]
-    govtArray = ["Anarchist","Libertarian","Liberal","Moderate","Statist","Authoritarian","Totalitarian"]
-    sctyArray = ["Revolutionary","Very Progressive","Progressive","Neutral","Traditional","Very Traditional","Reactionary"]
-
-    function setLabel(val,ary) {
+    function setLabel(val,prefix) {
         if (val > 100) { return "" } else
-        if (val > 90) { return ary[0] } else
-        if (val > 75) { return ary[1] } else
-        if (val > 60) { return ary[2] } else
-        if (val >= 40) { return ary[3] } else
-        if (val >= 25) { return ary[4] } else
-        if (val >= 10) { return ary[5] } else
-        if (val >= 0) { return ary[6] } else
+        if (val > 90)  { return mat_t(prefix+".0") } else
+        if (val > 75)  { return mat_t(prefix+".1") } else
+        if (val > 60)  { return mat_t(prefix+".2") } else
+        if (val >= 40) { return mat_t(prefix+".3") } else
+        if (val >= 25) { return mat_t(prefix+".4") } else
+        if (val >= 10) { return mat_t(prefix+".5") } else
+        if (val >= 0)  { return mat_t(prefix+".6") } else
         	{return ""}
     }
 
@@ -126,25 +147,19 @@ stats"></a></div></noscript>
     setBarValue("progress", progress)
     setBarValue("tradition", tradition)
 
-    document.getElementById("economic-label").innerHTML = setLabel(equality, econArray)
-    document.getElementById("diplomatic-label").innerHTML = setLabel(peace, diplArray)
-    document.getElementById("state-label").innerHTML = setLabel(liberty, govtArray)
-    document.getElementById("society-label").innerHTML = setLabel(progress, sctyArray)
-
     ideology = ""
     ideodist = Infinity
-    for (var i = 0; i < ideologies.length; i++) {
+    for (i in ideologies) {
         dist = 0
-        dist += Math.pow(Math.abs(ideologies[i].stats.econ - equality), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.govt - liberty), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.dipl - peace), 1.73856063)
-        dist += Math.pow(Math.abs(ideologies[i].stats.scty - progress), 1.73856063)
+        dist += Math.pow(Math.abs(ideologies[i].econ - equality), 2)
+        dist += Math.pow(Math.abs(ideologies[i].govt - liberty), 2)
+        dist += Math.pow(Math.abs(ideologies[i].dipl - peace), 1.73856063)
+        dist += Math.pow(Math.abs(ideologies[i].scty - progress), 1.73856063)
         if (dist < ideodist) {
-            ideology = ideologies[i].name
+            ideology = i
             ideodist = dist
         }
     }
-    document.getElementById("ideology-label").innerHTML = ideology
 
     function createImage(src, x, y, w, h) {
         img = new Image ()
@@ -155,29 +170,62 @@ stats"></a></div></noscript>
     }
 
     window.onload = function() {
+        i18n_load_ns([ "ideologies", "matches", "translation", "values" ], ready)
+    }
+
+    function ready() {
+        ideo_t = i18next.getFixedT(null, "ideologies")
+        mat_t = i18next.getFixedT(null, "matches")
+
+        console.log(ideologies)
+        document.getElementById("ideology-label").innerHTML = ideo_t(ideology)
+
+        document.getElementById("economic-label").innerHTML = setLabel(equality, "econ")
+        document.getElementById("diplomatic-label").innerHTML = setLabel(peace, "dipl")
+        document.getElementById("state-label").innerHTML = setLabel(liberty, "govt")
+        document.getElementById("society-label").innerHTML = setLabel(progress, "scty")
+
         var c = document.createElement("canvas")
         var ctx = c.getContext("2d")
         c.width = 800;
         c.height = 650;
         ctx.fillStyle = "#EEEEEE"
         ctx.fillRect(0,0,800,650);
+        ctx.font="15px Montserrat"
+        ctx.textAlign="center"
 
         img = document.getElementById("img-equality")
         ctx.drawImage(img, 20, 170, 100, 100);
+        cap = document.getElementById("cap-equality").innerText
+        ctx.fillText(cap, 70, 260)
         img = document.getElementById("img-wealth")
         ctx.drawImage(img, 680, 170, 100, 100)
+        cap = document.getElementById("cap-wealth").innerText
+        ctx.fillText(cap, 730, 260)
         img = document.getElementById("img-might")
         ctx.drawImage(img, 20, 290, 100, 100)
+        cap = document.getElementById("cap-might").innerText
+        ctx.fillText(cap, 70, 380)
         img = document.getElementById("img-peace")
         ctx.drawImage(img, 680, 290, 100, 100)
+        cap = document.getElementById("cap-peace").innerText
+        ctx.fillText(cap, 730, 380)
         img = document.getElementById("img-liberty")
         ctx.drawImage(img, 20, 410, 100, 100)
+        cap = document.getElementById("cap-liberty").innerText
+        ctx.fillText(cap, 70, 500)
         img = document.getElementById("img-authority")
         ctx.drawImage(img, 680, 410, 100, 100)
+        cap = document.getElementById("cap-authority").innerText
+        ctx.fillText(cap, 730, 500)
         img = document.getElementById("img-tradition")
         ctx.drawImage(img, 20, 530, 100, 100)
+        cap = document.getElementById("cap-tradition").innerText
+        ctx.fillText(cap, 70, 620)
         img = document.getElementById("img-progress")
         ctx.drawImage(img, 680, 530, 100, 100)
+        cap = document.getElementById("cap-progress").innerText
+        ctx.fillText(cap, 730, 620)
 
         ctx.fillStyle="#222222"
         ctx.fillRect(120, 180, 560, 80)
@@ -204,8 +252,9 @@ stats"></a></div></noscript>
         ctx.font="700 80px Montserrat"
         ctx.textAlign="left"
         ctx.fillText("8values", 20, 90)
+
         ctx.font="50px Montserrat"
-        ctx.fillText(ideology, 20, 140)
+        ctx.fillText(ideo_t(ideology), 20, 140)
 
         ctx.textAlign="left"
         if (equality  > 30) {ctx.fillText(equality + "%", 130, 237.5)}
@@ -222,10 +271,10 @@ stats"></a></div></noscript>
         ctx.fillText("8values.github.io", 780, 60)
 		ctx.fillText(version, 780, 90)
         ctx.textAlign="center"
-        ctx.fillText("Economic Axis: " + document.getElementById("economic-label").innerHTML, 400, 175)
-        ctx.fillText("Diplomatic Axis: " + document.getElementById("diplomatic-label").innerHTML, 400, 295)
-        ctx.fillText("Civil Axis: " + document.getElementById("state-label").innerHTML, 400, 415)
-        ctx.fillText("Societal Axis: " + document.getElementById("society-label").innerHTML, 400, 535)
+        ctx.fillText(i18next.t("economic_axis") + document.getElementById("economic-label").innerHTML, 400, 175)
+        ctx.fillText(i18next.t("diplomatic_axis") + document.getElementById("diplomatic-label").innerHTML, 400, 295)
+        ctx.fillText(i18next.t("civic_axis") + document.getElementById("state-label").innerHTML, 400, 415)
+        ctx.fillText(i18next.t("societal_axis") + document.getElementById("society-label").innerHTML, 400, 535)
 
         document.getElementById("banner").src = c.toDataURL();
     }

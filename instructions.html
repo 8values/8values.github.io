@@ -14,13 +14,21 @@
 </script>
 </head>
 <body>
+<script src="https://unpkg.com/i18next@8.0.0/i18next.min.js"></script>
+<script src="https://unpkg.com/i18next-browser-languagedetector@1.0.1/i18nextBrowserLanguageDetector.min.js"></script>
+<script src="https://unpkg.com/i18next-xhr-backend@1.4.1/i18nextXHRBackend.min.js"></script>
+<script type="application/javascript" src="i18n.js"></script>
 
 <h1>8values</h1>
 <hr>
-<h2 style="text-align:center;">Instructions</h2>
-<p class="question">You will be presented with a series of statements. For each one, click the button with your opinion on it.</p>
-<button class="button" onclick="location.href='quiz.html';" style="background-color: #2196f3;">Got it!</button> <br>
-<button class="button" onclick="location.href='index.html';" style="background-color: #f44336;">Wait, nevermind!</button> <br>
+<h2 data-i18n="title" data-ns="instructions" style="text-align:center;"></h2>
+<p data-i18n="description" data-ns="instructions" class="question"></p>
+<button data-i18n="confirm" data-ns="instructions" class="button" onclick="location.href='quiz.html';" style="background-color: #2196f3;"></button> <br>
+<button data-i18n="cancel" data-ns="instructions" class="button" onclick="location.href='index.html';" style="background-color: #f44336;"></button> <br>
+
+<script type="text/javascript">
+    i18n_load_ns("instructions")
+</script>
 
 <!-- Website visit statistics - no personal information is collected! -->
 <script type="text/javascript">

@@ -1,0 +1,29 @@
+{
+	"start": "Başlamak için tıkla!",
+	"faq_whatis": "8deger nedir?",
+	"faq_whatis_answer": "8deger özü itibariyle 8 farklı politik değere yüzdelik dilimler vermeye çalışan bir testtir. Karşınıza bir dizi soru gelir ve soruları görüşlerinize göre cevaplarsınız. Kesinlikle katılıyorumdan kesinlikle katılmıyoruma, verdiğiniz her cevap yavaşça puanlarınızı etkiler. Testin sonunda cevaplarınız her değerin maksimumuyla kıyaslanır ve bir yüzdelik dilim belirlenir. Dürüstçe cevaplayın!",
+	"faq_values": "Bu sekiz farklı değer nedir?",
+	"faq_values_answer": "Birbirinden bağımsız dört değişken bulunuyor - Ekonomi, Diplomasi, Devlet ve Toplum - ve her birine tanımlanmış dört zıt değer daha var. Bunlar:",
+	"faq_match": "Sonuçların altındaki &quot;En Yakın Eşleşme&quot; ne anlama geliyor?",
+	"faq_match_answer": "Sizi toplam sekiz değerle eşleştirmeye ek olarak bu test sizi ayrıca bir politik ideolojiyle eşleştirmeye de çalışır. Hala geliştirme aşamasında ve diğer değerlere kıyasla doğruluk payı daha düşük, bu yüzden o kadar ciddiye almayın. Eğer eşleştirildiğiniz ideolojiye katılmıyorsanız mail adresimiz eightvalues@gmail.com'a sonuçlarızla birlikte eşleştiğiniz ve tercih ettiğiniz ideolojiyi göndererek sistemi dengelememizde yardımcı olabilirsiniz. Teşekkürler!",
+	"faq_scores": "Sonuçlarımı beğenmedim!",
+	"faq_scores_answer": "¯\\_(ツ)_/¯<br/>Tavsiyelerinizi ve yapıcı eleştirilerinizi eightvalues@gmail.com adresine gönderebilir, ya da github sayfasında issue oluşturabilirsiniz.",
+
+	"equality": "<b class=\"equality\">Eşitlik</b> (Ekonomik)<br/>Yüksek Eşitlik puanına sahip olanlar mal varlığın halka eşit miktarda dağıtılması gerektiğine inanır. İlerici vergi kanunlarını ve sosyal yardım programlarını, yüksek puanlılarında sosyalizmi desteklemeye eğimlidirler.",
+	"wealth": "<b class=\"wealth\">Piyasa</b> (Ekonomik)<br/>Daha yüksek Piyasa puanına sahip olanlar ekonominin hızla gelişmesi gerektiğine inanır. Düşük vergileri, özelleştirmeyi,deregülasyonu ve yüksek puanlılarında bırakınız yapsınlar kapitalizmini destekleyebilirler.",
+	"might": "<b class=\"might\">Millet</b> (Diplomatik)<br/>Daha yüksek Millet puanına sahip olanlar vatansever ve milliyetçidir. Genellikle agresif bir dış politikayı desteklerler; askeriyeye, güce, egemenliğe ve yüksek puanlılarında bölgesel genişlemeye inanırlar.",
+	"peace": "<b class=\"peace\">Dünya</b> (Diplomatik)<br/>Daha yüksek Dünya puanına sahip olanlar kosmopolit ve küreselcidir. Genellikle barışçıl bir dış politikaya, belirgin bir demokrasiye, işbirliğine, bütünleşmeye, yüksek puanlılarındaysa dünya devletine inanırlar.",
+	"liberty": "<b class=\"liberty\">Özgürlük</b> (Devlet)<br/>Daha yüksek Özgürlük puanına sahip olanlar güçlü sivil özgürlüklere inanırlar. Demokrasiyi ve devletin kişisel hayata müdahele etmemesi gerektiğini destekleyebilirler. Unutmayın ki kastedilen ekonomik değil sivil özgülüklerdir.",
+	"authority": "<b class=\"authority\">Otorite</b> (Devlet)<br/>Daha yüksek Otorite puanına sahip olanlar devlet gücüne inanırlar. Devletin kişisel hayata müdahele edebileceğini, devlet gözetimini ve yüksek puanlılarında sansürü yada otokrasiyi destekleyebilirler.",
+	"tradition": "<b class=\"tradition\">Gelenek</b> (Toplum)<br/>Yüksek Gelenek puanına sahip olanlar geleneksel değerlere ve ahlak değerlerine katı bir bağlılığa inanırlar. Her zaman olmasa da, genellikle dindardırlar ve statükoyu desteklerler.",
+	"progress": "<b class=\"progress\">İlerleme</b> (Toplum)<br/>Daha yüksek İlerleme puanına sahip olanlar sosyal değişikliğe ve rasyonelliğe inanırlar. Her zaman olmasa da, genellikle seküler yada ateistlerdir. Çevre hareketini ve bilimsel yada teknolojik araştırmaları desteklerler.",
+
+	"results": "Sonuçlar",
+	"economic_axis": "Ekonomik Eksen: ",
+	"diplomatic_axis": "Diplomatik Eksen: ",
+	"civic_axis": "Sivil Eksen: ",
+	"societal_axis": "Toplumsal Eksen: ",
+	"closest_match": "En Yakın Eşleşme: ",
+	"match_desc":"Ideolojik eşleştirme hala geliştirilme aşamasında ve diğer değerlere kıyasla doğruluk payı daha düşük.<br>Bu sonuçları URL'yi kopyalayarak yada aşağıdaki resmi kullanarak paylaşabilirsiniz.. Eşleştirildiğiniz ideolojinin yanlış olduğunu mu düşünüyorsunuz? Testi kalibre etmemizde bize yardım etmek ister misiniz? Politik ideolojinizle birlikte sonuçlarınızı yada düşüncelerinizi,sorularınızı ve eleştirilerinizi eightvalues@gmail.com adresine gönderebilirsiniz.",
+	"back": "Geri"
+}

@@ -1,0 +1,8 @@
+{
+	"strongly_agree": "Strongly Agree",
+	"agree": "Agree",
+	"neutral": "Neutral/Unsure",
+	"disagree": "Disagree",
+	"strongly_disagree": "Strongly Disagree",
+	"question_no": "Question {{current}} of {{total}}"
+}

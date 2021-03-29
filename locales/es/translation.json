@@ -1,0 +1,29 @@
+{
+	"start": "\u00a1Pulse aqu\u00ed para empezar!",
+	"faq_whatis": "\u00bfQu\u00e9 es 8values?",
+	"faq_whatis_answer": "8values es, en esencia, un juego de preguntas pol\u00edticas que intenta asignar porcentajes a ocho diferentes valores pol\u00edticos. Se le presentar\u00e1 una declaraci\u00f3n, y usted responder\u00e1 con su opini\u00f3n acerca de la declaraci\u00f3n, desde <b>Muy de acuerdo</b> hasta <b>Muy en desacuerdo</b>, con cada respuesta, afectando ligeramente sus puntajes. Al final del juego, sus respuestas ser\u00e1n comparadas con el puntaje m\u00e1ximo para cada valor, entreg\u00e1ndole as\u00ed un porcentaje. \u00a1Responda honestamente!",
+	"faq_values": "\u00bfCu\u00e1les son los ocho valores?",
+	"faq_values_answer": "Hay cuatro ejes independientes - Econom\u00eda, Diplomacia, Estado y Sociedad - y cada uno tiene dos valores opuestos asignados. Ellos son:",
+	"faq_match": "Qu\u00e9 significa eso de &quot;Ideolog\u00eda m\u00e1s cercana&quot; al final de los resultados?",
+	"faq_match_answer": "Junto con asociarle a los ocho valores, este juego tambi\u00e9n intenta asociarte a una ideolog\u00eda pol\u00edtica. Esto es un trabajo en progreso, y es mucho menos preciso que los valores y ejes, as\u00ed que no lo tome muy en serio. Si no est\u00e1 de acuerdo con su ideolog\u00eda asignada, env\u00edenos un correo a eightvalues@gmail.com con sus puntajes, ideolog\u00eda asignada, e ideolog\u00eda preferida, y vamos a evaluar un posible ajuste al sistema. \u00a1Gracias!",
+	"faq_scores": "\u00a1No me gustan mis puntajes!",
+	"faq_scores_answer": "\u00af\\_(ツ)_/\u00af<br/>Si usted tiene alguna sugerencia o cr\u00edtica, puede enviarla a eightvalues@gmail.com o reportar un problema en la p\u00e1gina en GitHub.",
+
+	"equality": "<b class=\"equality\">Igualdad</b> (Econom\u00eda)<br/>Los que tienen mayor puntaje en Igualdad creen que la econom\u00eda deber\u00eda distribuir los recursos en forma igualitaria a la poblaci\u00f3n. Tienden a apoyar impuestos progresivos, programas sociales y, a mayores puntajes, socialismo.",
+	"wealth": "<b class=\"wealth\">Mercados</b> (Econom\u00eda)<br/>Los que tienen mayor puntaje en Mercados creen que la econom\u00eda debe enfocarse en crecer r\u00e1pidamente. Tienden a apoyar bajos impuestos, privatizaci\u00f3n, desregulaci\u00f3n y, a mayores puntajes, capitalismo laissez-faire.",
+	"might": "<b class=\"might\">Naci\u00f3n</b> (Diplomacia)<br/>Los que tienen mayor puntaje en Naci\u00f3n son patriotas y nacionalistas. Frecuentemente creen en una pol\u00edtica exterior agresiva, apreciando el poder militar, la soberan\u00eda y, a mayores puntajes, la expansi\u00f3n territorial.",
+	"peace": "<b class=\"peace\">Mundo</b> (Diplomacia)<br/>Los que tienen mayor puntaje en Mundo son cosmopolitas y globalistas. Frecuentemente creen en una pol\u00edtica exterior pac\u00edfica, enfatizando la diplomacia, la cooperaci\u00f3n, la integraci\u00f3n y, a mayores puntajes, un gobierno mundial.",
+	"liberty": "<b class=\"liberty\">Libertad</b> (Estado)<br/>Los que tienen mayor puntaje en Libertad creen en mayores libertades civiles. Tienden a apoyar la democracia y se oponen a la intervenci\u00f3n estatal en la vida privada. N\u00f3tese que esto se refiere a la libertad civil, no a la libertad econ\u00f3mica.",
+	"authority": "<b class=\"authority\">Autoridad</b> (Estado)<br/>Los que tienen mayor puntaje en Autoridad creen en un mayor poder estatal. Tienden a apoyar la intervenci\u00f3n estatal en la vida privada, la vigilancia del gobierno y, a mayores valores, la censura o autocracia.",
+	"tradition": "<b class=\"tradition\">Tradici\u00f3n</b> (Sociedad)<br/>Los que tienen mayor puntaje en Tradici\u00f3n creen en los valores tradicionales y en la adherencia estricta a un c\u00f3digo moral. Aunque no siempre, usualmente son religiosos, y apoyan el status quo o el status quo ante.",
+	"progress": "<b class=\"progress\">Progreso</b> (Sociedad)<br/>Los que tienen mayor puntaje en Progreso creen en el cambio social y la racionalidad. Aunque no siempre es as\u00ed, usualmente son seculares o ate\u00edstas, y apoyan la acci\u00f3n ambientalista y la investigaci\u00f3n cient\u00edfica o tecnol\u00f3gica.",
+
+	"results": "Resultados",
+	"economic_axis": "Eje econ\u00f3mico: ",
+	"diplomatic_axis": "Eje diplom\u00e1tico: ",
+	"civic_axis": "Eje civil: ",
+	"societal_axis": "Eje societal: ",
+	"closest_match": "Ideolog\u00eda m\u00e1s cercana: ",
+	"match_desc": "La evaluaci\u00f3n ideol\u00f3gica es un trabajo en progreso, y es mucho menos precisa que los valores y ejes.<br>Puede enviar esos resultados copiando y pegando la URL al comienzo de la p\u00e1gina o usando la imagen de abajo. \u00bfPiensa que su ideolog\u00eda asignada es incorrecta? \u00bfDesea ayudarnos a calibrar la prueba? Env\u00edenos sus resultados junto con su ideolog\u00eda pol\u00edtica a eightvalues@gmail.com, o env\u00edenos cualquier comentario, pregunta o cr\u00edtica",
+	"back": "Volver"
+}

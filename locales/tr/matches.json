@@ -1,0 +1,6 @@
+{
+    "econ": ["Komünist","Sosyalist","Sosyal","Ortayolcu","Piyasa","Kapitalist","Bırakınız yapsınlar"],
+    "dipl": ["Kozmopolit","Enternasyonalist","Barışçıl","Dengeli","Vatansever","Milliyetçi","Şovenist"],
+    "govt": ["Anarşist","Liberteryan","Liberal","Ilımlı","Devletçi","Otoriter","Totaliter"],
+    "scty": ["Devrimci","Çok İlerici","İlerici","Nötr / Yansız","Gelenekselci","Çok Gelenekselci","Tutucu"]
+}

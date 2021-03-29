@@ -1,0 +1,6 @@
+{
+    "econ": ["Communist","Socialist","Social","Centrist","Market","Capitalist","Laissez-Faire"],
+    "dipl": ["Cosmopolitan","Internationalist","Peaceful","Balanced","Patriotic","Nationalist","Chauvinist"],
+    "govt": ["Anarchist","Libertarian","Liberal","Moderate","Statist","Authoritarian","Totalitarian"],
+    "scty": ["Revolutionary","Very Progressive","Progressive","Neutral","Traditional","Very Traditional","Reactionary"]
+}

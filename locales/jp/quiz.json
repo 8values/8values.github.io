@@ -1,0 +1,8 @@
+{
+	"strongly_agree": "つよく同意する",
+	"agree": "同意する",
+	"neutral": "どちらでもない／わからない",
+	"disagree": "同意しない",
+	"strongly_disagree": "まったく同意しない",
+	"question_no": "問 {{current}} （全{{total}}問）"
+}

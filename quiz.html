@@ -14,20 +14,23 @@
 </script>
 </head>
 <body>
-<script type="application/javascript"
-        src="questions.js">
-</script>
+<script src="https://unpkg.com/i18next@8.0.0/i18next.min.js"></script>
+<script src="https://unpkg.com/i18next-browser-languagedetector@1.0.1/i18nextBrowserLanguageDetector.min.js"></script>
+<script src="https://unpkg.com/i18next-xhr-backend@1.4.1/i18nextXHRBackend.min.js"></script>
+<script type="application/javascript" src="questions.js"></script>
+<script type="application/javascript" src="i18n.js"></script>
+
 <h1>8values</h1>
 <hr>
-<h2 style="text-align:center;" id="question-number">Loading...</h2>
-<p class="question" id="question-text"></p>
-<button class="button" onclick="next_question( 1.0)" style="background-color: #1b5e20;">Strongly Agree</button> <br>
-<button class="button" onclick="next_question( 0.5)" style="background-color: #4caf50;">Agree</button> <br>
-<button class="button" onclick="next_question( 0.0)" style="background-color: #bbbbbb;">Neutral/Unsure</button> <br>
-<button class="button" onclick="next_question(-0.5)" style="background-color: #f44336;">Disagree</button> <br>
-<button class="button" onclick="next_question(-1.0)" style="background-color: #b71c1c;">Strongly Disagree</button> <br>
-<button class="small_button" onclick="prev_question()" id="back_button">Back</button>
-<button class="small_button_off" id="back_button_off">Back</button><br>
+<h2 style="text-align:center;" id="question-number" data-i18n="question_no" data-ns="quiz">Loading...</h2>
+<p class="question" id="question-text" data-ns="questions"></p>
+<button class="button" onclick="next_question( 1.0)" style="background-color: #1b5e20;" data-i18n="strongly_agree" data-ns="quiz"></button> <br>
+<button class="button" onclick="next_question( 0.5)" style="background-color: #4caf50;" data-i18n="agree" data-ns="quiz"></button> <br>
+<button class="button" onclick="next_question( 0.0)" style="background-color: #bbbbbb;" data-i18n="neutral" data-ns="quiz"></button> <br>
+<button class="button" onclick="next_question(-0.5)" style="background-color: #f44336;" data-i18n="disagree" data-ns="quiz"></button> <br>
+<button class="button" onclick="next_question(-1.0)" style="background-color: #b71c1c;" data-i18n="strongly_disagree" data-ns="quiz"></button> <br>
+<button class="small_button" onclick="prev_question()" id="back_button" data-i18n="back"></button>
+<button class="small_button_off" id="back_button_off" data-i18n="back"></button><br>
 
 <!-- Website visit statistics - no personal information is collected! -->
 <script type="text/javascript">
@@ -48,22 +51,29 @@ stats"></a></div></noscript>
 
 <!-- JavaScript for the test itself -->
 <script>
+    i18n_load_ns([ "questions", "quiz", "translation" ], display_progress)
+
     var max_econ, max_dipl, max_govt, max_scty; // Max possible scores
     max_econ = max_dipl = max_govt = max_scty = 0;
     var econ, dipl, govt, scty; // User's scores
     econ = dipl = govt = scty = 0;
     var qn = 0; // Question number
     var prev_answer = null;
-    init_question();
+    
     for (var i = 0; i < questions.length; i++) {
         max_econ += Math.abs(questions[i].effect.econ)
         max_dipl += Math.abs(questions[i].effect.dipl)
         max_govt += Math.abs(questions[i].effect.govt)
         max_scty += Math.abs(questions[i].effect.scty)
     }
-    function init_question() {
-        document.getElementById("question-text").innerHTML = questions[qn].question;
-        document.getElementById("question-number").innerHTML = "Question " + (qn + 1) + " of " + (questions.length);
+
+    function display_progress() {
+        document.getElementById("question-text").dataset.i18n=questions[qn].question
+        document.getElementById("question-number").dataset.current=qn+1
+        document.getElementById("question-number").dataset.total=questions.length
+
+        i18n_ready()
+
         if (prev_answer == null) {
             document.getElementById("back_button").style.display = 'none';
             document.getElementById("back_button_off").style.display = 'block';
@@ -71,9 +81,7 @@ stats"></a></div></noscript>
             document.getElementById("back_button").style.display = 'block';
             document.getElementById("back_button_off").style.display = 'none';
         }
-
     }
-
     function next_question(mult) {
         econ += mult*questions[qn].effect.econ
         dipl += mult*questions[qn].effect.dipl
@@ -82,9 +90,9 @@ stats"></a></div></noscript>
         qn++;
         prev_answer = mult;
         if (qn < questions.length) {
-            init_question();
+            display_progress()
         } else {
-            results();
+            results()
         }
     }
     function prev_question() {
@@ -97,8 +105,7 @@ stats"></a></div></noscript>
         govt -= prev_answer * questions[qn].effect.govt;
         scty -= prev_answer * questions[qn].effect.scty;
         prev_answer = null;
-        init_question();
-
+        display_progress();
     }
     function calc_score(score,max) {
         return (100*(max+score)/(2*max)).toFixed(1)
