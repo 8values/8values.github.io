@@ -3,6 +3,6 @@
 	"agree": "D'accord",
 	"neutral": "Neutre/incertain",
 	"disagree": "Pas d'accord",
-	"strongly_disagree": "Pas du totu d'accord",
+	"strongly_disagree": "Pas du tout d'accord",
 	"question_no": "Question {{current}} de {{total}}"
 }
