@@ -88,6 +88,18 @@ img.center {
     margin: -2px auto;
     cursor: pointer;
 }
+.button:hover, .button:focus { background: #1687e0; }
+.stronglyAgree { background: #1b5e20; }
+.stronglyAgree:hover, .stronglyAgree:focus { background: #154a19; }
+.agree { background: #4caf50; }
+.agree:hover, .agree:focus { background: #29942e; }
+.neutral { background: #949494; }
+.neutral:hover, .neutral:focus { background: #656565; }
+.disagree { background: #f44336; }
+.disagree:hover, .disagree:focus { background: #d6271a; }
+.stronglyDisagree { background: #b71c1c; }
+.stronglyDisagree:hover, .stronglyDisagree:focus { background: #a00e0e; }
+
 .small_button, .small_button_off {
     background-color: #333;
     font-family: 'Montserrat', sans-serif;
@@ -104,6 +116,11 @@ img.center {
     margin: -2px auto;
     cursor: pointer;
 }
+
+.small_button:hover, .small_button:focus {
+    background: #222;
+}
+
 .small_button_off {
     background-color: #ddd;
     color: #888;
