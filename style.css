@@ -92,7 +92,7 @@ img.center {
 .stronglyAgree { background: #1b5e20; }
 .stronglyAgree:hover, .stronglyAgree:focus { background: #154a19; }
 .agree { background: #4caf50; }
-.agree:hover, .gree:focus { background: #29942e; }
+.agree:hover, .agree:focus { background: #29942e; }
 .neutral { background: #949494; }
 .neutral:hover, .neutral:focus { background: #656565; }
 .disagree { background: #f44336; }
@@ -116,6 +116,11 @@ img.center {
     margin: -2px auto;
     cursor: pointer;
 }
+
+.small_button:hover, .small_button:focus {
+    background: #222;
+}
+
 .small_button_off {
     background-color: #ddd;
     color: #888;
