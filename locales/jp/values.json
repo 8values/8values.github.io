@@ -1,0 +1,15 @@
+{
+    "economic": "経済",
+    "diplomatic": "外交",
+    "civil": "国家",
+    "societal": "社会",
+
+    "equality": "平等",
+	"wealth": "市場",
+	"might": "国力",
+	"peace": "世界",
+	"liberty": "自由",
+	"authority": "権威",
+	"tradition": "伝統",
+	"progress": "革新"
+}

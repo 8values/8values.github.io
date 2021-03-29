@@ -1,0 +1,29 @@
+{
+	"start": "Cliquez ici pour commencer !",
+	"faq_whatis": "Qu'est-ce que 8values ?",
+	"faq_whatis_answer": "8values est, essentiellement, un quiz politique qui tente d'attribuer des pourcentages à huit valuers politiques différentes. On vous présentera une déclaration à laquelle vous devrez répondre en donnant votre opinion, de <b>Tout à fait d'accord</b> à <b>Pas du tout d'accord</b>, avec chaque réponse affecte légèrement vos résultats. À la fin du quiz, vos réponses seront comparées au maximum possible pour chaque valeur, ce qui vous donnera un pourcentage. Répondez honnêtement!",
+	"faq_values": "Quelles sont les huit valeurs ?",
+	"faq_values_answer": "Il y a quatre axes indépendants : l'axe économique, l'axe diplomatique, l'axe étatique et l'axe sociétal, chacun d'entre eux se voyant attribuer deux valeurs opposées.",
+	"faq_match": "Que signifie la mention «Correspondance la plus proche» en bas des résultats ?",
+	"faq_match_answer": "En plus de correspondre à vos huit valeurs, le quiz tente également de correspondre à votre idéologie politique. Ce n'est pas aussi précis, alors ne le prenez pas trop au sérieux. Si vous n'êtes pas d'accord avec votre idéologie, envoyez-nous un e-mail à «eightvalues[at]gmail.com» avec vos résultats, l'idéologie qui vous correspond et votre idéologie préférée, et nous chercherons à ajuster le système. Merci beaucoup !",
+	"faq_scores": "Je n'aime pas mes résultats !",
+	"faq_scores_answer": "¯\\_(ツ)_/¯<br/>Si vous avez des suggestions ou des critiques constructives, n'hésitez pas à les envoyer à «eightvalues[ at ]gmail.com» ou à <a href=\"https://github.com/8values/8values.github.io/issues/new\">ouvrir un problème sur la page GitHub</a>.",
+
+	"equality": "<b class=\"equality\">Egalité</b> (économique)<br/>Les personnes ayant un score d'égalité élevé pensent que l'économie devrait distribuer la valeur de manière égale parmi la population. Ils ont tendance à soutenir les codes fiscaux progressifs, les programmes sociaux et, à des valeurs élevées, le socialisme.",
+	"wealth": "<b class=\"wealth\">Marchés</b> (Économique)<br/>Les personnes ayant un score de marché élevé pensent que l'économie doit être axée sur une croissance rapide. Ils ont tendance à soutenir la baisse des impôts, la privatisation, la déréglementation et, à des valeurs élevées, le capitalisme de laissez-faire.",
+	"might": "<b class=\"might\">Nation</b> (Diplomatique)<br/>Les personnes ayant un score de Nation élevé sont patriotes et nationalistes. Ils croient souvent en une politique étrangère agressive, valorisant l'armée, la force, la souveraineté et, pour les valeurs élevées, l'expansion territoriale.",
+	"peace": "<b class=\"peace\">Globe</b> (Diplomatique)<br/>Les personnes ayant un score Globe élevé sont cosmopolites et mondialistes. Ils croient souvent en une politique étrangère pacifique, mettant l'accent sur la diplomatie, la coopération, l'intégration et, pour les valeurs élevées, un gouvernement mondial.",
+	"liberty": "<b class=\"liberty\">Liberté</b> (État)<br/>Les personnes ayant un score de liberté élevé croient en des libertés civiles fortes. Elles ont tendance à soutenir la démocratie et à s'opposer à l'intervention de l'État dans la vie personnelle. Notez que cela fait référence aux libertés civiles, et non aux libertés économiques.",
+	"authority": "<b class=\"authority\">Autorité</b> (État)<br/>Les personnes ayant un score d'autorité élevé croient en un pouvoir étatique fort. Elles ont tendance à soutenir l'intervention de l'État dans la vie personnelle, la surveillance gouvernementale et, à des valeurs élevées, la censure ou l'autocratie.",
+	"tradition": "<b class=\"tradition\">Tradition</b> (Société)<br/>Les personnes ayant un score de Tradition élevé croient aux valeurs traditionnelles et au respect strict d'un code moral. Bien que ce ne soit pas toujours le cas, elles sont généralement religieuses et soutiennent le statu quo ou le statu quo ante.",
+	"progress": "<b class=\"progress\">Progrès</b> (Société)<br/>Les personnes ayant un score de progrès élevé croient au changement social et à la rationalité. Bien que ce ne soit pas toujours le cas, elles sont généralement laïques ou athées, et soutiennent l'action environnementale et la recherche scientifique ou technologique.",
+
+	"results": "Résultats",
+	"economic_axis": "L'axe économique : ",
+	"diplomatic_axis": "L'axe diplomatique : ",
+	"civic_axis": "L'axe civil : ",
+	"societal_axis": "L'axe sociétal : ",
+	"closest_match": "Correspondance la plus proche : ",
+	"match_desc": "Vous pouvez envoyer ces résultats en copiant et collant l'adresse web en haut de la page ou en utilisant l'image ci-dessous. Vous pensez que votre idéologie appariée était fausse ou vous voulez nous aider à mieux calibrer le test ? Envoyez-nous les résultats ainsi que votre idéologie politique à «eightvalues [ at ]gmail.com», our envoyez-nous vos commentaires, questions, ou critiques.",
+	"back": "Retour"
+}
