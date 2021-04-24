@@ -22,8 +22,8 @@ p {
 }
 
 p.value {
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 22px;
+    margin-bottom: 18px;
     text-indent: -16pt;
     margin-left: 20pt;
     font-size: 28px;
@@ -153,10 +153,16 @@ img.center {
     width: 60%;
     height: auto;
 }
-div.explanation_blurb {
-    width: 39%;
+div.explanation_blurb_left {
+    width: 37%;
+    margin-left: 2%
+}
+div.explanation_blurb_right {
+    width: 37%;
+    margin-right: 2%
 }
 div.explanation_axis {
+    margin-top: 10px;
     width: 20%;
 }
 div.axis {
