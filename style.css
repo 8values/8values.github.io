@@ -76,7 +76,6 @@ img.center {
     display: inline-block;
     *display: inline; /* For IE7 */
     text-align: center;
-    zoom: 1; /* Trigger hasLayout */
 }
 .button {
     background-color: #2196f3;
