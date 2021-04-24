@@ -72,6 +72,12 @@ img.center {
     width: 50%;
     min-width: 500pt;
 }
+.spacer > div{
+    display: inline-block;
+    *display: inline; /* For IE7 */
+    text-align: center;
+    zoom: 1; /* Trigger hasLayout */
+}
 .button {
     background-color: #2196f3;
     font-family: 'Montserrat', sans-serif;
@@ -127,6 +133,12 @@ img.center {
     border: 2px solid #888;
     cursor: not-allowed;
     margin: -4px auto;
+}
+div.explanation_blurb {
+    width: 39%;
+}
+div.explanation_axis {
+    width: 20%;
 }
 div.axis {
     width: 100%;
