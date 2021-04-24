@@ -154,12 +154,12 @@ img.center {
     height: auto;
 }
 div.explanation_blurb_left {
-    width: 37%;
-    margin-left: 2%
+    width: 38%;
+    margin-left: 1.5%
 }
 div.explanation_blurb_right {
-    width: 37%;
-    margin-right: 2%
+    width: 38%;
+    margin-right: 1.5%
 }
 div.explanation_axis {
     margin-top: 10px;
@@ -239,6 +239,8 @@ span.weight-300 {
 .explanation_bg {
     background-color: #eeeeee;
     border-radius: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
     margin-top: 15px;
 }
 #banner {
