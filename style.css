@@ -23,22 +23,22 @@ p {
 
 p.value {
     margin-top: 22px;
-    margin-bottom: 18px;
+    margin-bottom: 22px;
     text-indent: -16pt;
     margin-left: 20pt;
     font-size: 28px;
     font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:2.11666656px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Medium';text-align:center;letter-spacing:0px;text-anchor:middle;opacity:1;fill:#eeeeee;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.11666656;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers
 }
-p.value-description {
-    text-indent: -16pt;
-    margin-left: 20pt;
+
+p.blurb-text {
+    font-size: 27px;
 }
-p.axis {
+
+p.axis_name {
+    margin-top: 50px;
     color: #333333;
-    text-indent: -16pt;
-    margin-left: 20pt;
-    font-size: 25px;
-    font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#222222;fill-opacity:1;stroke:none;stroke-width:0.13229167px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1
+    font-size: 24px;
+    font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#222222;fill-opacity:1;stroke:none;stroke-width:0.13229167px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1
 }
 p.question {
     margin: 16pt auto;
@@ -89,6 +89,7 @@ img.center {
     min-width: 500pt;
 }
 .spacer > div{
+    margin-top: 20px;
     display: inline-block;
     *display: inline; /* For IE7 */
     text-align: center;
@@ -154,16 +155,20 @@ img.center {
     height: auto;
 }
 div.explanation_blurb_left {
-    width: 38%;
-    margin-left: 1.5%
+    vertical-align: top;
+    width: 37%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 div.explanation_blurb_right {
-    width: 38%;
-    margin-right: 1.5%
+    vertical-align: top;
+    width: 37%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 div.explanation_axis {
-    margin-top: 10px;
-    width: 20%;
+    width: 20.9%;
+    vertical-align: top;
 }
 div.axis {
     width: 100%;
@@ -198,7 +203,7 @@ div.equality {
     text-align: left;
     border-right-style: solid;
 }
-div.wealth {
+div.markets {
     background-color: #00897b;
     text-align: right;
     border-left-style: solid;
@@ -213,12 +218,12 @@ div.authority {
     text-align: right;
     border-left-style: solid;
 }
-div.peace {
+div.globe {
     background-color: #03a9f4;
     text-align: right;
     border-left-style: solid;
 }
-div.might {
+div.nation {
     background-color: #ff9800;
     text-align: left;
     border-right-style: solid;
@@ -239,8 +244,6 @@ span.weight-300 {
 .explanation_bg {
     background-color: #eeeeee;
     border-radius: 25px;
-    margin-left: 25px;
-    margin-right: 25px;
     margin-top: 15px;
 }
 #banner {
