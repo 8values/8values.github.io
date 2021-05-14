@@ -88,6 +88,9 @@ img.center {
     width: 50%;
     min-width: 500pt;
 }
+.spacer {
+    display: flex;
+}
 .spacer > div{
     margin-top: 20px;
     display: inline-block;
