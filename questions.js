@@ -180,7 +180,7 @@ questions = [
         }
     },
     {
-        "question": "It is more important to retain peaceful relations than to further our strength.",
+        "question": "Unity is more important than sovereignty.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -230,7 +230,7 @@ questions = [
             "econ": 0,
             "dipl": 10,
             "govt": 0,
-            "scty": 10
+            "scty": 5
         }
     },
     {
@@ -246,7 +246,7 @@ questions = [
         "question": "Even when protesting an authoritarian government, violence is not acceptable.",
         "effect": {
             "econ": 0,
-            "dipl": 5,
+            "dipl": 0,
             "govt": -5,
             "scty": 0
         }
@@ -273,13 +273,13 @@ questions = [
         "question": "It is very important to maintain law and order.",
         "effect": {
             "econ": 0,
-            "dipl": -5,
+            "dipl": 0,
             "govt": -10,
-            "scty": -5
+            "scty": 0
         }
     },
     {
-        "question": "The general populace makes poor decisions.",
+        "question": "The general populace makes poor lifestyle decisions if left alone.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -342,7 +342,7 @@ questions = [
         }
     },
     {
-        "question": "A hierarchical state is best.",
+        "question": "A centralised state is best.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -360,20 +360,11 @@ questions = [
         }
     },
     {
-        "question": "The stronger the leadership, the better.",
-        "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Democracy is more than a decision-making process.",
+        "question": "The more powerful the leadership, the better.",
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": 10,
+            "govt": -10,
             "scty": 0
         }
     },
@@ -383,7 +374,7 @@ questions = [
             "econ": 5,
             "dipl": 0,
             "govt": 0,
-            "scty": 10
+            "scty": 0
         }
     },
     {
@@ -400,7 +391,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -5,
+            "govt": 0,
             "scty": -10
         }
     },
@@ -423,7 +414,7 @@ questions = [
         }
     },
     {
-        "question": "Churches should be taxed the same way other institutions are taxed.",
+        "question": "Churches should be taxed the same way or in a more extensive way other institutions are taxed.",
         "effect": {
             "econ": 5,
             "dipl": 0,
@@ -450,7 +441,7 @@ questions = [
         }
     },
     {
-        "question": "Society was better many years ago than it is now.",
+        "question": "Society was in many ways better many years ago than it is now.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -459,7 +450,7 @@ questions = [
         }
     },
     {
-        "question": "It is important that we maintain the traditions of our past.",
+        "question": "It is important that we maintain the traditions and heritage of our past.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -473,7 +464,7 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "govt": 0,
-            "scty": 10
+            "scty": -10
         }
     },
     {
@@ -491,16 +482,16 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "govt": 10,
-            "scty": 2
+            "scty": 0
         }
     },
     {
-        "question": "Same-sex marriage should be legal.",
+        "question": "Same-sex marriage should be protected by the state.",
         "effect": {
             "econ": 0,
             "dipl": 0,
             "govt": 10,
-            "scty": 10
+            "scty": 0
         }
     },
     {
@@ -508,7 +499,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 10,
-            "govt": 5,
+            "govt": 0,
             "scty": 10
         }
     },
@@ -563,7 +554,7 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "govt": -10,
-            "scty": -10
+            "scty": 0
         }
     },
     {
@@ -591,7 +582,7 @@ questions = [
             "dipl": 0,
             "govt": 0,
             "scty": 10
-        }
+        }`
     },
     {
         "question": "We should open our borders to immigration.",
@@ -615,17 +606,17 @@ questions = [
         "question": "All people - regardless of factors like culture or sexuality - should be treated equally.",
         "effect": {
             "econ": 10,
-            "dipl": 10,
-            "govt": 10,
+            "dipl": 0,
+            "govt": 5,
             "scty": 10
         }
     },
     {
         "question": "It is important that we further my group's goals above all others.",
         "effect": {
-            "econ": -10,
+            "econ": -5,
             "dipl": -10,
-            "govt": -10,
+            "govt": 0,
             "scty": -10
         }
     }
