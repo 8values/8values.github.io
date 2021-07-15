@@ -206,7 +206,7 @@ div.equality {
     text-align: left;
     border-right-style: solid;
 }
-div.markets {
+div.wealth {
     background-color: #00897b;
     text-align: right;
     border-left-style: solid;
@@ -221,12 +221,12 @@ div.authority {
     text-align: right;
     border-left-style: solid;
 }
-div.globe {
+div.peace {
     background-color: #03a9f4;
     text-align: right;
     border-left-style: solid;
 }
-div.nation {
+div.might {
     background-color: #ff9800;
     text-align: left;
     border-right-style: solid;
