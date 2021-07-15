@@ -17,10 +17,8 @@ p {
     color: #444444;
     font-family: 'Roboto', sans-serif;
     font-size: 16pt;
-    line-height: 1;
     margin: 4pt;
 }
-
 p.value {
     margin-top: 22px;
     margin-bottom: 22px;
@@ -30,11 +28,9 @@ p.value {
     line-height: 2.11666656px;
     font-family: 'Montserrat';
 }
-
 p.blurb-text {
     font-size: 27px;
 }
-
 p.axis_name {
     margin-top: 50px;
     color: #333333;
@@ -57,7 +53,6 @@ p.question {
     justify-content: center;
     align-items: center;
     text-align: center;
-
 }
 h1 {
     color: #222222;
@@ -115,6 +110,7 @@ img.center {
     cursor: pointer;
 }
 .button:hover, .button:focus { background: #1687e0; }
+
 .stronglyAgree { background: #1b5e20; }
 .stronglyAgree:hover, .stronglyAgree:focus { background: #154a19; }
 .agree { background: #4caf50; }
@@ -142,11 +138,9 @@ img.center {
     margin: -2px auto;
     cursor: pointer;
 }
-
 .small_button:hover, .small_button:focus {
     background: #222;
 }
-
 .small_button_off {
     background-color: #ddd;
     color: #888;
