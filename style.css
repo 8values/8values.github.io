@@ -28,13 +28,14 @@ p.value {
     margin-left: 20pt;
     font-size: 24pt;
     line-height: 2.11666656px;
+    letter-spacing: 0.03em;
     font-family: 'Montserrat';
 }
 
 p.axis_name {
     margin-top: 50px;
     color: #333333;
-    font-size: 22pt;
+    font-size: 19pt;
     font-family: 'Montserrat';
 }
 p.question {
