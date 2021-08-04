@@ -16,8 +16,8 @@ body {
 p {
     color: #444444;
     font-family: 'Roboto', sans-serif;
-    font-size: 16pt;
-    line-height: 1;
+    font-size: 18.5pt;
+    line-height: 1.15;
     margin: 4pt;
 }
 
@@ -26,19 +26,15 @@ p.value {
     margin-bottom: 22px;
     text-indent: -16pt;
     margin-left: 20pt;
-    font-size: 28px;
+    font-size: 24pt;
     line-height: 2.11666656px;
     font-family: 'Montserrat';
-}
-
-p.blurb-text {
-    font-size: 27px;
 }
 
 p.axis_name {
     margin-top: 50px;
     color: #333333;
-    font-size: 24px;
+    font-size: 22pt;
     font-family: 'Montserrat';
 }
 p.question {
@@ -71,10 +67,10 @@ h1 {
 h2 {
     color: #333333;
     font-family: 'Montserrat', sans-serif;
-    font-size: 36pt;
+    font-size: 34pt;
     line-height: 36pt;
     margin-top: 12pt;
-    margin-bottom: 0pt;
+    margin-bottom: 10pt;
 }
 li {
     font-size: 16pt;
