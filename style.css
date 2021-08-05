@@ -1,6 +1,7 @@
 html {
     background-color: #bbbbbb;
     padding: 0px;
+    scroll-behavior: smooth;
 }
 body {
     width: 80%;
@@ -109,13 +110,13 @@ div.axis_name {
     font-size: 19pt;
     font-family: 'Montserrat';
     display: inline-block;
-    padding-bottom: 5pt;
+    padding-bottom: 8.65pt;
 }
 .spacer {
     display: flex;
 }
 .spacer > div{
-    margin-top: 20px;
+    margin-top: 10px;
     display: inline-block;
     *display: inline; /* For IE7 */
     text-align: center;
