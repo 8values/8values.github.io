@@ -80,11 +80,36 @@ li {
 a {
     font-family: inherit;
 }
-img.center {
-    display: block;
-    margin: 1em auto;
+div.center {
+    background-color: #eeeeee;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 8pt;
+    padding: 6pt;
+    color: white;
     width: 50%;
-    min-width: 500pt;
+    min-width: 488pt;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 24pt;
+    margin: auto;
+}
+img.quadcolumn {
+    width: 23.75%;
+    transition: transform .3s;
+}
+img.quadcolumn:hover {
+    transform: scale(1.18);
+  }
+div.quadcolumn {
+    width: 23.75%;
+}
+div.axis_name {
+    color: #333333;
+    font-size: 19pt;
+    font-family: 'Montserrat';
+    display: inline-block;
+    padding-bottom: 5pt;
 }
 .spacer {
     display: flex;
