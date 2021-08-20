@@ -100,7 +100,7 @@ img.quadcolumn {
     transition: transform .3s;
 }
 img.quadcolumn:hover {
-    transform: scale(1.18);
+    transform: scale(1.05);
   }
 div.quadcolumn {
     width: 23.75%;
