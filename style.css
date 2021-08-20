@@ -1,6 +1,7 @@
 html {
     background-color: #bbbbbb;
     padding: 0px;
+    scroll-behavior: smooth;
 }
 body {
     width: 80%;
@@ -16,8 +17,8 @@ body {
 p {
     color: #444444;
     font-family: 'Roboto', sans-serif;
-    font-size: 16pt;
-    line-height: 1;
+    font-size: 18.5pt;
+    line-height: 1.15;
     margin: 4pt;
 }
 
@@ -26,19 +27,16 @@ p.value {
     margin-bottom: 22px;
     text-indent: -16pt;
     margin-left: 20pt;
-    font-size: 28px;
+    font-size: 24pt;
     line-height: 2.11666656px;
+    letter-spacing: 0.03em;
     font-family: 'Montserrat';
-}
-
-p.blurb-text {
-    font-size: 27px;
 }
 
 p.axis_name {
     margin-top: 50px;
     color: #333333;
-    font-size: 24px;
+    font-size: 19pt;
     font-family: 'Montserrat';
 }
 p.question {
@@ -71,10 +69,10 @@ h1 {
 h2 {
     color: #333333;
     font-family: 'Montserrat', sans-serif;
-    font-size: 36pt;
+    font-size: 34pt;
     line-height: 36pt;
     margin-top: 12pt;
-    margin-bottom: 0pt;
+    margin-bottom: 10pt;
 }
 li {
     font-size: 16pt;
@@ -83,17 +81,42 @@ li {
 a {
     font-family: inherit;
 }
-img.center {
-    display: block;
-    margin: 1em auto;
+div.center {
+    background-color: #eeeeee;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 8pt;
+    padding: 6pt;
+    color: white;
     width: 50%;
-    min-width: 500pt;
+    min-width: 488pt;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 24pt;
+    margin: auto;
+}
+img.quadcolumn {
+    width: 23.75%;
+    transition: transform .3s;
+}
+img.quadcolumn:hover {
+    transform: scale(1.05);
+  }
+div.quadcolumn {
+    width: 23.75%;
+}
+div.axis_name {
+    color: #333333;
+    font-size: 19pt;
+    font-family: 'Montserrat';
+    display: inline-block;
+    padding-bottom: 8.65pt;
 }
 .spacer {
     display: flex;
 }
 .spacer > div{
-    margin-top: 20px;
+    margin-top: 10px;
     display: inline-block;
     *display: inline; /* For IE7 */
     text-align: center;
