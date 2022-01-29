@@ -128,7 +128,7 @@ div.axis_name {
     border-radius: 8pt;
     color: white;
     padding: 8pt;
-    width: 50%;
+    width: 60%;
     min-width: 500pt;
     text-align: center;
     text-decoration: none;
@@ -156,7 +156,7 @@ div.axis_name {
     border-radius: 8pt;
     color: white;
     padding: 8pt;
-    width: 10%;
+    width: 35%;
     min-width: 100pt;
     text-align: center;
     text-decoration: none;
@@ -207,7 +207,7 @@ div.bar {
     height: 36pt;
     line-height: 36pt;
     padding: 8pt;
-    margin-top: 4pt;
+    margin-top: 5pt;
     margin-bottom: 4pt;
     border-width: 4px;
     border-right-width: 1px;
