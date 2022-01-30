@@ -17,7 +17,7 @@
 <h1>8values</h1>
 <hr>
 
-<h1>Results</h1>
+<h1>Результаты</h1>
 
 <h2>Экономическая ось: <span class="weight-300" id="economic-label"></span></h2>
 <div class="axis">
@@ -89,6 +89,39 @@ Statcounter" href="https://statcounter.com/" target="_blank"><img
 <script src="https://www.w3counter.com/tracker.js?id=114877"></script>
 
 <script>
+    function cacheImages(array)
+    {
+        if (!cacheImages.list) {
+            cacheImages.list = [];
+        }
+        var list = cacheImages.list;
+        for (var i = 0; i < array.length; i++) {
+            var img = new Image();
+            img.onload = function() {
+                var index = list.indexOf(this);
+                if (index !== -1) {
+                    // remove image from the array once it's loaded
+                    // for memory consumption reasons
+                    list.splice(index, 1);
+                }
+            }
+            list.push(img);
+            img.src = array[i];
+        }
+    }
+    if (/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream) {
+        cacheImages([
+            "value_images/equality.png",
+            "value_images/markets.png",
+            "value_images/nation.png",
+            "value_images/globe.png",
+            "value_images/liberty.png",
+            "value_images/authority.png",
+            "value_images/tradition.png",
+            "value_images/progress.png"
+        ]);
+    }
+
     function getQueryVariable(variable) {
         var query = window.location.search.substring(1)
         var vars = query.split("&")
@@ -179,10 +212,10 @@ Statcounter" href="https://statcounter.com/" target="_blank"><img
     function createImage(ctx, src, x, y, w, h) {
         img = new Image()
         img.src = src
+        // img.onLoad = function () {
+        //     ctx.drawImage(img, x, y, w, h)
+        // }
         ctx.drawImage(img, x, y, w, h)
-        img.onLoad = function () {
-            ctx.drawImage(img, x, y, w, h)
-        }
     }
 
     window.onload = function () {
