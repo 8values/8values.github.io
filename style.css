@@ -1,6 +1,6 @@
 html {
     background-color: #bbbbbb;
-    padding: 0px;
+    padding: 0;
     scroll-behavior: smooth;
 }
 body {
@@ -30,15 +30,17 @@ p.value {
     font-size: 24pt;
     line-height: 2.11666656px;
     letter-spacing: 0.03em;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
 }
 
 p.axis_name {
     margin-top: 50px;
     color: #333333;
-    font-size: 19pt;
-    font-family: 'Montserrat';
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+    align-self: center;
 }
+
 p.question {
     margin: 16pt auto;
     color: #333333;
@@ -63,13 +65,13 @@ h1 {
     font-size: 72pt;
     text-align: center;
     line-height: 72pt;
-    margin-top: 0pt;
-    margin-bottom: 0pt;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 h2 {
     color: #333333;
     font-family: 'Montserrat', sans-serif;
-    font-size: 34pt;
+    font-size: 30pt;
     line-height: 36pt;
     margin-top: 12pt;
     margin-bottom: 10pt;
@@ -108,7 +110,7 @@ div.quadcolumn {
 div.axis_name {
     color: #333333;
     font-size: 19pt;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     display: inline-block;
     padding-bottom: 8.65pt;
 }

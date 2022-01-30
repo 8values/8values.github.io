@@ -67,34 +67,34 @@
     <div class="axis_name quadcolumn">DIPLOMATIC</div>
     <div class="axis_name quadcolumn">CIVIL</div>
     <div class="axis_name quadcolumn">SOCIETAL</div>
-    <a href="#anchor"><img src="value_images/equality.svg" class="quadcolumn"></a>
-    <a href="#anchor"><img src="value_images/nation.svg" class="quadcolumn"></a>
-    <a href="#anchor"><img src="value_images/liberty.svg" class="quadcolumn"></a>
-    <a href="#anchor"><img src="value_images/tradition.svg" class="quadcolumn"></a>
-    <a href="#anchor"><img src="value_images/markets.svg" class="quadcolumn"></a>
-    <a href="#anchor"><img src="value_images/globe.svg" class="quadcolumn"></a>
-    <a href="#anchor"><img src="value_images/authority.svg" class="quadcolumn"></a>
-    <a href="#anchor"><img src="value_images/progress.svg" class="quadcolumn"></a>
+    <a href="#anchor1"><img src="value_images/equality.svg" class="quadcolumn"></a>
+    <a href="#anchor3"><img src="value_images/nation.svg" class="quadcolumn"></a>
+    <a href="#anchor5"><img src="value_images/liberty.svg" class="quadcolumn"></a>
+    <a href="#anchor7"><img src="value_images/tradition.svg" class="quadcolumn"></a>
+    <a href="#anchor2"><img src="value_images/markets.svg" class="quadcolumn"></a>
+    <a href="#anchor4"><img src="value_images/globe.svg" class="quadcolumn"></a>
+    <a href="#anchor6"><img src="value_images/authority.svg" class="quadcolumn"></a>
+    <a href="#anchor8"><img src="value_images/progress.svg" class="quadcolumn"></a>
 </div>
 <br>
 <button class="button" onclick="location.href='instructions.html';" style="font-size:36pt;">Начать тест!</button>
 <br>
 <hr>
 <h2>Что такое 8values?</h2>
-<p>8values is, in essence, a politivalues - это, по сути, политическая викторина, которая пытается присвоить проценты восьми различным политическим ценностям.
+<p>8values - это, по сути, политическая викторина, которая пытается присвоить проценты восьми различным политическим ценностям.
     Вам будут даны утверждения, по каждому из которых вы должны ответить своим мнением,
     от <b>Полностью согласен</b> до <b>Полностью не согласен</b>,
     каждый ответ будет слегка влиять на ваши значения по каждой оси.
-    В конце викторины, ваши ответы будут сравниваться с максимально возможным для каждого значения,
+    В конце викторины ваши ответы будут сравниваться с максимально возможным для каждого значения,
     таким образом, давая вам процент. Отвечайте честно!<br /><br />
     В данном тесте <b><u><span id="numOfQuestions"></span></u></b> вопросов.</p>
 
 <h2><a id="anchor">Что за восемь ценностей?</a></h2>
-<p>Есть четыре независимых оси - Экономическая, Дипломатическая, Гражданская и Социальная - и каждая имеет две противоположные ценности, присвоенные им.</p>
+<p>Есть четыре независимых оси - Экономическая (Economic), Дипломатическая (Diplomatic), Гражданская (Civil) и Социальная (Society) - и каждая имеет две противоположные ценности, присвоенные им.</p>
 <div class="explanation_bg">
     <div class="spacer">
-        <div class="explanation_blurb_left">
-            <p class="value"><b style="color:#d32f2f;">Равенство - Equality</b></p>
+        <div class="explanation_blurb_left" id="anchor1">
+            <p class="value"><b style="color:#d32f2f;">Равенство</b></p>
             <p class="blurb-text">
                 Те, кто имеет более высокий балл Равенства, считают, что экономика должна распределять ценности равномерно среди населения.
                 Они, как правило, поддерживают прогрессивные налоговые кодексы, социальные программы, и при высоких значениях, социализм.
@@ -103,9 +103,10 @@
         <div class="explanation_axis">
             <p class="axis_name">ЭКОНОМИЧЕСКАЯ</p>
             <img class="arrow" src="double_arrow.svg"/>
+            <p class="axis_name" style="margin-top: 4px;">ECONOMIC</p>
         </div>
-        <div class="explanation_blurb_right">
-            <p class="value"><b style="color:#00796b;">Рынок - Markets</b></p>
+        <div class="explanation_blurb_right" id="anchor2">
+            <p class="value"><b style="color:#00796b;">Рынок</b></p>
             <p class="blurb-text">
                 Те, кто имеет более высокий балл Рынка, считают, что экономика должна быть ориентирована на быстрый рост.
                 Они, как правило, поддерживают снижение налогов, приватизацию, дерегулирование, и при высоких значениях, laissez-faire (принцип невмешательства) капитализм.
@@ -113,8 +114,8 @@
         </div>
     </div>
     <div class="spacer">
-        <div class="explanation_blurb_left">
-            <p class="value"><b style="color:#f57c00;">Нация - Nation</b></p>
+        <div class="explanation_blurb_left" id="anchor3">
+            <p class="value"><b style="color:#f57c00;">Нация</b></p>
             <p class="blurb-text">
                 Те, кто имеет более высокий балл Нации, являются патриотами и националистами.
                 Они, как правило, поддерживают агрессивную внешнюю политику, финансирование армии, суверенитет, и при высоких значениях, территориальную экспансию.
@@ -123,18 +124,19 @@
         <div class="explanation_axis">
             <p class="axis_name">ДИПЛОМАТИЧЕСКАЯ</p>
             <img class="arrow" src="double_arrow.svg"/>
+            <p class="axis_name" style="margin-top: 4px;">DIPLOMATIC</p>
         </div>
-        <div class="explanation_blurb_right">
-            <p class="value"><b style="color:#0288d1;">Мир - Globe</b></p>
+        <div class="explanation_blurb_right" id="anchor4">
+            <p class="value"><b style="color:#0288d1;">Глобализация</b></p>
             <p class="blurb-text">
-                Те, кто имеет более высокий балл Мира, являются космополитами и глобалистами.
+                Те, кто имеет более высокий балл Глобализации, являются космополитами и глобалистами.
                 Они, как правило, поддерживают мирную внешнюю политику, упор в дипломатию, сотрудничество, интеграцию, и при высоких значениях, мировое правительство.
             </p>
         </div>
     </div>
     <div class="spacer">
-        <div class="explanation_blurb_left">
-            <p class="value"><b style="color:#fbc02d;">Свобода - Liberty</b></p>
+        <div class="explanation_blurb_left" id="anchor5">
+            <p class="value"><b style="color:#fbc02d;">Свобода</b></p>
             <p class="blurb-text">
                 Те, кто имеет более высокий балл Свободы, верят в сильные гражданские свободы.
                 Они, как правило, поддерживают демократию и выступают против вмешательства государства в личную жизнь.
@@ -144,17 +146,18 @@
         <div class="explanation_axis">
             <p class="axis_name">ГРАЖДАНСКАЯ</p>
             <img class="arrow" src="double_arrow.svg"/>
+            <p class="axis_name" style="margin-top: 4px;">CIVIL</p>
         </div>
-        <div class="explanation_blurb_right">
-            <p class="value"><b style="color:#303f9f;">Авторитарность - Authority</b></p>
+        <div class="explanation_blurb_right" id="anchor6">
+            <p class="value"><b style="color:#303f9f;">Власть</b></p>
             <p class="blurb-text">
-                Те, кто имеет более высокий балл Авторитарности, верят в сильную государственную власть.
-                Они, как правило, поддерживают вмешательство государства в личную жизнь, правительственное наблюдение, и при высоких значениях, цензуру или автократию.p>
+                Те, кто имеет более высокий балл Власти, верят в сильную государственную власть.
+                Они, как правило, поддерживают вмешательство государства в личную жизнь, правительственное наблюдение, и при высоких значениях, цензуру или автократию. </p>
         </div>
     </div>
     <div class="spacer">
-        <div class="explanation_blurb_left">
-            <p class="value"><b style="color:#689f38;">Традиции - Tradition</b></p>
+        <div class="explanation_blurb_left" id="anchor7">
+            <p class="value"><b style="color:#689f38;">Традиции</b></p>
             <p class="blurb-text">
                 Те, кто имеет более высокий балл Традиций, верят в традиционные ценности и строгое соблюдение морального кодекса.
                 Хотя и не всегда, но обычно они религиозны, и поддерживают статус-кво или статус-кво-анте.
@@ -163,9 +166,10 @@
         <div class="explanation_axis">
             <p class="axis_name">СОЦИАЛЬНАЯ</p>
             <img class="arrow" src="double_arrow.svg"/>
+            <p class="axis_name" style="margin-top: 4px;">SOCIETY</p>
         </div>
-        <div class="explanation_blurb_right">
-            <p class="value"><b style="color:#7b1fa2;">Прогресс - Progress</b></p>
+        <div class="explanation_blurb_right" id="anchor8">
+            <p class="value"><b style="color:#7b1fa2;">Прогресс</b></p>
             <p class="blurb-text">
                 Те, кто имеет более высокий балл Прогресса верят в социальные перемены и рациональность.
                 Хотя и не всегда, но, как правило, секуляристы или атеисты, поддерживают охрану окружающей среды и научные или технологические исследования.
@@ -176,15 +180,24 @@
 </div>
 
 <h2 style="margin-top: 17pt;">Что означает "Ближайшее совпадение" в нижней части результатов?</h2>
-<p>В дополнение к сопоставлению с восмью ценностями, викторина также пытается сопоставить вас с политической идеологией.
+<p>В дополнение к сопоставлению с восемью ценностями, викторина также пытается сопоставить вас с политической идеологией.
     Это незавершенная работа и гораздо менее точная, чем значения и оси, так что не воспринимайте ее слишком серьезно.
-    Если вы не согласны с присвоенной вам идеологией, то вы можете отправить письмо автору оригинального теста на английском на eightvalues@gmail.com
+    Если вы не согласны с присвоенной вам идеологией, то вы можете отправить письмо автору оригинального теста на английском на
+    <a href="mailto:eightvalues@gmail.com">eightvalues@gmail.com</a>
     с вашими значениями, присвоенной идеологией, и предпочитаемой идеологией, и они подумают над коррекциями системы.</p>
 <h2>Мне не нравятся мои результаты!</h2>
 <p>¯\_(ツ)_/¯<br/>
-    Если у вас какие-либо предложения или конструктивная критика, то не стесняйтесь отправлять их автору оригинального теста на <a
-            href="mailto:eightvalues@gmail.com">eightvalues@gmail.com</a> или открыть Issue на <a
-            href="https://github.com/8values/8values.github.io">GitHub-странице проекта</a></p>
+    Если у вас какие-либо предложения или конструктивная критика, то не стесняйтесь отправлять их автору оригинального теста на
+    <a href="mailto:eightvalues@gmail.com">eightvalues@gmail.com</a> или открыть Issue на
+    <a href="https://github.com/8values/8values.github.io">GitHub-странице оригинального проекта</a>
+</p>
+<h2>Локализация и ошибки</h2>
+<p>Если вы нашли ошибку в переводе вопросов, идеологий или где-либо ещё, или можете предложить более подходящий вариант перевода, то открывайте Issue на
+    <a href="https://github.com/8values-ru/8values-ru.github.io/issues">GitHub-странице</a>.
+    <br/>
+    <br/>
+    <b>Issue и pull request'ы по изменению весов и методики подсчёта результатов не рассматриваются, по этим вопросам обращаться в репозиторий оригинального проекта.</b>
+</p>
 <br>
 <!-- Website visit statistics - no personal information is collected! -->
 <!-- Default Statcounter code for 8values-ru https://8values-ru.github.io/ -->

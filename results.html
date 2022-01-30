@@ -1,7 +1,7 @@
 <head>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
     <link href='style.css' rel='stylesheet' type='text/css'>
-    <title>8values Results</title>
+    <title>8values-ru Результаты</title>
     <link href="icon.png" rel="icon" type="x-icon">
     <link href="icon.png" rel="shortcut icon" type="x-icon">
     <meta charset="utf-8">
@@ -176,9 +176,10 @@ Statcounter" href="https://statcounter.com/" target="_blank"><img
     }
     document.getElementById("ideology-label").innerHTML = ideology
 
-    function createImage(src, x, y, w, h) {
+    function createImage(ctx, src, x, y, w, h) {
         img = new Image()
         img.src = src
+        ctx.drawImage(img, x, y, w, h)
         img.onLoad = function () {
             ctx.drawImage(img, x, y, w, h)
         }
@@ -191,23 +192,34 @@ Statcounter" href="https://statcounter.com/" target="_blank"><img
         c.height = 650;
         ctx.fillStyle = "#EEEEEE"
         ctx.fillRect(0, 0, 800, 650);
-
-        img = document.getElementById("img-equality")
-        ctx.drawImage(img, 20, 170, 100, 100);
-        img = document.getElementById("img-wealth")
-        ctx.drawImage(img, 680, 170, 100, 100)
-        img = document.getElementById("img-might")
-        ctx.drawImage(img, 20, 290, 100, 100)
-        img = document.getElementById("img-peace")
-        ctx.drawImage(img, 680, 290, 100, 100)
-        img = document.getElementById("img-liberty")
-        ctx.drawImage(img, 20, 410, 100, 100)
-        img = document.getElementById("img-authority")
-        ctx.drawImage(img, 680, 410, 100, 100)
-        img = document.getElementById("img-tradition")
-        ctx.drawImage(img, 20, 530, 100, 100)
-        img = document.getElementById("img-progress")
-        ctx.drawImage(img, 680, 530, 100, 100)
+        // Fix for iOS Safari, doesn't draw svg properly
+        if (/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream) {
+            createImage(ctx, "value_images/equality.png", 20, 170, 100, 100)
+            createImage(ctx, "value_images/markets.png", 680, 170, 100, 100)
+            createImage(ctx, "value_images/nation.png", 20, 290, 100, 100)
+            createImage(ctx, "value_images/globe.png", 680, 290, 100, 100)
+            createImage(ctx, "value_images/liberty.png", 20, 410, 100, 100)
+            createImage(ctx, "value_images/authority.png", 680, 410, 100, 100)
+            createImage(ctx, "value_images/tradition.png", 20, 530, 100, 100)
+            createImage(ctx, "value_images/progress.png", 680, 530, 100, 100)
+        } else {
+            img = document.getElementById("img-equality")
+            ctx.drawImage(img, 20, 170, 100, 100);
+            img = document.getElementById("img-wealth")
+            ctx.drawImage(img, 680, 170, 100, 100)
+            img = document.getElementById("img-might")
+            ctx.drawImage(img, 20, 290, 100, 100)
+            img = document.getElementById("img-peace")
+            ctx.drawImage(img, 680, 290, 100, 100)
+            img = document.getElementById("img-liberty")
+            ctx.drawImage(img, 20, 410, 100, 100)
+            img = document.getElementById("img-authority")
+            ctx.drawImage(img, 680, 410, 100, 100)
+            img = document.getElementById("img-tradition")
+            ctx.drawImage(img, 20, 530, 100, 100)
+            img = document.getElementById("img-progress")
+            ctx.drawImage(img, 680, 530, 100, 100)
+        }
 
         ctx.fillStyle = "#222222"
         ctx.fillRect(120, 180, 560, 80)
@@ -233,7 +245,7 @@ Statcounter" href="https://statcounter.com/" target="_blank"><img
         ctx.fillStyle = "#222222"
         ctx.font="550 40px Montserrat"
         ctx.textAlign="left"
-        ctx.fillText("8values", 20, 60)
+        ctx.fillText("8values-ru", 20, 60)
         ctx.font="35px Montserrat"
         ctx.fillText(ideology, 20, 140)
 
