@@ -308,7 +308,7 @@ ideologies = [
             "scty": 80
         },
         "statWeights": {
-            "econ": 1,
+            "econ": 1.2,
             "dipl": 1,
             "govt": 1,
             "scty": 1
@@ -326,7 +326,7 @@ ideologies = [
             "econ": 1,
             "dipl": 1,
             "govt": 1,
-            "scty": 1
+            "scty": 1.2
         }
     },
     {
@@ -415,7 +415,7 @@ ideologies = [
         "statWeights": {
             "econ": 1,
             "dipl": 1,
-            "govt": 1,
+            "govt": 1.2,
             "scty": 1
         }
     },
@@ -533,10 +533,10 @@ ideologies = [
             "scty": 5
         },
         "statWeights": {
-            "econ": 1,
+            "econ": 0.6,
             "dipl": 1,
             "govt": 1,
-            "scty": 1
+            "scty": 0.8
         }
     },
     {
@@ -563,7 +563,7 @@ ideologies = [
             "scty": 20
         },
         "statWeights": {
-            "econ": 1,
+            "econ": 0.8,
             "dipl": 1,
             "govt": 1,
             "scty": 1
@@ -700,7 +700,7 @@ ideologies = [
         "statWeights": {
             "econ": 1,
             "dipl": 1,
-            "govt": 1,
+            "govt": 1.2,
             "scty": 1
         }
     },
@@ -729,7 +729,7 @@ ideologies = [
         },
         "statWeights": {
             "econ": 1,
-            "dipl": 1,
+            "dipl": 0.8,
             "govt": 1,
             "scty": 1
         }
@@ -758,7 +758,7 @@ ideologies = [
             "scty": 50
         },
         "statWeights": {
-            "econ": 1,
+            "econ": 1.2,
             "dipl": 1,
             "govt": 1,
             "scty": 1
@@ -776,7 +776,7 @@ ideologies = [
             "econ": 1,
             "dipl": 1,
             "govt": 1,
-            "scty": 1
+            "scty": 0.8
         }
     }
 ];
