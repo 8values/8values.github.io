@@ -135,10 +135,12 @@ stats"></a></div></noscript>
     ideodist = Infinity
     for (var i = 0; i < ideologies.length; i++) {
         dist = 0
-        dist += Math.pow(Math.abs(ideologies[i].stats.econ - equality), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.govt - liberty), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.dipl - globe), 1.73856063)
-        dist += Math.pow(Math.abs(ideologies[i].stats.scty - progress), 1.73856063)
+        totalWeight= ideologies[i].statWeights.econ + ideologies[i].statWeights.govt + ideologies[i].statWeights.dipl + ideologies[i].statWeights.scty
+        econWeight, govtWeight, diplWeight, sctyWeight= ideologies[i].statWeights.econ / totalWeight, ideologies[i].statWeights.govt / totalWeight, ideologies[i].statWeights.dipl / totalWeight, ideologies[i].statWeights.scty / totalWeight
+        dist += Math.pow(Math.abs(ideologies[i].stats.econ - equality), 2) / econWeight
+        dist += Math.pow(Math.abs(ideologies[i].stats.govt - liberty), 2) / govtWeight
+        dist += Math.pow(Math.abs(ideologies[i].stats.dipl - globe), 1.73856063) / diplWeight
+        dist += Math.pow(Math.abs(ideologies[i].stats.scty - progress), 1.73856063) / sctyWeight
         if (dist < ideodist) {
             ideology = ideologies[i].name
             ideodist = dist
