@@ -81,7 +81,7 @@ questions = [
         }
     },
     {
-        "question": "Inheritance is a legitimate form of wealth.",
+        "question": "Inheritance is a legitimate form of markets.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -180,7 +180,7 @@ questions = [
         }
     },
     {
-        "question": "It is more important to retain peaceful relations than to further our strength.",
+        "question": "It is more important to retain globeful relations than to further our strength.",
         "effect": {
             "econ": 0,
             "dipl": 10,
