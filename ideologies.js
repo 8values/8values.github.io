@@ -21,8 +21,8 @@ ideologies = [
         "name": "Trotskyism",
         "stats": {
             "econ": 100,
-            "dipl": 100,
-            "govt": 60,
+            "dipl": 90,
+            "govt": 40,
             "scty": 80
         }
     },
@@ -36,11 +36,20 @@ ideologies = [
         }
     },
     {
+        "name": "Neo-Marxism",
+        "stats": {
+            "econ": 100,
+            "dipl": 90,
+            "govt": 50,
+            "scty": 80
+        }
+    },
+    {
         "name": "De Leonism",
         "stats": {
             "econ": 100,
-            "dipl": 30,
-            "govt": 30,
+            "dipl": 50,
+            "govt": 60,
             "scty": 80
         }
     },
@@ -56,10 +65,19 @@ ideologies = [
     {
         "name": "Stalinism/Maoism",
         "stats": {
-            "econ": 100,
-            "dipl": 20,
+            "econ": 90,
+            "dipl": 30,
             "govt": 0,
             "scty": 60
+        }
+    },
+    {
+        "name": "National Communism",
+        "stats": {
+            "econ": 100,
+            "dipl": 20,
+            "govt": 10,
+            "scty": 40
         }
     },
     {
@@ -72,6 +90,24 @@ ideologies = [
         }
     },
     {
+        "name": "Utopian Socialism",
+        "stats": {
+            "econ": 80,
+            "dipl": 70,
+            "govt": 70,
+            "scty": 90
+        }
+    },
+    {
+        "name": "Left-Wing Nationalism",
+        "stats": {
+            "econ": 80,
+            "dipl": 20,
+            "govt": 40,
+            "scty": 50
+        }
+    },
+    {
         "name": "State Socialism",
         "stats": {
             "econ": 80,
@@ -81,7 +117,7 @@ ideologies = [
         }
     },
     {
-        "name": "Theocratic Socialism",
+        "name": "Conservative Socialism",
         "stats": {
             "econ": 80,
             "dipl": 50,
@@ -128,10 +164,28 @@ ideologies = [
     {
         "name": "Anarcho-Syndicalism",
         "stats": {
-            "econ": 80,
+            "econ": 70,
             "dipl": 50,
             "govt": 100,
             "scty": 80
+        }
+    },
+    {
+        "name": "National Bolshevism",
+        "stats": {
+            "econ": 80,
+            "dipl": 20,
+            "govt": 10,
+            "scty": 20
+        }
+    },
+    {
+        "name": "National Syndicalism",
+        "stats": {
+            "econ": 70,
+            "dipl": 20,
+            "govt": 20,
+            "scty": 20
         }
     },
     {
@@ -146,7 +200,7 @@ ideologies = [
     {
         "name": "Theocratic Distributism",
         "stats": {
-            "econ": 60,
+            "econ": 55,
             "dipl": 40,
             "govt": 30,
             "scty": 20
@@ -155,9 +209,9 @@ ideologies = [
     {
         "name": "Distributism",
         "stats": {
-            "econ": 60,
+            "econ": 55,
             "dipl": 50,
-            "govt": 50,
+            "govt": 40,
             "scty": 20
         }
     },
@@ -174,7 +228,7 @@ ideologies = [
         "name": "Christian Democracy",
         "stats": {
             "econ": 60,
-            "dipl": 60,
+            "dipl": 50,
             "govt": 50,
             "scty": 30
         }
@@ -189,6 +243,33 @@ ideologies = [
         }
     },
     {
+        "name": "Social Authoritarianism",
+        "stats": {
+            "econ": 60,
+            "dipl": 50,
+            "govt": 20,
+            "scty": 50
+        }
+    },
+    {
+        "name": "Paternalistic Conservatism",
+        "stats": {
+            "econ": 60,
+            "dipl": 20,
+            "govt": 35,
+            "scty": 30
+        }
+    },
+    {
+        "name": "Social Nationalism",
+        "stats": {
+            "econ": 60,
+            "dipl": 20,
+            "govt": 25,
+            "scty": 30
+        }
+    },
+    {
         "name": "Progressivism",
         "stats": {
             "econ": 60,
@@ -198,12 +279,30 @@ ideologies = [
         }
     },
     {
-        "name": "Anarcho-Mutualism",
+        "name": "Mutualism",
         "stats": {
             "econ": 60,
             "dipl": 50,
             "govt": 100,
             "scty": 70
+        }
+    },
+    {
+        "name": "National Anarchism",
+        "stats": {
+            "econ": 60,
+            "dipl": 20,
+            "govt": 90,
+            "scty": 30
+        }
+    },
+    {
+        "name": "Anarcho-Nihilism",
+        "stats": {
+            "econ": 65,
+            "dipl": 100,
+            "govt": 100,
+            "scty": 100
         }
     },
     {
@@ -245,7 +344,7 @@ ideologies = [
     {
         "name": "Liberalism",
         "stats": {
-            "econ": 50,
+            "econ": 45,
             "dipl": 60,
             "govt": 60,
             "scty": 60
@@ -270,7 +369,7 @@ ideologies = [
         }
     },
     {
-        "name": "Moderate Conservatism",
+        "name": "Liberal Conservatism",
         "stats": {
             "econ": 40,
             "dipl": 40,
@@ -282,8 +381,8 @@ ideologies = [
         "name": "Reactionary",
         "stats": {
             "econ": 40,
-            "dipl": 40,
-            "govt": 40,
+            "dipl": 30,
+            "govt": 20,
             "scty": 10
         }
     },
@@ -299,7 +398,7 @@ ideologies = [
     {
         "name": "Libertarianism",
         "stats": {
-            "econ": 40,
+            "econ": 30,
             "dipl": 60,
             "govt": 80,
             "scty": 60
@@ -315,12 +414,12 @@ ideologies = [
         }
     },
     {
-        "name": "Nazism",
+        "name": "National Socialism",
         "stats": {
             "econ": 40,
             "dipl": 0,
             "govt": 0,
-            "scty": 5
+            "scty": 10
         }
     },
     {
@@ -335,18 +434,36 @@ ideologies = [
     {
         "name": "Fascism",
         "stats": {
-            "econ": 40,
+            "econ": 60,
             "dipl": 20,
-            "govt": 20,
+            "govt": 10,
             "scty": 20
         }
     },
     {
-        "name": "Capitalist Fascism",
+        "name": "Clerical Fascism",
+        "stats": {
+            "econ": 60,
+            "dipl": 10,
+            "govt": 5,
+            "scty": 10
+        }
+    },
+    {
+        "name": "Integralism",
+        "stats": {
+            "econ": 60,
+            "dipl": 20,
+            "govt": 20,
+            "scty": 10
+        }
+    },
+    {
+        "name": "National Capitalism",
         "stats": {
             "econ": 20,
             "dipl": 20,
-            "govt": 20,
+            "govt": 10,
             "scty": 20
         }
     },
@@ -360,12 +477,39 @@ ideologies = [
         }
     },
     {
-        "name": "Neo-Liberalism",
+        "name": "Authoritarian Conservatism",
         "stats": {
             "econ": 30,
             "dipl": 30,
+            "govt": 20,
+            "scty": 20
+        }
+    },
+    {
+        "name": "National Conservatism",
+        "stats": {
+            "econ": 30,
+            "dipl": 20,
+            "govt": 10,
+            "scty": 20
+        }
+    },
+    {
+        "name": "Neoliberalism",
+        "stats": {
+            "econ": 30,
+            "dipl": 40,
             "govt": 50,
             "scty": 60
+        }
+    },
+    {
+        "name": "Third Way",
+        "stats": {
+            "econ": 55,
+            "dipl": 40,
+            "govt": 50,
+            "scty": 70
         }
     },
     {
@@ -375,6 +519,24 @@ ideologies = [
             "dipl": 60,
             "govt": 60,
             "scty": 80
+        }
+    },
+    {
+        "name": "National Liberalism",
+        "stats": {
+            "econ": 30,
+            "dipl": 20,
+            "govt": 60,
+            "scty": 40
+        }
+    },
+    {
+        "name": "Conservative Liberalism",
+        "stats": {
+            "econ": 30,
+            "dipl": 50,
+            "govt": 60,
+            "scty": 40
         }
     },
     {
@@ -396,11 +558,20 @@ ideologies = [
         }
     },
     {
-        "name": "Neo-Conservatism",
+        "name": "Neoconservatism",
         "stats": {
             "econ": 20,
-            "dipl": 20,
+            "dipl": 30,
             "govt": 40,
+            "scty": 30
+        }
+    },
+    {
+        "name": "Paleoconservatism",
+        "stats": {
+            "econ": 25,
+            "dipl": 20,
+            "govt": 35,
             "scty": 20
         }
     },
@@ -414,10 +585,37 @@ ideologies = [
         }
     },
     {
-        "name": "Libertarian Capitalism",
+        "name": "Right-Libertarianism",
         "stats": {
             "econ": 20,
             "dipl": 50,
+            "govt": 80,
+            "scty": 60
+        }
+    },
+    {
+        "name": "Libertarian Conservatism",
+        "stats": {
+            "econ": 30,
+            "dipl": 60,
+            "govt": 80,
+            "scty": 30
+        }
+    },
+    {
+        "name": "Paleolibertarianism",
+        "stats": {
+            "econ": 20,
+            "dipl": 20,
+            "govt": 80,
+            "scty": 30
+        }
+    },
+    {
+        "name": "National Libertarianism",
+        "stats": {
+            "econ": 30,
+            "dipl": 20,
             "govt": 80,
             "scty": 60
         }
@@ -438,6 +636,15 @@ ideologies = [
             "dipl": 50,
             "govt": 90,
             "scty": 40
+        }
+    },
+    {
+        "name": "Minarchism",
+        "stats": {
+            "econ": 10,
+            "dipl": 50,
+            "govt": 75,
+            "scty": 50
         }
     },
     {
