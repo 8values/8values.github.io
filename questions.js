@@ -27,6 +27,42 @@ questions = [
         }
     },
     {
+        "question": "The means of production of consumer goods should be publicly owned.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "A carbon tax is important to solve climate change.",
+        "effect": {
+            "econ": 5,
+            "dipl": 0,
+            "govt": 0,
+            "scty": -10
+        }
+    },
+    {
+        "question": "All land should be publicly owned.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "America has become more left wing over time",
+        "effect": {
+            "econ": -10,
+            "dipl": 5,
+            "govt": 0,
+            "scty": 10
+        }
+    },
+    {
         "question": "It is better to maintain a balanced budget than to ensure welfare for all citizens.",
         "effect": {
             "econ": -10,
@@ -47,8 +83,8 @@ questions = [
     {
         "question": "Tariffs on international trade are important to encourage local production.",
         "effect": {
-            "econ": 5,
-            "dipl": 0,
+            "econ": 0,
+            "dipl": 10,
             "govt": -10,
             "scty": 0
         }
@@ -216,6 +252,15 @@ questions = [
         }
     },
     {
+        "question": "We should work toward equality of outcomes.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
         "question": "My nation is great.",
         "effect": {
             "econ": 0,
@@ -330,6 +375,15 @@ questions = [
             "dipl": -10,
             "govt": -10,
             "scty": -5
+        }
+    },
+    {
+        "question": "All capitalists are evil.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
         }
     },
     {
@@ -468,6 +522,15 @@ questions = [
         }
     },
     {
+        "question": "A publicly owned economy is better at innovation than a private one.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
         "question": "It is important that we think in the long term, beyond our lifespans.",
         "effect": {
             "econ": 0,
@@ -576,6 +639,15 @@ questions = [
         }
     },
     {
+        "question": "Two party systems work the best.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 5
+        }
+    },
+    {
         "question": "To chase progress at all costs is dangerous.",
         "effect": {
             "econ": 0,
@@ -618,6 +690,15 @@ questions = [
             "dipl": 10,
             "govt": 10,
             "scty": 10
+        }
+    },
+    {
+        "question": "Capital punishment should be used.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 5
         }
     },
     {
