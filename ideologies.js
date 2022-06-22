@@ -467,4 +467,10 @@ ideologies = [
             "scty": 50
         }
     }
-];
+    {  "name": "Quandale Dinglism",
+       "stats":
+           "econ": 0,
+           "dipl": 45,
+           "govt": 0,
+           "scty": 20
+        }
