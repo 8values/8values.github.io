@@ -108,6 +108,15 @@ ideologies = [
         }
     },
     {
+        "name": "Liberal Socialism",
+        "stats": {
+            "econ": 80,
+            "dipl": 80,
+            "govt": 70,
+            "scty": 80
+        }
+    },
+    {
         "name": "Revolutionary Socialism",
         "stats": {
             "econ": 80,
