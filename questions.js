@@ -18,7 +18,7 @@ questions = [
         }
     },
     {
-        "question": "The freer the markets, the freer the people.",
+        "question": "The freer the markets, the freer, more fruitful and more efficient the people.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -27,7 +27,7 @@ questions = [
         }
     },
     {
-        "question": "It is better to maintain a balanced budget than to ensure welfare for all citizens.",
+        "question": "It is impossible to ensure welfare for all citizens without maintaining a balanced budget.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -54,7 +54,7 @@ questions = [
         }
     },
     {
-        "question": "From each according to his ability, to each according to his needs.",
+        "question": "In order to help the disabled: from each according to their ability, to each according to their needs.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -72,7 +72,7 @@ questions = [
         }
     },
     {
-        "question": "Taxes should be increased on the rich to provide for the poor.",
+        "question": "Taxes should be increased on the rich.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -81,7 +81,7 @@ questions = [
         }
     },
     {
-        "question": "Inheritance is a legitimate form of wealth.",
+        "question": "Inheritance is a legitimate form of wealth, even if it is excessive.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -108,7 +108,7 @@ questions = [
         }
     },
     {
-        "question": "Those with a greater ability to pay should receive better healthcare.",
+        "question": "Those with a greater ability to pay should be able to receive better healthcare from private providers.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -288,16 +288,7 @@ questions = [
         }
     },
     {
-        "question": "Physician-assisted suicide should be legal.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "The sacrifice of some civil liberties is necessary to protect us from acts of terrorism.",
+        "question": "Special interest communities (BLM, LGBT, immigrants, feminists) should have affirmative actions and privileged protection.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -306,7 +297,16 @@ questions = [
         }
     },
     {
-        "question": "Government surveillance is necessary in the modern world.",
+        "question": "The sacrifice of some civil liberties is necessary to protect us from acts of criminals and terrorism.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Government surveillance is necessary to find criminals.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -434,10 +434,10 @@ questions = [
     {
         "question": "Climate change is currently one of the greatest threats to our way of life.",
         "effect": {
-            "econ": 0,
+            "econ": 10,
             "dipl": 0,
             "govt": 0,
-            "scty": 10
+            "scty": 0
         }
     },
     {
@@ -446,11 +446,11 @@ questions = [
             "econ": 0,
             "dipl": 10,
             "govt": 0,
-            "scty": 10
+            "scty": 0
         }
     },
     {
-        "question": "Society was better many years ago than it is now.",
+        "question": "Ignoring technology, society was better many years ago than it is now.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -491,7 +491,7 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "govt": 10,
-            "scty": 2
+            "scty": 5
         }
     },
     {
@@ -544,7 +544,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -10,
+            "govt": 10,
             "scty": 0
         }
     },
